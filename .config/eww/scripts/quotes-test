@@ -1,0 +1,10 @@
+#!/bin/bash
+num=$(echo $((1 + $RANDOM % 500)))
+
+cat $HOME/.config/eww/scripts/quotes.json | jq --arg num "$num" ".[$num]" | jq -r ".text" > $HOME/.config/eww/scripts/quote
+cat $HOME/.config/eww/scripts/quotes.json | jq --arg num "$num" ".[$num]" | jq -r ".author" > $HOME/.config/eww/scripts/author
+
+quote=$(cat $HOME/.config/eww/scripts/quote)
+quoteTail=$(cat $HOME/.config/eww/scripts/quote)
+
+~/coding/school/cs253/hw7/test "quote" "quote.head" "quote.tail"

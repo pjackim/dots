@@ -1,0 +1,3 @@
+#!/bin/bash
+ ~/bin/eww open-many start1 start2 start3 start4 &
+exit 1

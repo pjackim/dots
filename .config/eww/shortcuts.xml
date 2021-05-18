@@ -1,0 +1,104 @@
+<eww>
+    <definitions>
+        <def name="screenshot">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/pictures/'"></button>
+            </box>
+        </def>
+        <def name="vscode">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="code">﬏</button>
+            </box>
+        </def>
+        <def name="firefox">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(firefox)"></button>
+            </box>
+        </def>
+        <def name="gimp">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(gimp)"></button>
+            </box>
+        </def>
+        <def name="spotify">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(spotify)">阮</button>
+            </box>
+        </def>
+        <def name="atom">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(atom)"></button>
+            </box>
+        </def>
+        <def name="unity">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(unityhub)"></button>
+            </box>
+        </def>
+        <def name="chess">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(firefox -new-tab 'https://www.lichess.org')"></button>
+            </box>
+        </def>
+        <def name="github">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(firefox -new-tab 'https://www.github.com')"></button>
+            </box>
+        </def>
+        <def name="instagram">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(firefox -new-tab 'https://www.instagram.com')"></button>
+            </box>
+        </def>
+        <def name="youtube">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(firefox -new-tab 'https://www.youtube.com')"></button>
+            </box>
+        </def>
+        <def name="reddit">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(firefox -new-tab 'https://www.reddit.com')"></button>
+            </box>
+        </def>
+        <def name="configs">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(thunar ~/.config)"></button>
+            </box>
+        </def>
+        <def name="bspwm-config">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(code ~/.config/bspwm/)">侀</button>
+            </box>
+        </def>
+        <def name="sxhkd-config">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(code ~/.config/sxhkd/)"></button>
+            </box>
+        </def>
+        <def name="foliate">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(foliate)"></button>
+            </box>
+        </def>
+        <def name="eww-config">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick="(code ~/.config/eww/)">冀</button>
+            </box>
+        </def>
+        <def name="">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick=""></button>
+            </box>
+        </def>
+        <def name="">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick=""></button>
+            </box>
+        </def>
+        <def name="">
+            <box class="invis-container" orientation="h" space-evenly="true">
+                <button class="icon-large" onclick=""></button>
+            </box>
+        </def>
+    </definitions>
+</eww>

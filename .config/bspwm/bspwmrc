@@ -1,0 +1,74 @@
+#! /bin/sh
+
+# Picom
+$HOME/.config/picom/picom_launcher &
+
+# Nitrogen
+nitrogen --set-tiled $(cat $HOME/.config/wall/wall.config) &
+
+# SXHKD
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# Polybar
+$HOME/.config/polybar/shapes/launch.sh &
+
+
+# Workspace Initialization
+bspc monitor DP-5 -d 1 2 3 4 5 6 7 8 9 10           # Left
+bspc monitor DP-3 -d 11 12 13 14 15 16 17 18 19 20  # Right
+
+
+
+bspc config normal_border_color \#836A50
+bspc config focused_border_color \#D9A362
+
+bspc config border_width         2
+bspc config window_gap           5
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+height_full=937 height_half=462 
+
+left_x=5 right_x=1434
+center_x=491
+y_top=71 y_mid=543
+width=477 center_width=938
+
+# General Rules
+bspc rule -a kitty:term_f state=floating rectangle="$width"x"$height_full"
+
+bspc rule -a Code state=floating rectangle="1000"x"$height_full"
+
+
+# Monitor 2
+#   Workspace 1
+#       Terminal 1
+bspc rule -a kitty:autostart_term1 desktop='^11' state=floating rectangle="$width"x"$height_full"+"$left_x"+"$y_top"
+#       Terminal 2
+bspc rule -a kitty:autostart_term2 desktop='^11' state=floating rectangle="$center_width"x"$height_full"+"$center_x"+"$y_top"
+#       Terminal 3
+bspc rule -a kitty:autostart_term3 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_top"
+#       Terminal 4
+bspc rule -a kitty:autostart_term4 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid"
+
+
+
+
+
+# Monitor 1
+#   Workspace 1
+#       Htop
+bspc rule -a kitty:autostart_htop desktop='^1' state=floating rectangle="$width"x"$height_full"+"$left_x"+"$y_top"
+#       Ranger
+bspc rule -a kitty:autostart_ranger desktop='^1' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_top"
+#       Terminal 
+bspc rule -a kitty:autostart_term desktop='^1' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid"
+# ytfzf
+# bspc rule -a kitty:autostart_ytfzf desktop='^2' state=floating rectangle=900x939+5+71
+
+# Launch Autostart Script
+#. $HOME/coding/personal/scripting/autostart &
+. eww daemons
+. eww open tes

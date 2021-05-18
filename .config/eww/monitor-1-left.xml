@@ -1,0 +1,50 @@
+<eww>
+    <definitions>
+        <def name="m1-left-package">
+            <box orientation="v" space-evenly="false">
+                <box class="invis-container" halign="center" orientation="h" width="481">
+                    <start_search/>
+                </box>
+                <box class="invis-container" halign="center" orientation="h" width="481">
+                    <start_home/>
+                </box>
+                <box class="invis-container" halign="center" orientation="h" width="481">
+                    <m1-left-buttons/>
+                </box>
+                <box class="invis-container" halign="center" orientation="h" width="481">
+                    <quote/>
+                </box>
+            </box>
+        </def>
+        <def name="start_search">
+            <button class="search-side" onclick="~/bin/launcher.sh" width="481">  Search...</button>
+        </def>
+        <def name="start_home">
+            <box class="invis-container" orientation="h" space-evenly="false" width="481">
+                <profile/>
+                <home_dir/>
+            </box>
+        </def>
+        <def name="m1-left-buttons">
+            <box class="invis-container" orientation="v" space-evenly="false" width="481">
+                <button_pack_1/>
+                <sys_side/>
+            </box>
+        </def>
+        <def name="button_pack_1">
+            <box class="invis-container" orientation="h" space-evenly="true" width="481">
+                <screenshot/>
+                <firefox/>
+                <vscode/>
+            </box>
+        </def>
+    </definitions>
+    <windows>
+        <window name="m1-left" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="5px" y="67px" width="25%" height="949px"/>
+            <widget>
+                <m1-left-package/>
+            </widget>
+        </window>
+    </windows>
+</eww>

@@ -1,0 +1,3 @@
+#!/bin/bash
+killall eww &
+eww daemon

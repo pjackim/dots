@@ -1,0 +1,116 @@
+<eww>
+    <includes>
+        <file path="./shortcuts.xml"/>
+        <file path="./monitor-1-left.xml"/>
+        <file path="./monitor-1-right.xml"/>
+        <file path="./monitor-2-left.xml"/>
+        <file path="./monitor-2-right.xml"/>
+        <file path="./variables.xml"/>
+    </includes>
+    <definitions>
+        <def name="quote">
+            <box orientation="v" space-evenly="false" class="container" width="481" height="310">
+                <label class="quote-main" halign="center" text="{{quote-gen}}{{quote}}" width="460" height="300"/>
+                <label class="quote-author" text="- {{author-quote}}" halign="end" width="200"/>
+            </box>
+        </def>
+        <def name="player">
+            <box orientation="v" space-evenly="false">
+                <box class="musicart" style="background-image: url('{{cover}}');">{{art}}</box>
+                <box class="musictitle">{{music3}}</box>
+                <box class="musicartist">{{music2}}</box>
+                <box orientation="h" halign="center" class="musicbtn" space-evenly="false">
+                    <button onclick="playerctl previous"></button>
+                    <button onclick="playerctl play-pause">{{musicstat}}</button>
+                    <button onclick="playerctl next"></button>
+                </box>
+                <box orientation="h" class="volume" space-evenly="false" halign="center">
+                    <scale min="0" max="101" value="{{volume}}" onchange="amixer -D pulse sset Master {}%"/>
+                </box>
+            </box>
+        </def>
+        <def name="player_side">
+            <box orientation="h" space-evenly="false">
+                <box class="musicart-side" style="background-image: url('{{cover}}');">{{art}}</box>
+                <box class="musicstuff-side" orientation="v" space-evenly="false">
+                    <box class="musicinfo-side">{{music3}}</box>
+                    <box orientation="h" halign="center" class="musicbtn-side" space-evenly="false">
+                        <button onclick="playerctl previous"></button>
+                        <button class="pause-play-side" onclick="playerctl play-pause">{{musicstat}}</button>
+                        <button onclick="playerctl next"></button>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="sliders_side">
+            <box orientation="v" space-evenly="false" class="sliders-side">
+                <box orientation="h" class="slider-vol-side" space-evenly="false">
+                    <box class="label-vol-side"></box>
+                    <scale min="0" max="101" value="{{volume}}" onchange="amixer -D pulse sset Master {}%"/>
+                </box>
+                <box orientation="h" class="slider-bright-side" space-evenly="false">
+                    <box class="label-bright-side"></box>
+                    <scale min="0" max="101" value="{{bright}}" onchange="brightnessctl s {}%"/>
+                </box>
+                <box orientation="h" class="slider-ram-side" space-evenly="false">
+                    <box class="label-ram-side"></box>
+                    <scale min="0" active="false" max="101" value="{{ram-used}}"/>
+                </box>
+                <box orientation="h" class="slider-battery-side" space-evenly="false">
+                    <box class="label-battery-side">{{bat-icon}}</box>
+                    <scale min="0" active="false" max="101" value="{{battery-remaining}}"/>
+                </box>
+            </box>
+        </def>
+        <def name="sys_side">
+            <box orientation="h" space-evenly="true" class="container">
+                <button class="shutdown-side l8 icon-medium" onclick="./scripts/shutdown.sh"></button>
+                <button class="reboot-side l7 icon-medium" onclick="./scripts/reboot.sh"></button>
+                <button class="lock-side l6 icon-medium" onclick="./scripts/lockscreen.sh"></button>
+                <button class="suspend-side l5 icon-medium" onclick="./scripts/suspend.sh"></button>
+                <button class="logout-side l4 icon-medium" onclick="./scripts/logout.sh"></button>
+            </box>
+        </def>
+        <def name="search_full">
+            <button class="search-full" onclick="~/bin/launcher.sh"></button>
+        </def>
+        <def name="profile">
+            <box orientation="v" space-evenly="false" class="container">
+                <box orientation="h" space-evenly="false">
+                    <box class="pfp">
+                    </box>
+                </box>
+                <box class="invis-container" orientation="v" space-evenly="false" valign="center">
+                    <box class="profile_text" halign="center" orientation="h" space-evenly="false">
+                        <label class="auth" text="u"/>
+                        <label class="slash" text="/"/>
+                        <label class="user" text="pjackim"/>
+                    </box>
+                    <box class="subpfptxt" halign="center"> sudo</box>
+                </box>
+            </box>
+        </def>
+        <def name="home_dir">
+            <box orientation="v" space-evenly="true" class="container">
+                <button class="l1" onclick="(thunar ~/{{l1}})" width="215">{{l1-processed}}</button>
+                <button class="l2" onclick="(thunar ~/{{l2}})" width="215">{{l2-processed}}</button>
+                <button class="l3" onclick="(thunar ~/{{l3}})" width="215">{{l3-processed}}</button>
+                <button class="l4" onclick="(thunar ~/{{l4}})" width="215">{{l4-processed}}</button>
+                <button class="l5" onclick="(thunar ~/{{l5}})" width="215">{{l5-processed}}</button>
+                <button class="l6" onclick="(thunar ~/{{l6}})" width="215">{{l6-processed}}</button>
+            </box>
+        </def>
+        <def name="blur_full">
+            <box orientation="v" space-evenly="true">
+            </box>
+        </def>
+    </definitions>
+    <windows>
+            <window name="main" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="5px" y="67px" width="25%" height="937px"/>
+            <widget>
+                <player/>
+            </widget>
+        </window>
+    </windows>
+</eww>

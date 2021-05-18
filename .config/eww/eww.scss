@@ -1,0 +1,214 @@
+* {
+    all: unset;
+}
+
+window {
+    background-color: rgba($color: #A06A5F, $alpha: 0.0);
+    color: #D9A362;
+    font-family: Iosevka;
+}
+
+button {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0px;
+    //border-color: rgba($color: #2D313D, $alpha: 0);
+    background-color: rgba($color: #2D313D, $alpha: 0.5);
+    padding: 15px;
+    margin: 5px;
+}
+
+button:hover {
+    //border: 2px solid currentColor;
+    background-color: rgba($color: #2D313D, $alpha: 0.25);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgba($color: #2D313D, $alpha: 0.5);
+    margin: 5px;
+    padding: 5px 0px 5px 0px;
+}
+
+.invis-container {
+    // border-radius: 5px;
+    // border-color: rgba($color: #D9A362, $alpha: 0.5);
+    // border-width: 2px;
+    // border-style: dashed;
+    // margin: 5px;
+    // padding: 5px 0px 5px 0px;
+}
+
+.home-dir* {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pfp {
+    background-image: url("/home/pjackim/pictures/rokk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    min-height: 200px;
+    min-width: 200px;
+    margin: 20px 20px -60px 25px;
+    border-radius: 1000px;
+}
+
+.profile_text {
+    margin-top: 100px;
+    color: #D9A362;
+    font-size: 36px;
+}
+
+.auth {
+    color: rgba($color: #F2DC6D, $alpha: .8)
+}
+
+.slash {
+    color: rgba($color: #A06A5F, $alpha: 1)
+}
+
+.user {
+    color: rgba($color: #89C7C7, $alpha: 1);
+}
+
+.subpfptxt {
+    font-style: oblique;
+    font-weight: 500;
+    color: rgb($color: #A06A5F, $alpha: 1);
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.l1 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #445F6C, $alpha: 1.0);
+    background-color: rgba($color: #445F6C, $alpha: 1.0);
+    border-color: rgba($color: #445F6C, $alpha: 1.0);
+    border-color: rgba($color: #445F6C, $alpha: 1.0);
+}
+
+.l2 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #67939A, $alpha: 1.0);
+    background-color: rgba($color: #67939A, $alpha: 1.0);
+    border-color: rgba($color: #67939A, $alpha: 1.0);
+}
+
+.l3 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #89C7C7, $alpha: 1.0);
+    background-color: rgba($color: #89C7C7, $alpha: 1.0);
+    border-color: rgba($color: #89C7C7, $alpha: 1.0);
+}
+
+.l4 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #BED29A, $alpha: 1.0);
+    background-color: rgba($color: #BED29A, $alpha: 1.0);
+    border-color: rgba($color: #BED29A, $alpha: 1.0);
+}
+
+.l5 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #F2DC6D, $alpha: 1.0);
+    background-color: rgba($color: #F2DC6D, $alpha: 1.0);
+    border-color: rgba($color: #F2DC6D, $alpha: 1.0);
+}
+
+.l6 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #E6C068, $alpha: 1.0);
+    background-color: rgba($color: #E6C068, $alpha: 1.0);
+    border-color: rgba($color: #E6C068, $alpha: 1.0);
+}
+
+.l7 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #D9A362, $alpha: 1.0);
+    background-color: rgba($color: #D9A362, $alpha: 1.0);
+    border-color: rgba($color: #D9A362, $alpha: 1.0);
+}
+
+.l8 {
+    color: rgba($color: #2D313D, $alpha: 1.0);
+    border-color: rgba($color: #A06A5F, $alpha: 1.0);
+    background-color: rgba($color: #A06A5F, $alpha: 1.0);
+    border-color: rgba($color: #A06A5F, $alpha: 1.0);
+}
+
+.icon-large {
+    font-size: 50px;
+    padding: 0px;
+}
+
+.icon-medium {
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+}
+
+.quote-main,
+.quote-tail,
+.quote-author {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.quote-author {
+    font-weight: bolder;
+}
+
+.clock {
+    font-family: Iosevka;
+    font-size: x-large;
+}
+
+.clk {
+    padding-left: 15px
+}
+
+.clock-hour,
+.clock-min {
+    font-size: 4em;
+}
+
+.clock-hour {
+    font-size: 4.1em;
+    color: #F2DC6D;
+}
+
+.clock-min {
+    font-weight: 200;
+    font-size: 4em;
+    margin-top: 0px;
+    color: #E6C068;
+}
+
+.clock-colon {
+    color: #BED29A;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.clock-sep {
+    color: #BED29A;
+    font-size: 3em;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: normal;
+}
+
+.clock-day-n,
+.clock-day {
+    color: #89C7C7;
+    font-size: 4em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.clock-day-n {
+    font-weight: 600;
+    color: #67939A;
+}
