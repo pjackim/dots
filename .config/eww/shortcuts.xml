@@ -2,7 +2,7 @@
     <definitions>
         <def name="screenshot">
             <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/pictures/'"></button>
+                <button class="icon-large" onclick="(scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/pictures/')"></button>
             </box>
         </def>
         <def name="vscode">
