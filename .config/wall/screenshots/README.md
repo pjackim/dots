@@ -1,7 +1,10 @@
 <h1 align="left">Style 1</h1>
 <img src="screenshot1.png" height="600px" align="left">
-- Labels
-- Left Align
+
+<p>
+  - Labels
+  - Left Align
+</p>
 
 <h1 align="left">Style 2</h1>
 <img src="screenshot2.png" height="600px" align="left">
