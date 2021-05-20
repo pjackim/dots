@@ -42,24 +42,11 @@
                 </box>
             </box>
         </def>
-        <def name="config-box">
-            <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Configurations" halign="start"/> -->
-                <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
-                        <configs/>
-                        <bspwm-config/>
-                        <sxhkd-config/>
-                        <eww-config/>
-                    </box>
-                </box>
-            </box>
-        </def>
         <def name="coding-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Coding" halign="start"/> -->
+                <!-- <label class="box-label" text="Coding" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
                         <atom/>
                         <vscode/>
                         <unity/>
@@ -68,11 +55,39 @@
                 </box>
             </box>
         </def>
+        <def name="entertain-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <!-- <label class="box-label" text="Entertainment" halign="end"/> -->
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <spotify/>
+                        <youtube/>
+                        <instagram/>
+                        <reddit/>
+                        <discord/>
+                        <chess/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="config-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <!-- <label class="box-label" text="Configurations" halign="end"/> -->
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <configs/>
+                        <bspwm-config/>
+                        <sxhkd-config/>
+                        <eww-config/>
+                    </box>
+                </box>
+            </box>
+        </def>
         <def name="util-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Utilities" halign="start"/> -->
+                <!-- <label class="box-label" text="Utilities" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
                         <screenshot/>
                         <gimp/>
                         <google-drive/>
@@ -84,9 +99,9 @@
         </def>
         <def name="hack-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Hacking" halign="start"/> -->
+                <!-- <label class="box-label" text="Hacking" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
                         <crypto/>
                         <hack-the-box/>
                         <network/>
@@ -96,37 +111,20 @@
                 </box>
             </box>
         </def>
-        <def name="entertain-box">
-            <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Entertainment" halign="start"/> -->
-                <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
-                        <spotify/>
-                        <youtube/>
-                        <instagram/>
-                        <reddit/>
-                        <discord/>
-                        <chess/>
-                    </box>
-                </box>
-            </box>
-        </def>
         <def name="clock">
-            <box class="container" orientation="v" space-evenly="false">
-                <box class="invis-container clk" orientation="h" space-evenly="false">
+            <box class="container clk" orientation="h" space-evenly="false">
                     <label class="clock-hour" text="{{hour}}"/>
                     <label class="clock-colon" text=":"/>
                     <label class="clock-min" text="{{min}}"/>
                     <label class="clock-sep" text=""/>
                     <label class="clock-day" halign="center" text="{{day}}"/>
                     <label class="clock-day-n" text="{{number_day}}"/>
-                </box>
             </box>
         </def>
     </definitions>
     <windows>
         <window name="m1-right" exclusive="false" focusable="false" stacking="bg">
-            <geometry x="1434px" y="67px" width="25%" height="949px"/>
+            <geometry x="1435px" y="67px" width="25%" height="949px"/>
             <widget>
                 <m1-right-package/>
             </widget>

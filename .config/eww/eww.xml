@@ -8,12 +8,7 @@
         <file path="./monitor-2-right.xml"/>
     </includes>
     <definitions>
-        <def name="quote">
-            <box orientation="v" space-evenly="false" class="container" width="481" height="310">
-                <label class="quote-main" halign="center" text="{{quote-gen}}{{quote}}" width="460" height="300"/>
-                <label class="quote-author" text="- {{author-quote}}" halign="end" width="200"/>
-            </box>
-        </def>
+
         <def name="player">
             <box orientation="v" space-evenly="false">
                 <box class="musicart" style="background-image: url('{{cover}}');">{{art}}</box>
@@ -62,44 +57,8 @@
                 </box>
             </box>
         </def>
-        <def name="sys_side">
-            <box orientation="h" space-evenly="true" class="container">
-                <button class="shutdown-side l8 icon-medium" onclick="./scripts/shutdown.sh"></button>
-                <button class="reboot-side l7 icon-medium" onclick="./scripts/reboot.sh"></button>
-                <button class="lock-side l6 icon-medium" onclick="./scripts/lockscreen.sh"></button>
-                <button class="suspend-side l5 icon-medium" onclick="./scripts/suspend.sh"></button>
-                <button class="logout-side l4 icon-medium" onclick="./scripts/logout.sh"></button>
-            </box>
-        </def>
-        <def name="search_full">
-            <button class="search-full" onclick="~/bin/launcher.sh"></button>
-        </def>
-        <def name="profile">
-            <box orientation="v" space-evenly="false" class="container">
-                <box orientation="h" space-evenly="false">
-                    <box class="pfp">
-                    </box>
-                </box>
-                <box class="invis-container" orientation="v" space-evenly="false" valign="center">
-                    <box class="profile_text" halign="center" orientation="h" space-evenly="false">
-                        <label class="auth" text="u"/>
-                        <label class="slash" text="/"/>
-                        <label class="user" text="pjackim"/>
-                    </box>
-                    <box class="subpfptxt" halign="center"> sudo</box>
-                </box>
-            </box>
-        </def>
-        <def name="home_dir">
-            <box orientation="v" space-evenly="true" class="container">
-                <button class="l1" onclick="(thunar ~/{{l1}})" width="215">{{l1-processed}}</button>
-                <button class="l2" onclick="(thunar ~/{{l2}})" width="215">{{l2-processed}}</button>
-                <button class="l3" onclick="(thunar ~/{{l3}})" width="215">{{l3-processed}}</button>
-                <button class="l4" onclick="(thunar ~/{{l4}})" width="215">{{l4-processed}}</button>
-                <button class="l5" onclick="(thunar ~/{{l5}})" width="215">{{l5-processed}}</button>
-                <button class="l6" onclick="(thunar ~/{{l6}})" width="215">{{l6-processed}}</button>
-            </box>
-        </def>
+
+
         <def name="blur_full">
             <box orientation="v" space-evenly="true">
             </box>
