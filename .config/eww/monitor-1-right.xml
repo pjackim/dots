@@ -3,7 +3,11 @@
         <def name="m1-right-package">
             <box class="invis-container" orientation="v" space-evenly="false">
                 <clock/>
-                <m1-right-buttons/>
+                <coding-box/>
+                <entertain-box/>
+                <config-box/>
+                <util-box/>
+                <hack-box/>
             </box>
         </def>
         <def name="m1-right-buttons">
@@ -25,12 +29,6 @@
                     <reddit/>
                 </box>
                 <box class="invis-container" orientation="h" space-evenly="true">
-                    <configs/>
-                    <bspwm-config/>
-                    <sxhkd-config/>
-                    <eww-config/>
-                </box>
-                <box class="invis-container" orientation="h" space-evenly="true">
                     <chess/>
                     <foliate/>
                 </box>
@@ -41,6 +39,75 @@
                 <box class="calendar_title">     {{day}}, {{number_day}} {{month_full}} {{year_full}}</box>
                 <box class="calendar">
                     <calendar show-details="true"/>
+                </box>
+            </box>
+        </def>
+        <def name="config-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <label class="box-label" text="Configurations" halign="start"/>
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                        <configs/>
+                        <bspwm-config/>
+                        <sxhkd-config/>
+                        <eww-config/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="coding-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <label class="box-label" text="Coding" halign="start"/>
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                        <atom/>
+                        <vscode/>
+                        <unity/>
+                        <github/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="util-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <label class="box-label" text="Utilities" halign="start"/>
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                        <screenshot/>
+                        <gimp/>
+                        <google-drive/>
+                        <zoom/>
+                        <foliate/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="hack-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <label class="box-label" text="Hacking" halign="start"/>
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                        <crypto/>
+                        <hack-the-box/>
+                        <network/>
+                        <anom/>
+                        <iptorrent/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="entertain-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <label class="box-label" text="Entertainment" halign="start"/>
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                        <spotify/>
+                        <youtube/>
+                        <instagram/>
+                        <reddit/>
+                        <discord/>
+                        <chess/>
+                    </box>
                 </box>
             </box>
         </def>

@@ -1,11 +1,11 @@
 <eww>
     <includes>
         <file path="./shortcuts.xml"/>
+        <file path="./variables.xml"/>
         <file path="./monitor-1-left.xml"/>
         <file path="./monitor-1-right.xml"/>
         <file path="./monitor-2-left.xml"/>
         <file path="./monitor-2-right.xml"/>
-        <file path="./variables.xml"/>
     </includes>
     <definitions>
         <def name="quote">
@@ -106,7 +106,7 @@
         </def>
     </definitions>
     <windows>
-            <window name="main" exclusive="false" focusable="false" stacking="bg">
+        <window name="main" exclusive="false" focusable="false" stacking="bg">
             <geometry x="5px" y="67px" width="25%" height="937px"/>
             <widget>
                 <player/>

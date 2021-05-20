@@ -12,12 +12,9 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # Polybar
 $HOME/.config/polybar/shapes/launch.sh &
 
-
 # Workspace Initialization
 bspc monitor DP-5 -d 1 2 3 4 5 6 7 8 9 10           # Left
 bspc monitor DP-3 -d 11 12 13 14 15 16 17 18 19 20  # Right
-
-
 
 bspc config normal_border_color \#836A50
 bspc config focused_border_color \#D9A362
@@ -70,5 +67,7 @@ bspc rule -a kitty:autostart_term desktop='^1' state=floating rectangle="$width"
 
 # Launch Autostart Script
 #. $HOME/coding/personal/scripting/autostart &
-. eww daemons
-. eww open tes
+
+eww daemon &
+eww open m1-left &
+eww open m1-right &

@@ -1,104 +1,100 @@
 <eww>
     <definitions>
         <def name="screenshot">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/pictures/')"></button>
-            </box>
+            <button class="icon-large" tooltip="screenshot" onclick="(scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/pictures/')"></button>
         </def>
         <def name="vscode">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="code">﬏</button>
-            </box>
+            <button class="icon-large" tooltip="vs code" onclick="code">﬏</button>
         </def>
         <def name="firefox">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(firefox)"></button>
-            </box>
+            <button class="icon-large" tooltip="firefox" onclick="(firefox)"></button>
         </def>
         <def name="gimp">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(gimp)"></button>
-            </box>
+            <button class="icon-large" tooltip="gimp" onclick="(gimp)"></button>
         </def>
         <def name="spotify">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(spotify)">阮</button>
-            </box>
+            <button class="icon-large" tooltip="spotify" onclick="(spotify)">阮</button>
         </def>
         <def name="atom">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(atom)"></button>
-            </box>
+            <button class="icon-large" tooltip="atom" onclick="(atom)"></button>
         </def>
         <def name="unity">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(unityhub)"></button>
-            </box>
+            <button class="icon-large" tooltip="unity hub" onclick="(unityhub)"></button>
         </def>
         <def name="chess">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(firefox -new-tab 'https://www.lichess.org')"></button>
-            </box>
+            <button class="icon-large" tooltip="lichess" onclick="(firefox -new-tab 'https://www.lichess.org')"></button>
         </def>
         <def name="github">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(firefox -new-tab 'https://www.github.com')"></button>
-            </box>
+            <button class="icon-large" tooltip="github" onclick="(firefox -new-tab 'https://www.github.com/pjackim')"></button>
         </def>
         <def name="instagram">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(firefox -new-tab 'https://www.instagram.com')"></button>
-            </box>
+            <button class="icon-large" tooltip="instagram" onclick="(firefox -new-tab 'https://www.instagram.com')"></button>
         </def>
         <def name="youtube">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(firefox -new-tab 'https://www.youtube.com')"></button>
-            </box>
+            <button class="icon-large" tooltip="youtube" onclick="(firefox -new-tab 'https://www.youtube.com')"></button>
         </def>
         <def name="reddit">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(firefox -new-tab 'https://www.reddit.com')"></button>
-            </box>
+            <button class="icon-large" tooltip="reddit" onclick="(firefox -new-tab 'https://www.reddit.com')"></button>
         </def>
         <def name="configs">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(thunar ~/.config)"></button>
-            </box>
+            <button class="icon-large" tooltip="configs" onclick="(thunar ~/.config)"></button>
         </def>
         <def name="bspwm-config">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(code ~/.config/bspwm/)">侀</button>
-            </box>
+            <button class="icon-large" tooltip="bspwm" onclick="(code ~/.config/bspwm/)">侀</button>
         </def>
         <def name="sxhkd-config">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(code ~/.config/sxhkd/)"></button>
-            </box>
+            <button class="icon-large" tooltip="sxhkd" onclick="(code ~/.config/sxhkd/)"></button>
         </def>
         <def name="foliate">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(foliate)"></button>
-            </box>
+            <button class="icon-large" tooltip="foliate" onclick="(foliate)"></button>
         </def>
         <def name="eww-config">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick="(code ~/.config/eww/)">冀</button>
-            </box>
+            <button class="icon-large" tooltip="eww" onclick="(code ~/.config/eww/)">冀</button>
+        </def>
+        <def name="zoom">
+            <button class="icon-large" tooltip="zoom" onclick="(zoom)"></button>
+        </def>
+        <def name="hack-the-box">
+            <button class="icon-large" tooltip="hack-the-box" onclick="(firefox -new-tab 'https://app.hackthebox.eu/home')"></button>
+        </def>
+        <def name="iptorrent">
+            <button class="icon-large" tooltip="iptorrent" onclick="(firefox -new-tab 'https://iptorrents.com/login.php')"></button>
+        </def>
+        <def name="google-drive">
+            <button class="icon-large" tooltip="google-drive" onclick="(firefox -new-tab 'https://drive.google.com/drive/u/0/')"></button>
+        </def>
+        <def name="anom">
+            <button class="icon-large" tooltip="anom" onclick="()"></button>
+        </def>
+        <def name="network">
+            <button class="icon-large" tooltip="network" onclick="()"></button>
+        </def>
+        <def name="crypto">
+            <button class="icon-large" tooltip="crypto" onclick="()">ﴑ</button>
+        </def>
+        <def name="archive">
+            <button class="icon-large" tooltip="archive" onclick="()"></button>
+        </def>
+        <def name="discord">
+            <button class="icon-large" tooltip="discord" onclick="(discord)">ﭮ</button>
         </def>
         <def name="">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick=""></button>
-            </box>
+            <button class="icon-large" tooltip="discord" onclick="()"></button>
         </def>
         <def name="">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick=""></button>
-            </box>
+            <button class="icon-large" tooltip="discord" onclick="()"></button>
         </def>
         <def name="">
-            <box class="invis-container" orientation="h" space-evenly="true">
-                <button class="icon-large" onclick=""></button>
-            </box>
+            <button class="icon-large" tooltip="discord" onclick="()"></button>
+        </def>
+        <def name="">
+            <button class="icon-large" tooltip="discord" onclick="()"></button>
+        </def>
+        <def name="">
+            <button class="icon-large" tooltip="discord" onclick="()"></button>
+        </def>
+        <def name="">
+            <button class="icon-large" tooltip="discord" onclick="()"></button>
         </def>
     </definitions>
 </eww>
