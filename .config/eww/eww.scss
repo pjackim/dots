@@ -217,7 +217,7 @@
     
     .v-label-container {
         border-radius: settings.$border-radius;
-        // border: 1px solid transparent;
+        margin: 5px .1em 5px .1em;
         background-color: colors.$background;
          :nth-child(n) button:hover,
          :nth-child(n) label:hover {

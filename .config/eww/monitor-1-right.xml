@@ -44,9 +44,9 @@
         </def>
         <def name="config-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <label class="box-label" text="Configurations" halign="start"/>
+                <!-- <label class="box-label" text="Configurations" halign="start"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
                         <configs/>
                         <bspwm-config/>
                         <sxhkd-config/>
@@ -57,9 +57,9 @@
         </def>
         <def name="coding-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <label class="box-label" text="Coding" halign="start"/>
+                <!-- <label class="box-label" text="Coding" halign="start"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
                         <atom/>
                         <vscode/>
                         <unity/>
@@ -70,9 +70,9 @@
         </def>
         <def name="util-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <label class="box-label" text="Utilities" halign="start"/>
+                <!-- <label class="box-label" text="Utilities" halign="start"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
                         <screenshot/>
                         <gimp/>
                         <google-drive/>
@@ -84,9 +84,9 @@
         </def>
         <def name="hack-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <label class="box-label" text="Hacking" halign="start"/>
+                <!-- <label class="box-label" text="Hacking" halign="start"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
                         <crypto/>
                         <hack-the-box/>
                         <network/>
@@ -98,9 +98,9 @@
         </def>
         <def name="entertain-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <label class="box-label" text="Entertainment" halign="start"/>
+                <!-- <label class="box-label" text="Entertainment" halign="start"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
-                    <box class="h-label-container" orientation="h" space-evenly="false" halign="start">
+                    <box class="h-label-container" orientation="h" space-evenly="false" halign="end">
                         <spotify/>
                         <youtube/>
                         <instagram/>
