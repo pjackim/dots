@@ -44,14 +44,13 @@
     }
     
     .invis-container {
-        // border-radius: 5px;
-        // border-color: rgba($color: colors.$primary, $alpha: 0.5);
-        // border-width: 2px;
-        // border-style: dashed;
-        // margin: 5px;
-        // padding: 0px -2px 0px -2px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+    
+    .window-container {
+        @extend .container;
+        min-height: 400px;
     }
     
     .home-dir* {
@@ -96,54 +95,6 @@
         font-size: 24px;
     }
     
-    .l1 {
-        color: colors.$secondary;
-        border-color: colors.$shade1;
-        background-color: colors.$shade1;
-    }
-    
-    .l2 {
-        color: colors.$secondary;
-        border-color: colors.$shade2;
-        background-color: colors.$shade2;
-    }
-    
-    .l3 {
-        color: colors.$secondary;
-        border-color: colors.$shade3;
-        background-color: colors.$shade3;
-    }
-    
-    .l4 {
-        color: colors.$secondary;
-        border-color: colors.$shade4;
-        background-color: colors.$shade4;
-    }
-    
-    .l5 {
-        color: colors.$secondary;
-        border-color: colors.$shade5;
-        background-color: colors.$shade5;
-    }
-    
-    .l6 {
-        color: colors.$secondary;
-        border-color: colors.$shade6;
-        background-color: colors.$shade6;
-    }
-    
-    .l7 {
-        color: colors.$secondary;
-        border-color: colors.$shade7;
-        background-color: colors.$shade7;
-    }
-    
-    .l8 {
-        color: colors.$secondary;
-        border-color: colors.$shade8;
-        background-color: colors.$shade8;
-    }
-    
     .icon-large {
         font-size: 40px;
         padding: 0px;
@@ -186,7 +137,7 @@
     
     .clock-hour {
         font-size: 4.1em;
-        color: colors.$shade5;
+        color: colors.$shade7;
     }
     
     .clock-min {
@@ -235,7 +186,7 @@
     
     .v-label-container {
         border-radius: settings.$container-corner;
-        margin: 5px .1em 5px .1em;
+        margin: settings.$margin;
         color: rgba($color: colors.$secondary, $alpha: 0.8);
         background-color: colors.$background;
         button,
@@ -246,7 +197,7 @@
     }
     
     .h-label-container {
-        margin: settings.$margin;
+        margin: settings.$container-margin;
         color: rgba($color: colors.$secondary, $alpha: 0.8);
         border: 0px solid colors.$primary;
         background-color: rgba($color: colors.$background, $alpha: 0.0);

@@ -38,6 +38,8 @@ bspc rule -a kitty:term_f state=floating rectangle="$width"x"$height_full"
 
 bspc rule -a Code state=floating rectangle="1000"x"$height_full"
 
+bspc rule -a kitty_desktop desktop='^1' state=floating rectangle="481"x"410"+"1435"+"595" layer=BELOW border=off
+
 
 # Monitor 2
 #   Workspace 1
@@ -46,7 +48,7 @@ bspc rule -a kitty:autostart_term1 desktop='^11' state=floating rectangle="$widt
 #       Terminal 2
 bspc rule -a kitty:autostart_term2 desktop='^11' state=floating rectangle="$center_width"x"$height_full"+"$center_x"+"$y_top"
 #       Terminal 3
-bspc rule -a kitty:autostart_term3 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_top"
+bspc rule -a kitty:autostart_term3 desktop='^11' state=floating rectansgle="$width"x"$height_half"+"$right_x"+"$y_top"
 #       Terminal 4
 bspc rule -a kitty:autostart_term4 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid"
 
@@ -71,3 +73,5 @@ bspc rule -a kitty:autostart_term desktop='^1' state=floating rectangle="$width"
 eww daemon &
 eww open m1-left &
 eww open m1-right &
+eww open m1-right-container1 &
+kitty --class kitty_desktop --config ~/.config/kitty/kitty-themes/configs/Clear.conf &

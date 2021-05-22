@@ -47,11 +47,11 @@
         <def name="system-box">
             <box orientation="h" space-evenly="true" class="v-label-container LtR" width="481">
                 <!-- <label class="box-label" text="System" halign="start"/> -->
-                        <button class="shutdown-side icon-medium" onclick="./scripts/shutdown.sh"></button>
-                        <button class="reboot-side icon-medium" onclick="./scripts/reboot.sh"></button>
-                        <button class="lock-side icon-medium" onclick="./scripts/lockscreen.sh"></button>
-                        <button class="suspend-side icon-medium" onclick="./scripts/suspend.sh"></button>
-                        <button class="logout-side icon-medium" onclick="./scripts/logout.sh"></button>
+                <button class="shutdown-side icon-medium" onclick="./scripts/shutdown.sh"></button>
+                <button class="reboot-side icon-medium" onclick="./scripts/reboot.sh"></button>
+                <button class="lock-side icon-medium" onclick="./scripts/lockscreen.sh"></button>
+                <button class="suspend-side icon-medium" onclick="./scripts/suspend.sh"></button>
+                <button class="logout-side icon-medium" onclick="./scripts/logout.sh"></button>
             </box>
         </def>
         <def name="home_dir">

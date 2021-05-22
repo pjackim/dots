@@ -113,12 +113,16 @@
         </def>
         <def name="clock">
             <box class="container clk" orientation="h" space-evenly="false">
-                    <label class="clock-hour" text="{{hour}}"/>
-                    <label class="clock-colon" text=":"/>
-                    <label class="clock-min" text="{{min}}"/>
-                    <label class="clock-sep" text=""/>
-                    <label class="clock-day" halign="center" text="{{day}}"/>
-                    <label class="clock-day-n" text="{{number_day}}"/>
+                <label class="clock-hour" text="{{hour}}"/>
+                <label class="clock-colon" text=":"/>
+                <label class="clock-min" text="{{min}}"/>
+                <label class="clock-sep" text=""/>
+                <label class="clock-day" halign="center" text="{{day}} "/>
+                <label class="clock-day-n" text="{{number_day}}"/>
+            </box>
+        </def>
+        <def name="window-container">
+            <box class="window-container">
             </box>
         </def>
     </definitions>
@@ -127,6 +131,12 @@
             <geometry x="1435px" y="67px" width="25%" height="949px"/>
             <widget>
                 <m1-right-package/>
+            </widget>
+        </window>
+        <window name="m1-right-container1" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="1435px" y="595px" width="25%" height="25%"/>
+            <widget>
+                <window-container/>
             </widget>
         </window>
     </windows>
