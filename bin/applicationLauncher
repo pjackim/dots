@@ -1,0 +1,15 @@
+#! /bin/bash
+clear
+echo
+eval $1
+
+while [ true ] ; do
+    read -t 3 -n 1
+    if [ $? = 0 ] ; then
+        break ;
+    fi
+done
+
+
+exec "$SHELL"
+reset

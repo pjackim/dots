@@ -1,0 +1,5 @@
+#! /bin/bash
+
+#kitty --name autostart_term --class kitty_desktop -e applicationLauncher neofetch &
+kitty --name integrated_terminal_1 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf --hold "/home/pjackim/bin/autostart/scripts/github_issue_list" &
+kitty --name integrated_terminal_0 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf -e applicationLauncher neofetch &

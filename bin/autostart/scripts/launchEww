@@ -1,0 +1,26 @@
+#! /bin/bash
+
+killall eww
+if ! pgrep "eww" > /dev/null; then
+    echo "starting eww"
+    eww daemon &
+    sleep .75
+fi
+
+echo "eww established"
+# command="eww state"
+# eww state
+while ! eww state; do
+    sleep 0.1
+done
+
+if pgrep "eww" > /dev/null; then
+    eww open m1-left &
+    eww open m1-right &
+    eww open m1-right-container1 &
+    eww open m3-top-container &
+    ~/bin/autostart/scripts/launchEwwWindows & 
+fi
+clear
+exec "$SHELL"
+reset
