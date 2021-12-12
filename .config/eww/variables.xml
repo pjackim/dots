@@ -1,0 +1,55 @@
+<eww>
+ <variables>
+        <!-- Music vars -->
+        <script-var name="music" interval="5s">playerctl metadata --format '{{ artist }} - {{ title }}'</script-var>
+        <script-var name="music2" interval="5s">playerctl metadata --format '{{ artist }}'</script-var>
+        <script-var name="music3" interval="5s">./scripts/gettitle</script-var>
+        <script-var name="art" interval="5s">./scripts/getart</script-var>
+        <script-var name="volume" interval="3ms">./scripts/getvol</script-var>
+        <script-var name="bright" interval="1ms">./scripts/getbri</script-var>
+        <script-var name="musicstat" interval="1s">~/bin/spotifystatus</script-var>
+        <script-var name="cover" interval="5s">./scripts/echoart</script-var>
+        <!--Date vars-->
+        <script-var name="number_day" interval="5h">date "+%d"</script-var>
+        <script-var name="month" interval="10h">date "+%b"</script-var>
+        <script-var name="min" interval="10s">date "+%M"</script-var>
+        <script-var name="hour" interval="5s">./scripts/gethour</script-var>
+        <script-var name="day" interval="15h">date "+%a"</script-var>
+        <script-var name="month_full" interval="15h">date "+%B"</script-var>
+        <script-var name="year_full" interval="15h">date "+%Y"</script-var>
+        <!--Weather vars-->
+        <script-var name="weather-icon" interval="20m">cat ./scripts/weather-icon</script-var>
+        <script-var name="temperature" interval="20m">cat ./scripts/weather-degree</script-var>
+        <script-var name="weather-hex" interval="20m">cat ./scripts/weather-hex</script-var>
+        <script-var name="weather-quote" interval="20m">./scripts/getwethquote</script-var>
+        <script-var name="weather-quote2" interval="20m">./scripts/getwethquote2</script-var>
+        <script-var name="weather-stat" interval="20m">cat ./scripts/weather-stat</script-var>
+        <script-var name="weather-stat-side" interval="20m">./scripts/weather-trimmer</script-var>
+        <!--Big brain RAM vars-->
+        <script-var name="ram-used" interval="1s">./scripts/getram</script-var>
+        <!--Battery charge vars-->
+        <script-var name="battery-remaining" interval="2m">cat /sys/class/power_supply/BAT0/capacity</script-var>
+        <script-var name="bat-icon" interval="2m">~/.config/tint2/scripts/battery.sh</script-var>
+        <!-- Home-dir stuff -->
+        <script-var name="l1-processed" interval="20h">./scripts/home-dir/l1-processed</script-var>
+        <script-var name="l2-processed" interval="20h">./scripts/home-dir/l2-processed</script-var>
+        <script-var name="l3-processed" interval="20h">./scripts/home-dir/l3-processed</script-var>
+        <script-var name="l4-processed" interval="20h">./scripts/home-dir/l4-processed</script-var>
+        <script-var name="l5-processed" interval="20h">./scripts/home-dir/l5-processed</script-var>
+        <script-var name="l6-processed" interval="20h">./scripts/home-dir/l6-processed</script-var>
+        <script-var name="l1" interval="20h">./scripts/home-dir/l1</script-var>
+        <script-var name="l2" interval="20h">./scripts/home-dir/l2</script-var>
+        <script-var name="l3" interval="20h">./scripts/home-dir/l3</script-var>
+        <script-var name="l4" interval="20h">./scripts/home-dir/l4</script-var>
+        <script-var name="l5" interval="20h">./scripts/home-dir/l5</script-var>
+        <script-var name="l6" interval="20h">./scripts/home-dir/l6</script-var>
+        <!-- Quote vars -->
+        <script-var name="author-quote" interval="5m">cat ./scripts/author</script-var>
+        <script-var name="quote" interval="5m">cat ./scripts/quote</script-var>
+        <script-var name="quote-gen" interval="5m">./scripts/quotes</script-var>
+        <script-var name="quote-tail" interval="5m">cat ./scripts/quote-tail</script-var>
+        <!--Vpn stats-->
+        <script-var name="getvpnstat" interval="10s">./scripts/getvpnstat</script-var>
+        <script-var name="vpn-hex" interval="10s">cat /tmp/xmonad/vpnstat-hex</script-var>
+    </variables>
+</eww>

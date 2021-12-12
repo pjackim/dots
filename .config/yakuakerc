@@ -1,0 +1,28 @@
+[Animation]
+Frames=0
+UseWMAssist=false
+
+[Appearance]
+BackgroundColor=45,49,61
+BackgroundColorOpacity=70
+Skin=adapta-nokto
+Translucency=true
+
+[Behavior]
+RememberFullscreen=true
+
+[Desktop Entry]
+DefaultProfile=Profile 2.profile
+
+[Dialogs]
+FirstRun=false
+
+[Shortcuts]
+next-session=Alt+D
+previous-session=Alt+A
+
+[Window]
+DynamicTabTitles=true
+Height=97
+KeepOpenAfterLastSessionCloses=true
+Width=40
