@@ -1,5 +1,0 @@
-#! /bin/bash
-
-
-picom -f --config /home/pjackim/.config/picom/picom.conf --experimental-backends --no-fading-openclose &
-#picom -f --config /home/pjackim/.config/picom/picom.conf --no-fading-openclose &
