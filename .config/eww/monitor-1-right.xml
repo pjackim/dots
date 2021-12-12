@@ -1,0 +1,143 @@
+<eww>
+    <definitions>
+        <def name="m1-right-package">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <clock/>
+                <coding-box/>
+                <entertain-box/>
+                <config-box/>
+                <util-box/>
+                <hack-box/>
+            </box>
+        </def>
+        <def name="m1-right-buttons">
+            <box class="invis-container" orientation="v" space-evenly="true">
+                <box class="invis-container" orientation="v" space-evenly="true">
+                    <box class="invis-container" orientation="h" space-evenly="true">
+                        <vscode/>
+                        <atom/>
+                    </box>
+                    <box class="invis-container" orientation="h" space-evenly="true">
+                        <github/>
+                        <unity/>
+                    </box>
+                </box>
+                <box class="invis-container" orientation="h" space-evenly="true">
+                    <spotify/>
+                    <youtube/>
+                    <instagram/>
+                    <reddit/>
+                </box>
+                <box class="invis-container" orientation="h" space-evenly="true">
+                    <chess/>
+                    <foliate/>
+                </box>
+            </box>
+        </def>
+        <def name="calendar_full">
+            <box orientation="v" halign="center" space-evenly="false">
+                <box class="calendar_title">     {{day}}, {{number_day}} {{month_full}} {{year_full}}</box>
+                <box class="calendar">
+                    <calendar show-details="true"/>
+                </box>
+            </box>
+        </def>
+        <def name="coding-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <!-- <label class="box-label" text="Coding" halign="end"/> -->
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <atom/>
+                        <vscode/>
+                        <unity/>
+                        <github/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="entertain-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <!-- <label class="box-label" text="Entertainment" halign="end"/> -->
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <spotify/>
+                        <youtube/>
+                        <instagram/>
+                        <reddit/>
+                        <discord/>
+                        <chess/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="config-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <!-- <label class="box-label" text="Configurations" halign="end"/> -->
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <configs/>
+                        <bspwm-config/>
+                        <sxhkd-config/>
+                        <eww-config/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="util-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <!-- <label class="box-label" text="Utilities" halign="end"/> -->
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <screenshot/>
+                        <gimp/>
+                        <google-drive/>
+                        <zoom/>
+                        <foliate/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="hack-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <!-- <label class="box-label" text="Hacking" halign="end"/> -->
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <crypto/>
+                        <hack-the-box/>
+                        <network/>
+                        <anom/>
+                        <iptorrent/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="clock">
+            <box class="container clk" orientation="h" space-evenly="false">
+                <label class="clock-hour" text="{{hour}}"/>
+                <label class="clock-colon" text=":"/>
+                <label class="clock-min" text="{{min}}"/>
+                <label class="clock-sep" text=""/>
+                <label class="clock-day" halign="center" text="{{day}} "/>
+                <label class="clock-day-n" text="{{number_day}}"/>
+            </box>
+        </def>
+        <def name="window-container">
+            <box class="window-container">
+            </box>
+        </def>
+    </definitions>
+    <windows>
+        <window name="m1-right" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="1435px" y="67px" width="25%" height="949px"/>
+            <widget>
+                <m1-right-package/>
+            </widget>
+        </window>
+        <window name="m1-right-container1" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="1435px" y="595px" width="25%" height="25%"/>
+            <widget>
+                <window-container/>
+            </widget>
+        </window>
+    </windows>
+</eww>

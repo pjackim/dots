@@ -1,0 +1,3 @@
+#!/bin/bash
+dirtyHour=$(date "+%H")
+echo $(( $dirtyHour % 12 ))

@@ -1,0 +1,400 @@
+    @use 'colors' as colors;
+    @use 'settings' as settings;
+    * {
+        all: unset;
+    }
+    
+    window {
+        background-color: rgba($color: #A06A5F, $alpha: 0.0);
+        color: colors.$primary;
+        font-family: Iosevka;
+    }
+    
+    button {
+        border-radius: settings.$btn-corner;
+        border-style: solid;
+        border-width: 0px;
+        background-color: colors.$background;
+        padding: 15px;
+        margin: settings.$margin;
+        &:hover {
+            background-color: rgba($color: colors.$secondary, $alpha: 0.25);
+        }
+    }
+    
+    .colr-btn {
+        @extend button;
+        padding: settings.$btn-pad-top settings.$btn-pad-right settings.$btn-pad-bottom settings.$btn-pad-left;
+        color: colors.$colored-button-foreground;
+        border-radius: settings.$colored-btn-corner;
+        border: settings.$btn-outline-size solid transparent;
+        min-width: settings.$btn-mid;
+        min-height: settings.$btn-mid;
+        &:hover {
+            background-color: transparent;
+            border: settings.$btn-outline-size solid;
+        }
+    }
+    
+    .container {
+        border-radius: settings.$container-corner;
+        background-color: colors.$background;
+        margin: settings.$margin;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .invis-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .window-container {
+        @extend .container;
+        min-height: 400px;
+    }
+    
+    .home-dir* {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .pfp {
+        background-image: url("/home/pjackim/pictures/rokk.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 250px;
+        min-height: 200px;
+        min-width: 200px;
+        margin: 20px 20px -60px 25px;
+        border-radius: 1000px;
+    }
+    
+    .profile_text {
+        margin-top: 100px;
+        color: colors.$primary;
+        font-size: 36px;
+    }
+    
+    .auth {
+        color: rgba($color: colors.$shade5, $alpha: .8)
+    }
+    
+    .slash {
+        color: rgba($color: colors.$shade8, $alpha: 1)
+    }
+    
+    .user {
+        color: rgba($color: colors.$shade3, $alpha: 1);
+    }
+    
+    .subpfptxt {
+        font-style: oblique;
+        font-weight: 500;
+        color: rgb($color: colors.$shade8, $alpha: 1);
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    
+    .icon-large {
+        font-size: 40px;
+        padding: 0px;
+    }
+    
+    .icon-medium {
+        font-size: 30px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .icon-small {
+        color: colors.$secondary;
+        font-size: 16px;
+    }
+    
+    .quote-main,
+    .quote-tail,
+    .quote-author {
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    .quote-author {
+        font-weight: bolder;
+    }
+    
+    .clock {
+        font-family: Iosevka;
+        font-size: x-large;
+    }
+    
+    .clk {
+        padding-left: 15px
+    }
+    
+    .clock-hour,
+    .clock-min {
+        font-size: 4em;
+    }
+    
+    .clock-hour {
+        font-size: 4.1em;
+        color: colors.$shade7;
+    }
+    
+    .clock-min {
+        font-weight: 200;
+        font-size: 4em;
+        margin-top: 0px;
+        color: colors.$shade6;
+    }
+    
+    .clock-colon {
+        color: colors.$shade4;
+        font-size: 1.5em;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .clock-sep {
+        color: colors.$shade4;
+        font-size: 3em;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: normal;
+    }
+    
+    .clock-day-n,
+    .clock-day {
+        color: colors.$shade3;
+        font-size: 4em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .clock-day-n {
+        font-weight: 600;
+        color: colors.$shade2;
+    }
+    
+    .box-label {
+        padding: .1em 1em 0em 1em;
+        margin: settings.$margin 1em 0em 1em;
+        background-color: rgba($color: colors.$background, $alpha: .5);
+        border-radius: settings.$container-corner;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    
+    .v-label-container {
+        border-radius: settings.$container-corner;
+        margin: settings.$margin;
+        color: rgba($color: colors.$secondary, $alpha: 0.8);
+        background-color: colors.$background;
+        button,
+         :nth-child(n) button {
+            min-width: settings.$btn-lrg;
+            min-height: settings.$btn-lrg;
+        }
+    }
+    
+    .h-label-container {
+        margin: settings.$container-margin;
+        color: rgba($color: colors.$secondary, $alpha: 0.8);
+        border: 0px solid colors.$primary;
+        background-color: rgba($color: colors.$background, $alpha: 0.0);
+    }
+    
+    .RtL {
+        .icon-small,
+        .icon-large,
+        .icon-medium {
+            @extend .colr-btn;
+            background-color: colors.$shade2;
+            &:hover {
+                color: colors.$shade2;
+            }
+        }
+         :nth-last-child(2) {
+            background-color: colors.$shade3;
+            &:hover {
+                color: colors.$shade3;
+            }
+        }
+         :nth-last-child(3) {
+            background-color: colors.$shade4;
+            &:hover {
+                color: colors.$shade4;
+            }
+        }
+         :nth-last-child(4) {
+            background-color: colors.$shade5;
+            &:hover {
+                color: colors.$shade5;
+            }
+        }
+         :nth-last-child(5) {
+            background-color: colors.$shade6;
+            &:hover {
+                color: colors.$shade6;
+            }
+        }
+         :nth-last-child(6) {
+            background-color: colors.$shade7;
+            &:hover {
+                color: colors.$shade7;
+            }
+        }
+         :nth-last-child(7),
+         :nth-last-child(8) {
+            background-color: colors.$shade8;
+            &:hover {
+                color: colors.$shade8;
+            }
+        }
+    }
+    
+    .RtL-R {
+        .icon-small,
+        .icon-large,
+        .icon-medium {
+            @extend .colr-btn;
+            background-color: colors.$shade7;
+            &:hover {
+                color: colors.$shade7;
+            }
+        }
+         :nth-last-child(2) {
+            background-color: colors.$shade6;
+            &:hover {
+                color: colors.$shade6;
+            }
+        }
+         :nth-last-child(3) {
+            background-color: colors.$shade5;
+            &:hover {
+                color: colors.$shade5;
+            }
+        }
+         :nth-last-child(4) {
+            background-color: colors.$shade4;
+            &:hover {
+                color: colors.$shade4;
+            }
+        }
+         :nth-last-child(5) {
+            background-color: colors.$shade3;
+            &:hover {
+                color: colors.$shade3;
+            }
+        }
+         :nth-last-child(6) {
+            background-color: colors.$shade2;
+            &:hover {
+                color: colors.$shade2;
+            }
+        }
+         :nth-last-child(7),
+         :nth-last-child(8) {
+            background-color: colors.$shade1;
+            &:hover {
+                color: colors.$shade1;
+            }
+        }
+    }
+    
+    .LtR {
+        .icon-small,
+        .icon-large,
+        .icon-medium {
+            @extend .colr-btn;
+            background-color: colors.$shade2;
+            &:hover {
+                color: colors.$shade2;
+            }
+        }
+         :nth-child(2) {
+            background-color: colors.$shade3;
+            &:hover {
+                color: colors.$shade3;
+            }
+        }
+         :nth-child(3) {
+            background-color: colors.$shade4;
+            &:hover {
+                color: colors.$shade4;
+            }
+        }
+         :nth-child(4) {
+            background-color: colors.$shade5;
+            &:hover {
+                color: colors.$shade5;
+            }
+        }
+         :nth-child(5) {
+            background-color: colors.$shade6;
+            &:hover {
+                color: colors.$shade6;
+            }
+        }
+         :nth-child(6) {
+            background-color: colors.$shade7;
+            &:hover {
+                color: colors.$shade7;
+            }
+        }
+         :nth-child(7),
+         :nth-child(8) {
+            background-color: colors.$shade8;
+            &:hover {
+                color: colors.$shade8;
+            }
+        }
+    }
+    
+    .LtR-R {
+        .icon-small,
+        .icon-large,
+        .icon-medium {
+            @extend .colr-btn;
+            background-color: colors.$shade7;
+            &:hover {
+                color: colors.$shade7;
+            }
+        }
+         :nth-child(2) {
+            background-color: colors.$shade6;
+            &:hover {
+                color: colors.$shade6;
+            }
+        }
+         :nth-child(3) {
+            background-color: colors.$shade5;
+            &:hover {
+                color: colors.$shade5;
+            }
+        }
+         :nth-child(4) {
+            background-color: colors.$shade4;
+            &:hover {
+                color: colors.$shade4;
+            }
+        }
+         :nth-child(5) {
+            background-color: colors.$shade3;
+            &:hover {
+                color: colors.$shade3;
+            }
+        }
+         :nth-child(6) {
+            background-color: colors.$shade2;
+            &:hover {
+                color: colors.$shade2;
+            }
+        }
+         :nth-child(7),
+         :nth-child(8) {
+            background-color: colors.$shade1;
+            &:hover {
+                color: colors.$shade1;
+            }
+        }
+    }

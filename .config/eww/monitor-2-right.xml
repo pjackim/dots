@@ -1,0 +1,18 @@
+<eww>
+    <definitions>
+        <def name="m2-right-package">
+            <box orientation="v" space-evenly="false">
+
+            </box>
+        </def>
+
+    </definitions>
+    <windows>
+        <window name="m2-right" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="5px" y="67px" width="25%" height="937px"/>
+            <widget>
+                <package/>
+            </widget>
+        </window>
+    </windows>
+</eww>
