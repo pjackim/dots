@@ -1,0 +1,7 @@
+#! /bin/bash
+
+project_dir="/home/pjackim/coding/school/junior/cs314/project/sprint1/"
+
+cd ${project_dir}
+#clear
+gh issue list

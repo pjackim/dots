@@ -1,0 +1,28 @@
+#! /bin/bash
+
+# Htop
+#kitty --name autostart_htop -e htop & 
+
+# ytfzf
+#kitty --name autostart_ytfzf -e ytfzf -St & 
+
+# Eww
+~/bin/autostart/scripts/launchEww &
+
+# Ranger
+# kitty --name autostart_ranger --class kitty_desktop -e ranger /home/ &
+
+# Yakuake
+yakuake &
+
+# Terminal 
+# kitty --name autostart_term --class kitty_desktop --hold neofetch &
+# kitty --name integrated_terminal_1 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf --hold "/home/pjackim/bin/autostart/scripts/github_issue_list" &
+# kitty --name integrated_terminal_0 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf &
+#kitty --class kitty_desktop --name integrated_terminal_0 --config ~/.config/kitty/kitty-themes/configs/Clear.conf &
+
+
+#kitty --name autostart_term1 &
+#kitty --name autostart_term2 &
+#kitty --name autostart_term3 &
+#kitty --name autostart_term4 &
