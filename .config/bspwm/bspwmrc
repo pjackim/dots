@@ -11,7 +11,7 @@ $HOME/.config/picom/picom_launcher &
 nitrogen --restore &
 
 # SXHKD
-pgrep -x sxhkd > /dev/null || sxhkd &
+sxhkd &
 
 # Polybar
 $HOME/.config/polybar/shapes/launch.sh &
@@ -20,8 +20,6 @@ $HOME/.config/polybar/shapes/launch.sh &
 bspc monitor DP-1 -d dp1 dp2 dp3 dp4 dp5 dp6 dp7 dp8 dp9 dp10               # center
 bspc monitor HDMI-0 -d hd1 hd2 hd3 hd4 hd5 hd6 hd7 hd8 hd9 hd0    # left
 bspc monitor DP-3 -d v1 v2 v3 v4 v5 v6 v7 slack teams    # Vert
-
-
 
 
 bspc config normal_border_color \#836A50
