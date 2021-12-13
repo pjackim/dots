@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+b",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+              "workbench.action.toggleActivityBarVisibility",
+              "workbench.action.toggleSidebarVisibility"
+            ]
+          }
+    }
+]
