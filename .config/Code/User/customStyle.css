@@ -1,0 +1,77 @@
+:root {
+    --primary: #D9A362;
+    --secondary: #2D313D;
+    --background: var(--secondary);
+    --shade1: #445F6C;
+    --shade2: #67939A;
+    --shade3: #89C7C7;
+    --shade4: #BED29A;
+    --shade5: #F2DC6D;
+    --shade6: #E6C068;
+    --shade7: #D9A362;
+    --shade8: #A06A5F;
+}
+
+.monacro-editor {
+    color: var(--primary);
+}
+
+.monaco-editor-background {
+    background-color: var(--background);
+}
+
+.monaco-workbench {
+    color: var(--shade7);
+    background-color: var(--secondary) !important;
+}
+
+footer {
+    background-color: var(--background) !important;
+}
+
+#status\.host {
+    background-color: var(--background) !important;
+    text-align: center;
+    width: 48px;
+}
+
+.monaco-editor .line-numbers {
+    color: var(--shade7);
+}
+
+.active-line-number {
+    color: var(--shade5) !important;
+    font-size: larger;
+}
+
+.codicon-tree-item-expanded:before {
+    content: '\eab4';
+    font-size: larger;
+    color: var(--shade3);
+}
+
+.codicon-tree-item-expanded.collapsed:before {
+    content: '\eab4';
+    font-size: medium;
+    color: var(--shade2);
+}
+
+.activitybar {
+    background-color: var(--shade1) !important;
+}
+
+.codicon {
+    color: var(--shade3) !important;
+}
+
+.install {
+    background-color: var(--shade2) !important;
+}
+
+.margin-view-overlays {
+    margin-left: -20px !important;
+}
+
+.monaco-scrollable-element .editor-scrollable {
+    left: 30px !important;
+}

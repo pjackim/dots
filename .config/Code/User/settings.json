@@ -1,0 +1,8 @@
+{
+    "vscode_custom_css.imports": ["file:///home/pjackim/.config/Code/User/customStyle.css"],
+    "workbench.colorTheme": "Atom One Dark",
+    "[css]": {
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "editor.minimap.enabled": false
+}
