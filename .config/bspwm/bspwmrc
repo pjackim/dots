@@ -5,7 +5,8 @@ $HOME/.screenlayout/monitor_layout_3.sh &
 
 
 # Picom
-$HOME/.config/picom/picom_launcher &
+# $HOME/.config/picom/picom_launcher &
+
 
 # Nitrogen
 nitrogen --restore &
@@ -86,3 +87,5 @@ bspc rule -a konsole_desktop:autostart_term desktop='^1' state=floating rectangl
 
 startup &
 #konsole --class konsole_desktop --config ~/.config/konsole/konsole-themes/configs/Clear.conf &
+#exec --no-startup-id picom --config $HOME/.config/picom/picom_launcher
+picom -f --config /home/pjackim/.config/picom/picom.conf --experimental-backends --no-fading-openclose &
