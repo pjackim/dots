@@ -1,0 +1,20 @@
+# Merge Xresources
+xrdb ~/.Xdefaults
+
+# wallpaper
+#nitrogen --set-centered /home/pjackim/.config/.xprofile &
+
+# compositor
+#picom -f &
+
+
+#XDG_CONFIG_HOME='/home/pjackim/.config'
+#[[ -d /home/pjackim/.local/bin ]] && export PATH=/home/pjackim/.local/bin:$PATH
+
+#[[ -d '$XDG_CONFIG_HOME/bspwm/scripts' ]] && export PATH='$XDG_CONFIG_HOME/bspwm/scripts':$PATH
+
+#[[ -d '$XDG_CONFIG_HOME/sxhkd/scripts' ]] && export PATH='$XDG_CONFIG_HOME/sxhkd/scripts':$PATH
+
+
+# screen resolution
+# xrandr --output Virtual-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
