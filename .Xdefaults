@@ -1,0 +1,194 @@
+
+Rxvt*font: xft:IosevkaTerm
+dmenu*font: xft:IosevkaTerm
+
+!!!!!!!!!!!!!
+!! Defines !!
+!!!!!!!!!!!!!
+#define FOREGROUND      #D9A362
+#define FOREGROUND_ALT  #89C7C7
+#define BACKGROUND      #2D313D
+#define BACKGROUND_ALT  #636873
+#define BACKGROUND_T   	#BB2D313D
+#define CURSORCOLOR     #F2DC6D
+#define BLACK1          #2D313D
+#define BLACK2          #343635
+#define RED1            #A06A5F
+#define RED2            #7E6A6B
+#define GREEN1          #D9A362
+#define GREEN2          #CFA67A
+#define YELLOW1         #F2DC6D
+#define YELLOW2         #CAB574
+#define BLUE1           #5B8C9B
+#define BLUE2           #78A5A2
+#define MAGENTA1        #9896D9
+#define MAGENTA2        #9293A6
+#define CYAN1           #89C7C7
+#define CYAN2           #6A9695
+#define WHITE1          #AFAFA5
+#define WHITE2          #99B1BE
+
+#define TRANSPARENT     #00000000
+#define PRIMARY         #D9A362
+#define SECONDARY       #89C7C7
+#define ACCENT          #9896D9
+
+#define RAMP1           #4A4443
+#define RAMP2           #665749
+#define RAMP3           #836A50
+#define RAMP4           #A07D56
+#define RAMP5           #BC905C
+
+#define CYANSTEP1       #3C4A54
+#define CYANSTEP2       #4C636B
+#define CYANSTEP3       #5B7C82
+#define CYANSTEP4       #6A9599
+#define CYANSTEP5       #7AAEB0
+
+#define MAGENTASTEP1    #3F4257
+#define MAGENTASTEP2    #515371
+#define MAGENTASTEP3    #63648B
+#define MAGENTASTEP4    #7474A5
+#define MAGENTASTEP5    #8685BF
+
+#define YELLOWSTEP1     #4E4E45
+#define YELLOWSTEP2     #6F6A4D
+#define YELLOWSTEP3     #908755
+#define YELLOWSTEP4     #B0A35D
+#define YELLOWSTEP5     #D1C065
+
+!!!!!!!!!!!!
+!! Colors !!
+!!!!!!!!!!!!
+! special
+*.foreground:   FOREGROUND
+*.background:   BACKGROUND
+*.cursorColor:  CURSORCOLOR
+
+! black
+*.color0:       BLACK1
+*.color8:       BLACK2
+
+! red
+*.color1:       RED1
+*.color9:       RED2
+
+! green
+*.color2:       GREEN1
+*.color10:      GREEN2
+
+! yellow
+*.color3:       YELLOW1
+*.color11:      YELLOW2
+
+! blue
+*.color4:       BLUE1
+*.color12:      BLUE2
+
+! magenta
+*.color5:       MAGENTA1
+*.color13:      MAGENTA2
+
+! cyan
+*.color6:       CYAN1
+*.color14:      CYAN2
+
+! white
+*.color7:       WHITE1
+*.color15:      WHITE2
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+!! General settings !!
+!!!!!!!!!!!!!!!!!!!!!!
+#define BORDERPX 2
+#define FLOATBORDERPX 0
+#define GAPS 23
+#define OUTERGAPS 43
+
+!!!!!!!!!!!
+!! dmenu !!
+!!!!!!!!!!!
+dmenu*bottombar: 1
+
+dmenu*x: 660
+dmenu*y: 325
+dmenu*w: 500
+dmenu*h: 30
+dmenu*borderpx: 50
+
+dmenu*lines: 10
+
+dmenu*normfgcolor: RAMP1
+dmenu*normbgcolor: SECONDARY
+dmenu*selfgcolor:  RAMP1
+dmenu*selbgcolor:  SECONDARY
+
+dmenu*normhighlightfgcolor: RAMP5
+dmenu*normhighlightbgcolor: SECONDARY
+dmenu*selhighlightfgcolor:  RAMP5
+dmenu*selhighlightbgcolor:  SECONDARY
+
+!dmenu*font: -*-terminal-medium-*-normal--14-140-*-*-*-*-iso8859-*
+!dmenu.font: xft:Iosevka:pixelsize=17
+
+
+
+!!!!!!!!!!!
+!! URxvt !!
+!!!!!!!!!!!
+Xft.antialias:  true
+Xft.rgba:       true
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+
+Rxvt*internalBorder: 30
+Rxvt*scrollBar: false
+Rxvt*letterSpace: 0
+Rxvt*iso14755: false
+Rxvt*geometry: 85x40
+
+! Change copy-paste keybindds
+Rxvt*keysym.Shift-Control-V: eval:paste_clipboard
+Rxvt*keysym.Shift-Control-C: eval:selection_to_clipboard
+Rxvt*keysym.Control-Meta-c: builtin-string:
+Rxvt*keysym.Control-Meta-v: builtin-string:
+
+! Create keybind for scrolling up and down using j and k
+Rxvt*keysym.Shift-Control-K: command:\033]720;1\007
+Rxvt*keysym.Shift-Control-J: command:\033]721;1\007
+
+Rxvt*perl-ext-common: default,resize-font
+Rxvt*url-launcher: /usr/bin/xdg-open
+Rxvt*iso14755_52: false
+Rxvt*iso8859-1: true
+
+URxvt*background:      #303030
+urxvt.depth: 32
+urxvt.background: rgba:0000/0000/0000/bbbb
+URxvt.tintColor: #262626
+URxvt.blurRadius: 5
+
+
+!!!!!!!!!!!
+!! bspwm !!
+!!!!!!!!!!!
+bspwm.presel_color: YELLOW1
+bspwm.gaps:         GAPS
+bspwm.outergaps:    OUTERGAPS
+bspwm.borderpx:     2
+
+bspwm.outerborderfocused: ACCENT
+bspwm.outerbordernormal:  RAMP2
+bspwm.innerborderfocused: ACCENT
+bspwm.innerbordernormal:  RAMP2
+
+!!!!!!!!!!!!!
+!! zathura !!
+!!!!!!!!!!!!!
+zathura*background: BACKGROUND
+zathura*foreground: FOREGROUND
+zathura*foreground-alt: BLACK2
+zathura*accent: BLUE1
+zathura*alert: CYAN1
