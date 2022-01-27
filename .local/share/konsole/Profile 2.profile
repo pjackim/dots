@@ -13,7 +13,12 @@ Command=/bin/bash
 Name=Profile 2
 Parent=FALLBACK/
 TerminalCenter=true
+TerminalColumns=92
 TerminalMargin=0
+TerminalRows=18
 
 [Scrolling]
 ScrollBarPosition=2
+
+[Terminal Features]
+PeekPrimaryKeySequence=Esc

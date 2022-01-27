@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # Monitor Layout
-$HOME/.screenlayout/monitor_layout_3.sh & 
+$HOME/.screenlayout/monitor.sh & 
 
 
 # Picom
@@ -18,9 +18,9 @@ sxhkd &
 $HOME/.config/polybar/shapes/launch.sh &
 
 # Workspace Initialization
-bspc monitor DP-1 -d dp1 dp2 dp3 dp4 dp5 dp6 dp7 dp8 dp9 dp10               # center
-bspc monitor HDMI-0 -d hd1 hd2 hd3 hd4 hd5 hd6 hd7 hd8 hd9 hd0    # left
-bspc monitor DP-3 -d v1 v2 v3 v4 v5 v6 v7 slack teams    # Vert
+bspc monitor eDP1 -d dp1 dp2 dp3 dp4 dp5 dp6 dp7 dp8 dp9 dp10               # center
+#bspc monitor HDMI-0 -d hd1 hd2 hd3 hd4 hd5 hd6 hd7 hd8 hd9 hd0    # left
+#bspc monitor DP-3 -d v1 v2 v3 v4 v5 v6 v7 slack teams    # Vert
 
 
 bspc config normal_border_color \#836A50
@@ -42,6 +42,7 @@ width=477 center_width=938
 
 # General Rules
 bspc rule -a konsole:term_f state=floating rectangle="400"x"500"+"760"+"340"
+bspc rule -a kitty:term_f state=floating rectangle="400"x"500"+"760"+"340"
 
 # bspc rule -a Code state=floating rectangle="1000"x"$height_full"
 
@@ -52,19 +53,23 @@ bspc rule -a clear:integrated_terminal_1 desktop='^21' state=floating rectangle=
 bspc rule -a feh state=floating
 bspc rule -a thunar state=floating
 
-bspc rule -a yakuake state=floating rectangle="768"x"1050"+"0"+"30"
+bspc rule -a yakuake state=floating rectangle="1920"x"864"+"0"+"30"
 
 
 # Monitor 2
 #   Workspace 1
 #       Terminal 1
 bspc rule -a konsole:autostart_term1 desktop='^11' state=floating rectangle="$width"x"$height_full"+"$left_x"+"$y_top"
-#       Terminal 2
+bspc rule -a kitty:autostart_term1 desktop='^11' state=floating rectangle="$width"x"$height_full"+"$left_x"+"$y_top"
+#       Terminal 2
 bspc rule -a konsole:autostart_term2 desktop='^11' state=floating rectangle="$center_width"x"$height_full"+"$center_x"+"$y_top"
+bspc rule -a kitty:autostart_term2 desktop='^11' state=floating rectangle="$center_width"x"$height_full"+"$center_x"+"$y_top"
 #       Terminal 3
 bspc rule -a konsole:autostart_term3 desktop='^11' state=floating rectansgle="$width"x"$height_half"+"$right_x"+"$y_top"
+bspc rule -a kitty:autostart_term3 desktop='^11' state=floating rectansgle="$width"x"$height_half"+"$right_x"+"$y_top"
 #       Terminal 4
 bspc rule -a konsole:autostart_term4 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid"
+bspc rule -a kitty:autostart_term4 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid"
 
 
 

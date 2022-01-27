@@ -56,6 +56,7 @@ alias vim='nvim'
 # -------------------------------------------
 # 			Shortcuts
 # -------------------------------------------
+alias npp='cd "$HOME"/school/NPP'
 alias home='cd "$HOME"'
 alias config='cd "$HOME"/.config'
 
@@ -93,10 +94,16 @@ alias dwnld='downloads'
 alias hoem='home'
 alias clera='clear'
 alias celar='clear'
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
 
 
+# -------------------------------------------
+# 			PATH
+# -------------------------------------------
+PATH=$PATH:/home/pjackim/bin/
 # -------------------------------------------
 # 			Fish
 # -------------------------------------------
 exec fish
+
+

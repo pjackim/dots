@@ -4,16 +4,16 @@
 
 # terminal emulator tile
 super + Return
-    konsole	
+    kitty	
 
 # terminal emulator floating
 super + alt + Return
-	konsole --name term_f
+	kitty --name term_f
 
 
 # program launcher
 super + d
-	dmenu_run
+	/home/pjackim/.config/rofi/launchers/misc/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -67,9 +67,23 @@ super + ctrl + {m,x,y,z}
 # focus/swap
 #
 #-------------------------------------------------------
-# focus the node in the given direction
-super + {_,shift + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east}
+
+# Switch desktops
+alt + shift + {Left,Right}
+	bspc desktop -f {prev,next}.local	
+
+# Switch the node in the given direction
+super + {Left,Down,Up,Right}
+	bspc node -s {west,south,north,east}
+
+# Focus the node in the given direction
+alt + {Left,Down,Up,Right}
+	bspc node -f {west,south,north,east}
+
+# move focused window to the next workspace and then switch to that workspace
+super + shift + {Left,Right}
+    id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}
+
 #-------------------------------------------------------
 # focus the node for the given path jump
 #super + {p,b,comma,period}
@@ -97,8 +111,6 @@ super + {o,i}
 super + {_,_ + space + }{1-9,0}
 	bspc {desktop -f,node -d} 'dp{1-9,10}' 
 
-super + {shift +,shift + space + }{1-9,0}
-	bspc {desktop -f,node -d} 'hd{1-9,10}'
 
 super + {alt +,space + }{1-9,0}
 	bspc {desktop -f,node -d} 'v{1-9,10}'
@@ -142,4 +154,4 @@ alt + {Left,Down,Up,Right}
 # Applications
 
 alt + f
-	urxvt -e ranger
+	Thunar
