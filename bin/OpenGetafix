@@ -1,0 +1,5 @@
+#rdesktop -g 3840x1040 -u pjackim getafix.cs.colostate.edu &
+rdesktop -g 1920x1040 -u pjackim getafix.cs.colostate.edu &
+
+sleep 1
+xdo move -a "rdesktop - getafix.cs.colostate.edu" -x 1080 -y 32

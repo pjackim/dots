@@ -1,0 +1,3 @@
+
+xdo kill -N clear
+xdo kill -N yakuake

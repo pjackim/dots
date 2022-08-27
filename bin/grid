@@ -1,0 +1,54 @@
+#!/usr/bin/python3
+
+import os
+import argparse
+
+# os.system("pip install multipledispatch")
+from multipledispatch import dispatch
+
+
+class Arguments:
+    pass
+
+class Input:
+    def __init__(self):
+        self.args = Arguments()
+        self.defineArgs()
+        
+    def defineArgs(self):
+        parser = argparse.ArgumentParser(description='Worm propagation on various networks.')
+        parser.add_argument('-l', '--layout', type=str, help='The BSPWM layout to apply', default='grid')
+        parser.add_argument('-c', '--count', type=int, help='The number of instances to create', default=1)
+        parser.add_argument('-a', '--args', type=str, help='Arguments to pass to the process', default="")
+        parser.add_argument('name', type=str, help='The name of the process to open')
+
+        args = parser.parse_args(namespace=self.args)
+        
+    def getArgs(self):
+        return self.args
+
+
+def setLayout(layout):
+    os.system("bsp-layout set " + str(layout))
+
+@dispatch(str, str, int)
+def OpenProcess(name, args, count):
+    for i in range(count - 1):
+        os.system("( " + str(name) + " " + args + " & )")
+
+@dispatch(str, int)
+def OpenProcess(name, count):
+    OpenProcess(name, "", count)
+        
+def OpenTerminal(count):
+    OpenProcess("konsole", "--separate --workdir $(pwd)", 3)
+    
+input = Input()
+
+if (input.args.name == 'konsole'):
+    OpenTerminal(input.args.count)
+else:
+    OpenProcess(input.args.name, input.args.args, input.args.count)
+
+os.system("reset")
+os.system("clear && clear")
