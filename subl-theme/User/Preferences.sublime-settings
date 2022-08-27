@@ -1,0 +1,33 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+	"font_face": "Iosevka",
+	"font_options":
+	[
+		"Iosevka",
+		"Iosevka Term"
+	],
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"material_theme_accent_orange": true,
+	"material_theme_accent_scrollbars": true,
+	"material_theme_accent_titlebar": true,
+	"material_theme_big_fileicons": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
+	"material_theme_compact_sidebar": false,
+	"overlay_scroll_bars": "enabled",
+	"theme": "Material-Theme-Darker.sublime-theme",
+}
