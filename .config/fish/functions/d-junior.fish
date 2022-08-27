@@ -1,5 +1,4 @@
 function d-junior
-    school && cd junior
-    ls
+    school /junior
+     
 end
-

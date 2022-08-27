@@ -16,6 +16,12 @@ fi
 # Ignore upper and lowercase when TAB completion
 bind "set completion-ignore-case on"
 
+
+# -------------------------------------------
+# 			Fish
+# -------------------------------------------
+exec fish
+
 # -------------------------------------------
 # 			Install Configs
 # -------------------------------------------
@@ -28,7 +34,7 @@ alias sync='sudo pacman -Syy'
 # -------------------------------------------
 # 			Directory Configs
 # -------------------------------------------
-group_dirs='--group-directories-first'
+group_dirs='--group-directories-first --icons'
 
 alias ls='exa -1 $group_dirs'
 alias la='exa -a $group_dirs'
@@ -51,7 +57,7 @@ alias ..3='cd ../../..'
 # -------------------------------------------
 alias vi='nvim'
 alias vim='nvim'
-
+alias py='python3'
 
 # -------------------------------------------
 # 			Shortcuts
@@ -85,6 +91,12 @@ fi
 # 			Applications
 # -------------------------------------------
 
+# -------------------------------------------
+# 			PATH
+# -------------------------------------------
+# export PATH="$HOME/.local/bin:$PATH"
+export PAGER="/bin/most"
+
 
 # -------------------------------------------
 # 			Typos
@@ -99,4 +111,9 @@ alias celar='clear'
 # -------------------------------------------
 # 			Fish
 # -------------------------------------------
-exec fish
+#exec fish
+
+xset s off -dpms
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+# END_KITTY_SHELL_INTEGRATION

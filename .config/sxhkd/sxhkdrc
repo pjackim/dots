@@ -7,13 +7,18 @@ super + Return
     konsole	
 
 # terminal emulator floating
-super + alt + Return
-	konsole --name term_f
+#super + alt + Return
+	#konsole --name term_f
 
+super + alt + Return
+	konsole --name center
+
+Insert
+	flameshot gui
 
 # program launcher
 super + d
-	dmenu_run
+	/home/pjackim/.config/rofi/launchers/misc/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -55,7 +60,7 @@ super + {t,shift + t}
 super + f
 	bspc node -t floating
 
-# set focus to fullscreen
+# set focus to fullscreen	
 super + shift + f
 	bspc node -t fullscreen
 
@@ -67,9 +72,23 @@ super + ctrl + {m,x,y,z}
 # focus/swap
 #
 #-------------------------------------------------------
-# focus the node in the given direction
-super + {_,shift + }{Left,Down,Up,Right}
-	bspc node -{f,s} {west,south,north,east}
+
+# Switch desktops
+tab + shift + {Left,Right}
+	bspc desktop -f {prev,next}.local	
+
+# Switch the node in the given direction
+super + {Left,Down,Up,Right}
+	bspc node -s {west,south,north,east}
+
+# Focus the node in the given direction
+alt + {Left,Down,Up,Right}
+	bspc node -f {west,south,north,east}
+
+# move focused window to the next workspace and then switch to that workspace
+super + shift + {Left,Right}
+    id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}
+
 #-------------------------------------------------------
 # focus the node for the given path jump
 #super + {p,b,comma,period}
@@ -142,4 +161,4 @@ alt + {Left,Down,Up,Right}
 # Applications
 
 alt + f
-	urxvt -e ranger
+	Thunar

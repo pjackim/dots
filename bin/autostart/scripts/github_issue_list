@@ -1,7 +1,8 @@
 #! /bin/bash
 
-project_dir="/home/pjackim/coding/school/junior/cs314/project/sprint1/"
+#project_dir="/home/pjackim/coding/school/junior/cs314/project/sprint1/"
 
-cd ${project_dir}
+#cd ${project_dir}
 #clear
-gh issue list
+#gh issue list
+rtorrent

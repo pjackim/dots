@@ -10,30 +10,7 @@
                 <hack-box/>
             </box>
         </def>
-        <def name="m1-right-buttons">
-            <box class="invis-container" orientation="v" space-evenly="true">
-                <box class="invis-container" orientation="v" space-evenly="true">
-                    <box class="invis-container" orientation="h" space-evenly="true">
-                        <vscode/>
-                        <atom/>
-                    </box>
-                    <box class="invis-container" orientation="h" space-evenly="true">
-                        <github/>
-                        <unity/>
-                    </box>
-                </box>
-                <box class="invis-container" orientation="h" space-evenly="true">
-                    <spotify/>
-                    <youtube/>
-                    <instagram/>
-                    <reddit/>
-                </box>
-                <box class="invis-container" orientation="h" space-evenly="true">
-                    <chess/>
-                    <foliate/>
-                </box>
-            </box>
-        </def>
+
         <def name="calendar_full">
             <box orientation="v" halign="center" space-evenly="false">
                 <box class="calendar_title">     {{day}}, {{number_day}} {{month_full}} {{year_full}}</box>
@@ -44,12 +21,12 @@
         </def>
         <def name="coding-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Coding" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
-                        <atom/>
+                        <school/>
+                        <konsole/>
+                        <getafix/>
                         <vscode/>
-                        <unity/>
                         <github/>
                     </box>
                 </box>
@@ -57,13 +34,12 @@
         </def>
         <def name="entertain-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Entertainment" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
-                        <spotify/>
+                        <!-- <spotify/> -->
                         <youtube/>
-                        <instagram/>
-                        <reddit/>
+                        <!-- <instagram/> -->
+                        <!-- <reddit/> -->
                         <discord/>
                         <chess/>
                     </box>
@@ -72,11 +48,12 @@
         </def>
         <def name="config-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Configurations" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <bin/>
                         <configs/>
                         <bspwm-config/>
+                        <fish-config/>
                         <sxhkd-config/>
                         <eww-config/>
                     </box>
@@ -85,7 +62,6 @@
         </def>
         <def name="util-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Utilities" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
                         <screenshot/>
@@ -99,7 +75,6 @@
         </def>
         <def name="hack-box">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <!-- <label class="box-label" text="Hacking" halign="end"/> -->
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
                         <crypto/>

@@ -1,4 +1,7 @@
-# Defined via `source`
-function config --wraps='cd /home/pjackim/.config' --description 'alias config cd /home/pjackim/.config'
-  cd /home/pjackim/.config $argv; 
+function config
+    if count $argv > /dev/null
+        cd $HOME/.config/$argv
+    else
+        cd $HOME/.config/ $argv
+    end
 end

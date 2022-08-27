@@ -1,4 +1,7 @@
-# Defined via `source`
-function lst1 --wraps='exa -Ta --level = 2' --description 'alias lst1 exa -Ta --level = 2'
-  exa -Ta --level 2 $argv; 
+function lst1
+    if count $argv > /dev/null
+        exa -Ta --level 2 .
+    else
+        exa -Ta --level 2 $argv
+    end
 end

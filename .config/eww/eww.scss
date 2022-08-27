@@ -8,37 +8,80 @@
         background-color: rgba($color: #A06A5F, $alpha: 0.0);
         color: colors.$primary;
         font-family: Iosevka;
+        opacity: 100;
     }
     
     button {
+        background-color: colors.$background;
+        // position: relative;
+        // background: colors.$background;
+        margin-bottom: 25px;
+        border-radius: settings.$btn-corner;
+        padding: 15px;
+        margin: settings.$margin;
+        transition: all 0.1s ease-in-out;
+        .btn-large {
+            font-size: 50px;
+            min-height: 0px;
+        }
+        box-shadow: inset -4px -4px 8px colors.$background,
+        inset 8px 8px 16px rgba(0, 0, 0, 0.05);
+        color: colors.$primary;
+        &:hover {
+            // opacity: 1;
+            box-shadow: -6px -6px 10px colors.$background, 6px 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        /*
         border-radius: settings.$btn-corner;
         border-style: solid;
         border-width: 0px;
         background-color: colors.$background;
+        // background-color: darken($color: #000000, $amount: 0);
         padding: 15px;
         margin: settings.$margin;
+        // font-size: settings.$btn-font-size-lg;
         &:hover {
             background-color: rgba($color: colors.$secondary, $alpha: 0.25);
         }
+        .btn-large {
+            font-size: 50px;
+            min-height: 0px;
+        }
+        */
     }
     
     .colr-btn {
         @extend button;
         padding: settings.$btn-pad-top settings.$btn-pad-right settings.$btn-pad-bottom settings.$btn-pad-left;
         color: colors.$colored-button-foreground;
+        // color:mix($color: #000000, $color: #000000, $weight: 0.5);
+        // color:
         border-radius: settings.$colored-btn-corner;
         border: settings.$btn-outline-size solid transparent;
         min-width: settings.$btn-mid;
         min-height: settings.$btn-mid;
+        font-size: settings.$colored-btn-font-size;
+        font-family: "Font Awesome 6 Pro", Iosevka;
+        *.text-medium {
+            font-family: Iosevka, "Font Awesome 6 Pro";
+        }
         &:hover {
-            background-color: transparent;
+            // background-color: transparent;
             border: settings.$btn-outline-size solid;
         }
+    }
+    
+    button.text-medium {
+        font-family: Iosevka, "Font Awesome 6 Pro";
     }
     
     .container {
         border-radius: settings.$container-corner;
         background-color: colors.$background;
+        //new
+        box-shadow: -1px -1px 1px lighten($color: colors.$background, $amount: 25), 3px 3px 2px darken($color: colors.$background, $amount: 10);
+        // color: #6f6cde;
+        // background-color: ;
         margin: settings.$margin;
         padding: 5px 0px 5px 0px;
     }
@@ -51,6 +94,11 @@
     .window-container {
         @extend .container;
         min-height: 400px;
+    }
+    
+    .window-container-full {
+        @extend .container;
+        min-height: 930px;
     }
     
     .home-dir* {
@@ -95,19 +143,32 @@
         font-size: 24px;
     }
     
-    .icon-large {
-        font-size: 40px;
-        padding: 0px;
+    .text-medium {
+        font-family: Iosevka, "Font Awesome 6 Pro";
+        //color: colors.$secondary;
+        font-size: 16px;
+        //padding: 0px 0px 0px 0px;
     }
     
-    .icon-medium {
-        font-size: 30px;
-        padding: 0px 0px 0px 0px;
+    .btn-large,
+    .icon-large,
+    .icon-medium,
+    .icon-small {
+        font-family: "Font Awesome 6 Pro";
+    }
+    
+    .invis-container.btn-large {
+        button {
+            @extend button;
+            font-size: 35px;
+            min-height: 10px;
+            box-shadow: -1px -1px 1px lighten($color: colors.$background, $amount: 25), 3px 3px 2px darken($color: colors.$background, $amount: 10);
+        }
     }
     
     .icon-small {
         color: colors.$secondary;
-        font-size: 16px;
+        // font-size: 16px;
     }
     
     .quote-main,
@@ -189,6 +250,7 @@
         margin: settings.$margin;
         color: rgba($color: colors.$secondary, $alpha: 0.8);
         background-color: colors.$background;
+        box-shadow: -1px -1px 1px lighten($color: colors.$background, $amount: 25), 3px 3px 2px darken($color: colors.$background, $amount: 10);
         button,
          :nth-child(n) button {
             min-width: settings.$btn-lrg;
@@ -204,197 +266,236 @@
     }
     
     .RtL {
-        .icon-small,
-        .icon-large,
-        .icon-medium {
+        button {
+            font-size: settings.$colored-btn-font-size;
             @extend .colr-btn;
             background-color: colors.$shade2;
+            // background-color: desaturate($color: colors.$shade2, $amount: settings.$color-scale);
+            // background-color: darken($color: colors.$shade2, $amount: 10);
             &:hover {
-                color: colors.$shade2;
+                // color: colors.$shade2;
             }
+        }
+        .text-medium {
+            font-size: settings.$colored-txt-font-size;
+        }
+        .btn-large {
+            font-size: settings.$btn-font-size-lg;
         }
          :nth-last-child(2) {
             background-color: colors.$shade3;
             &:hover {
-                color: colors.$shade3;
+                // color: colors.$shade3;
             }
         }
          :nth-last-child(3) {
             background-color: colors.$shade4;
             &:hover {
-                color: colors.$shade4;
+                // color: colors.$shade4;
             }
         }
          :nth-last-child(4) {
             background-color: colors.$shade5;
             &:hover {
-                color: colors.$shade5;
+                // color: colors.$shade5;
             }
         }
          :nth-last-child(5) {
             background-color: colors.$shade6;
             &:hover {
-                color: colors.$shade6;
+                // color: colors.$shade6;
             }
         }
          :nth-last-child(6) {
             background-color: colors.$shade7;
             &:hover {
-                color: colors.$shade7;
+                // color: colors.$shade7;
             }
         }
          :nth-last-child(7),
          :nth-last-child(8) {
             background-color: colors.$shade8;
             &:hover {
-                color: colors.$shade8;
+                // color: colors.$shade8;
+            }
+        }
+        .space {
+            background-color: colors.$trans;
+            color: colors.$trans;
+            &:hover {
+                color: colors.$trans;
             }
         }
     }
     
     .RtL-R {
-        .icon-small,
-        .icon-large,
-        .icon-medium {
+        button {
+            font-size: settings.$colored-btn-font-size;
             @extend .colr-btn;
             background-color: colors.$shade7;
             &:hover {
-                color: colors.$shade7;
+                // color: colors.$trans;
             }
+        }
+        .text-medium {
+            font-size: settings.$colored-txt-font-size;
+        }
+        .btn-large {
+            font-size: settings.$btn-font-size-lg;
         }
          :nth-last-child(2) {
             background-color: colors.$shade6;
             &:hover {
-                color: colors.$shade6;
+                // color: colors.$shade6;
             }
         }
          :nth-last-child(3) {
             background-color: colors.$shade5;
             &:hover {
-                color: colors.$shade5;
+                // color: colors.$shade5;
             }
         }
          :nth-last-child(4) {
             background-color: colors.$shade4;
             &:hover {
-                color: colors.$shade4;
+                // color: colors.$shade4;
             }
         }
          :nth-last-child(5) {
             background-color: colors.$shade3;
             &:hover {
-                color: colors.$shade3;
+                // color: colors.$shade3;
             }
         }
          :nth-last-child(6) {
             background-color: colors.$shade2;
             &:hover {
-                color: colors.$shade2;
+                // color: colors.$shade2;
             }
         }
          :nth-last-child(7),
          :nth-last-child(8) {
             background-color: colors.$shade1;
             &:hover {
-                color: colors.$shade1;
+                // color: colors.$shade1;
             }
         }
     }
     
     .LtR {
-        .icon-small,
-        .icon-large,
-        .icon-medium {
+        button {
+            font-size: settings.$colored-btn-font-size;
             @extend .colr-btn;
             background-color: colors.$shade2;
             &:hover {
-                color: colors.$shade2;
+                // color: colors.$shade2;
             }
+        }
+        .text-medium {
+            font-size: settings.$colored-txt-font-size;
+            min-height: 10px;
+        }
+        .btn-large {
+            font-size: settings.$btn-font-size-lg - 10px;
+            min-height: 10px;
+            padding: 0px;
         }
          :nth-child(2) {
             background-color: colors.$shade3;
             &:hover {
-                color: colors.$shade3;
+                // color: colors.$shade3;
             }
         }
          :nth-child(3) {
             background-color: colors.$shade4;
             &:hover {
-                color: colors.$shade4;
+                // color: colors.$shade4;
             }
         }
          :nth-child(4) {
             background-color: colors.$shade5;
             &:hover {
-                color: colors.$shade5;
+                // color: colors.$shade5;
             }
         }
          :nth-child(5) {
             background-color: colors.$shade6;
             &:hover {
-                color: colors.$shade6;
+                // color: colors.$shade6;
             }
         }
          :nth-child(6) {
             background-color: colors.$shade7;
             &:hover {
-                color: colors.$shade7;
+                // color: colors.$shade7;
             }
         }
          :nth-child(7),
          :nth-child(8) {
             background-color: colors.$shade8;
             &:hover {
-                color: colors.$shade8;
+                // color: colors.$shade8;
+            }
+        }
+        .space {
+            background-color: colors.$trans;
+            color: colors.$trans;
+            &:hover {
+                color: colors.$trans;
             }
         }
     }
     
     .LtR-R {
-        .icon-small,
-        .icon-large,
-        .icon-medium {
+        button {
+            font-size: settings.$colored-btn-font-size;
             @extend .colr-btn;
             background-color: colors.$shade7;
             &:hover {
-                color: colors.$shade7;
+                // color: colors.$shade7;
             }
+        }
+        .text-medium {
+            font-size: settings.$colored-txt-font-size;
+        }
+        .btn-large {
+            font-size: settings.$btn-font-size-lg;
         }
          :nth-child(2) {
             background-color: colors.$shade6;
             &:hover {
-                color: colors.$shade6;
+                // color: colors.$shade6;
             }
         }
          :nth-child(3) {
             background-color: colors.$shade5;
             &:hover {
-                color: colors.$shade5;
+                // color: colors.$shade5;
             }
         }
          :nth-child(4) {
             background-color: colors.$shade4;
             &:hover {
-                color: colors.$shade4;
+                // color: colors.$shade4;
             }
         }
          :nth-child(5) {
             background-color: colors.$shade3;
             &:hover {
-                color: colors.$shade3;
+                // color: colors.$shade3;
             }
         }
          :nth-child(6) {
             background-color: colors.$shade2;
             &:hover {
-                color: colors.$shade2;
+                // color: colors.$shade2;
             }
         }
          :nth-child(7),
          :nth-child(8) {
             background-color: colors.$shade1;
             &:hover {
-                color: colors.$shade1;
+                // color: colors.$shade1;
             }
         }
     }

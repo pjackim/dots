@@ -1,5 +1,7 @@
 <eww>
  <variables>
+        <!-- Application vars -->
+        
         <!-- Music vars -->
         <script-var name="music" interval="5s">playerctl metadata --format '{{ artist }} - {{ title }}'</script-var>
         <script-var name="music2" interval="5s">playerctl metadata --format '{{ artist }}'</script-var>

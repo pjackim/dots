@@ -1,4 +1,7 @@
-# Defined via `source`
-function school --wraps='cd /home/pjackim/coding/school' --description 'alias school cd /home/pjackim/coding/school'
-  cd /home/pjackim/coding/school $argv; 
+function school
+    if count $argv > /dev/null
+        cd $HOME/coding/school$argv
+    else
+        cd $HOME/coding/school $argv
+    end
 end

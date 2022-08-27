@@ -1,4 +1,7 @@
-# Defined via `source`
-function lst3 --wraps='exa -Ta --level = 4' --description 'alias lst3 exa -Ta --level = 4'
-  exa -Ta --level 4 $argv; 
+function lst3
+    if count $argv > /dev/null
+        exa -Ta --level 4 .
+    else
+        exa -Ta --level 4 $argv
+    end
 end
