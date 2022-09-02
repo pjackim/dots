@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR EXA_ICON_SPACING:2
 SETUVAR Fish_ItemBreak:20
-SETUVAR Fish_ItemCount:102
+SETUVAR Fish_ItemCount:50
 SETUVAR __fish_initialized:3100
 SETUVAR arguments:\x2d\x2dgroup\x2ddirectories\x2dfirst\x1e\x2d\x2dicons\x1e\x2d\x2dsort\x3daccessed
 SETUVAR fish_color_autosuggestion:af875f
