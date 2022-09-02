@@ -8,7 +8,7 @@
     <windows>
 
         <window name="m3-top-container" exclusive="false" focusable="false" stacking="bg">
-            <geometry x="1991px" y="50px" width="49%" height="30%"/>
+            <geometry x="-1009px" y="50px" width="49%" height="30%"/>
             <widget>
                 <window-container2/>
             </widget>

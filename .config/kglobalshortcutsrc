@@ -1,3 +1,7 @@
+[konsole]
+Konsole Background Mode=Ctrl+Shift+F12,Ctrl+Shift+F12,Toggle Background Window
+_k_friendly_name=Konsole
+
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=Alt+Z,F12,Open/Retract Yakuake
+toggle-window-state=Ctrl+`,F12,Open/Retract Yakuake

@@ -1,4 +1,7 @@
-# Defined via `source`
-function ... --wraps='cd ../..' --description 'alias ... cd ../..'
-  cd ../.. $argv; 
+function ..3
+    if count $argv > /dev/null
+        cd ../../$argv
+    else
+        cd ../../ $argv
+    end
 end

@@ -1,11 +1,17 @@
 [Background]
 Color=45,49,61
+RandomHueRange=360
+RandomSaturationRange=100
 
 [BackgroundFaint]
 Color=52,54,53
+RandomHueRange=360
+RandomSaturationRange=100
 
 [BackgroundIntense]
 Color=45,49,61
+RandomHueRange=360
+RandomSaturationRange=100
 
 [Color0]
 Color=45,49,61
@@ -81,16 +87,22 @@ Color=175,175,165
 
 [Foreground]
 Color=217,163,98
+RandomHueRange=360
+RandomSaturationRange=100
 
 [ForegroundFaint]
 Color=217,163,98
+RandomHueRange=360
+RandomSaturationRange=100
 
 [ForegroundIntense]
 Color=217,163,98
+RandomHueRange=360
+RandomSaturationRange=100
 
 [General]
-Blur=true
+Blur=false
 ColorRandomization=false
-Description=City
-Opacity=0.8
+Description=City Clear
+Opacity=0
 Wallpaper=

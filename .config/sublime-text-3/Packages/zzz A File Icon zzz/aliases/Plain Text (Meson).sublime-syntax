@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Plain Text (Meson)
+scope: source.meson
+hidden: true
+file_extensions:
+  - meson.build
+  - meson_options.txt
+contexts:
+  main: []

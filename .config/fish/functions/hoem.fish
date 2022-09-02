@@ -1,4 +1,7 @@
-# Defined via `source`
-function hoem --wraps=home --description 'alias hoem home'
-  home $argv; 
+function hoem
+    if count $argv > /dev/null
+        cd $HOME/$argv
+    else
+        cd $HOME/ $argv
+    end
 end

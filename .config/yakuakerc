@@ -5,7 +5,7 @@ UseWMAssist=false
 [Appearance]
 BackgroundColor=45,49,61
 BackgroundColorOpacity=70
-Skin=adapta-nokto
+HideSkinBorders=true
 Translucency=true
 
 [Behavior]
@@ -15,7 +15,11 @@ RememberFullscreen=true
 DefaultProfile=Profile 2.profile
 
 [Dialogs]
+ConfirmQuit=false
 FirstRun=false
+
+[Notification Messages]
+hinding_title_bar=false
 
 [Shortcuts]
 next-session=Alt+D
@@ -23,6 +27,9 @@ previous-session=Alt+A
 
 [Window]
 DynamicTabTitles=true
-Height=97
+Height=80
 KeepOpenAfterLastSessionCloses=true
-Width=40
+ShowSystrayIcon=false
+ShowTabBar=false
+ShowTitleBar=false
+Width=100

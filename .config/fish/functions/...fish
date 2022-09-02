@@ -1,4 +1,7 @@
-# Defined via `source`
-function .. --description 'alias .. cd ..'
-  cd .. $argv; 
+function ..
+    if count $argv > /dev/null
+        cd ../$argv
+    else
+        cd ../ $argv
+    end
 end

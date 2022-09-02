@@ -9,5 +9,42 @@
               "workbench.action.toggleSidebarVisibility"
             ]
           }
+    },
+    {
+      "key": "ctrl+capslock",
+      "command": "watch.collapse"
+    },
+    {
+      "key": "alt+w",
+      "command": "-toggleSearchEditorWholeWord",
+      "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+      "key": "alt+w",
+      "command": "editor.action.toggleWordWrap"
+    },
+    {
+      "key": "alt+z",
+      "command": "-editor.action.toggleWordWrap"
+    },
+    {
+      "key": "ctrl+up",
+      "command": "editor.action.moveLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+up",
+      "command": "-editor.action.moveLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "ctrl+down",
+      "command": "editor.action.moveLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+down",
+      "command": "-editor.action.moveLinesDownAction",
+      "when": "editorTextFocus && !editorReadonly"
     }
 ]

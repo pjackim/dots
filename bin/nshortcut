@@ -1,0 +1,15 @@
+apnd () {
+    echo "$1" >> $2
+}
+
+# 1 - Name
+CreateShortCut () {
+    cwd=$(pwd)
+    cd $HOME/.config/fish/functions
+    touch "$1.fish"
+    echo "function $1" > "$1.fish"
+    apnd "cd $cwd" "$1.fish"
+    apnd "end" "$1.fish"
+}
+
+CreateShortCut $1

@@ -1,0 +1,17 @@
+@use 'gray' as gray;
+$grayscale: 100;
+// gray.$test: 10;
+$primary: darken(desaturate($color: rgba($color: #D9A362, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$secondary: darken(desaturate($color: rgba($color: #2D313D, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+// $background: darken(desaturate($color: rgba($color: $secondary, $alpha: 0.5), $amount: $grayscale), $amount: gray.$test);
+$background: darken(desaturate($color: rgba($color: $secondary, $alpha: 0.5), $amount: $grayscale), $amount: 0);
+$shade1: darken(desaturate($color: rgba($color: #445F6C, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$shade2: darken(desaturate($color: rgba($color: #67939A, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$shade3: darken(desaturate($color: rgba($color: #89C7C7, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$shade4: darken(desaturate($color: rgba($color: #BED29A, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$shade5: darken(desaturate($color: rgba($color: #F2DC6D, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$shade6: darken(desaturate($color: rgba($color: #E6C068, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$shade7: darken(desaturate($color: rgba($color: #D9A362, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$shade8: darken(desaturate($color: rgba($color: #A06A5F, $alpha: 1.0), $amount: $grayscale), $amount: gray.$test);
+$colored-button-foreground: darken(desaturate($color: rgba($color: $secondary, $alpha: 0.8), $amount: $grayscale), $amount: gray.$test);
+$trans: darken(desaturate($color: rgba($color: #FFFFFF, $alpha: 0.0), $amount: $grayscale), $amount: gray.$test);

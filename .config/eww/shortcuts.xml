@@ -1,100 +1,172 @@
 <eww>
+    <variables>
+        <script-var name="browser"> echo "google-chrome-stable --new-window"</script-var>
+    </variables>
     <definitions>
         <def name="screenshot">
-            <button class="icon-large" tooltip="screenshot" onclick="(scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/pictures/')"></button>
+            <button  tooltip="screenshot" onclick="(flameshot gui)"></button>
         </def>
+
         <def name="vscode">
-            <button class="icon-large" tooltip="vs code" onclick="code">﬏</button>
+            <button  tooltip="vs code" onclick="code">﬏</button>
         </def>
+
+        <def name="getafix">
+            <button  tooltip="CyberSim" onclick="OpenGetafix&">ﮢ</button>
+        </def>
+
+        <def name="google-chrome">
+            <button  tooltip="google-chrome-stable" onclick="(google-chrome-stable)"></button>
+        </def>
+
         <def name="firefox">
-            <button class="icon-large" tooltip="firefox" onclick="(firefox)"></button>
+            <button  tooltip="firefox" onclick="(firefox)"></button>
         </def>
+
         <def name="gimp">
-            <button class="icon-large" tooltip="gimp" onclick="(gimp)"></button>
+            <button  tooltip="gimp" onclick="(gimp)"></button>
         </def>
+
         <def name="spotify">
-            <button class="icon-large" tooltip="spotify" onclick="(spotify)">阮</button>
+            <button  tooltip="spotify" onclick="(spotify)"></button>
         </def>
+
         <def name="atom">
-            <button class="icon-large" tooltip="atom" onclick="(atom)"></button>
+            <button  tooltip="atom" onclick="(atom)"></button>
         </def>
+
         <def name="unity">
-            <button class="icon-large" tooltip="unity hub" onclick="(unityhub)"></button>
+            <button  tooltip="unity hub" onclick="(unityhub)"></button>
         </def>
+
         <def name="chess">
-            <button class="icon-large" tooltip="lichess" onclick="(firefox -new-tab 'https://www.lichess.org')"></button>
+            <button  tooltip="lichess" onclick="({{browser}} 'https://www.lichess.org')"></button>
         </def>
+
         <def name="github">
-            <button class="icon-large" tooltip="github" onclick="(firefox -new-tab 'https://www.github.com/pjackim')"></button>
+            <button  tooltip="github" onclick="({{browser}} 'https://www.github.com/pjackim')"></button>
         </def>
+
+        <def name="konsole">
+            <button class="icon-medium" tooltip="konsole" onclick="(konsole --name center)">ﲵ</button>
+        </def>
+
         <def name="instagram">
-            <button class="icon-large" tooltip="instagram" onclick="(firefox -new-tab 'https://www.instagram.com')"></button>
+            <button  tooltip="instagram" onclick="({{browser}} 'https://www.instagram.com')"></button>
         </def>
+
         <def name="youtube">
-            <button class="icon-large" tooltip="youtube" onclick="(firefox -new-tab 'https://www.youtube.com')"></button>
+            <button  tooltip="youtube" onclick="({{browser}} 'https://www.youtube.com')"></button>
         </def>
+
         <def name="reddit">
-            <button class="icon-large" tooltip="reddit" onclick="(firefox -new-tab 'https://www.reddit.com')"></button>
+            <button  tooltip="reddit" onclick="({{browser}} 'https://www.reddit.com')"></button>
         </def>
+
         <def name="configs">
-            <button class="icon-large" tooltip="configs" onclick="(thunar ~/.config)"></button>
+            <button  tooltip="configs" onclick="(code ~/.config)"></button>
         </def>
+
         <def name="bspwm-config">
-            <button class="icon-large" tooltip="bspwm" onclick="(code ~/.config/bspwm/)">侀</button>
+            <button  tooltip="bspwm" onclick="(code ~/.config/bspwm/)"></button>
         </def>
+
+        <def name="bin">
+            <button  tooltip="bin" onclick="(code ~/bin/)"></button>
+        </def>
+
+        <def name="fish-config">
+            <button  tooltip="fish" onclick="(code ~/.config/fish/functions/)"></button>
+        </def>
+
         <def name="sxhkd-config">
-            <button class="icon-large" tooltip="sxhkd" onclick="(code ~/.config/sxhkd/)"></button>
+            <button  tooltip="sxhkd" onclick="(code ~/.config/sxhkd/)"></button>
         </def>
+
         <def name="foliate">
-            <button class="icon-large" tooltip="foliate" onclick="(foliate)"></button>
+            <button  tooltip="foliate" onclick="(foliate)"></button>
         </def>
+
         <def name="eww-config">
-            <button class="icon-large" tooltip="eww" onclick="(code ~/.config/eww/)">冀</button>
+            <button  tooltip="eww" onclick="(code ~/.config/eww/)"></button>
         </def>
+
         <def name="zoom">
-            <button class="icon-large" tooltip="zoom" onclick="(zoom)"></button>
+            <button  tooltip="zoom" onclick="(zoom)"></button>
         </def>
+
         <def name="hack-the-box">
-            <button class="icon-large" tooltip="hack-the-box" onclick="(firefox -new-tab 'https://app.hackthebox.eu/home')"></button>
+            <button  tooltip="hack-the-box" onclick="({{browser}} 'https://app.hackthebox.eu/home')"></button>
         </def>
+
         <def name="iptorrent">
-            <button class="icon-large" tooltip="iptorrent" onclick="(firefox -new-tab 'https://iptorrents.com/login.php')"></button>
+            <button  tooltip="iptorrent" onclick="({{browser}} 'https://iptorrents.com/login.php')"></button>
         </def>
+
         <def name="google-drive">
-            <button class="icon-large" tooltip="google-drive" onclick="(firefox -new-tab 'https://drive.google.com/drive/u/0/')"></button>
+            <button  tooltip="google-drive" onclick="({{browser}} 'https://drive.google.com/drive/u/0/')"></button>
         </def>
+
         <def name="anom">
-            <button class="icon-large" tooltip="anom" onclick="()"></button>
+            <button  tooltip="anom" onclick="()"></button>
         </def>
+
         <def name="network">
-            <button class="icon-large" tooltip="network" onclick="()"></button>
+            <button  tooltip="network" onclick="()"></button>
         </def>
+
         <def name="crypto">
-            <button class="icon-large" tooltip="crypto" onclick="()">ﴑ</button>
+            <button  tooltip="crypto" onclick="()">ﴑ</button>
         </def>
+
         <def name="archive">
-            <button class="icon-large" tooltip="archive" onclick="()"></button>
+            <button  tooltip="archive" onclick="()"></button>
         </def>
+
         <def name="discord">
-            <button class="icon-large" tooltip="discord" onclick="(discord)">ﭮ</button>
+            <button  tooltip="discord" onclick="(discord)"></button>
         </def>
-        <def name="">
-            <button class="icon-large" tooltip="discord" onclick="()"></button>
+
+        <def name="school">
+            <button  tooltip="school" onclick="(w-school)">拾</button>
         </def>
-        <def name="">
-            <button class="icon-large" tooltip="discord" onclick="()"></button>
+
+        <def name="server-main">
+            <button  tooltip="Server: Main" onclick="(konsole -e applicationLauncher 'ssh main')"></button>
         </def>
-        <def name="">
-            <button class="icon-large" tooltip="discord" onclick="()"></button>
+
+        <def name="server-farm">
+            <button  tooltip="Server: Farm" onclick="(konsole -e applicationLauncher 'ssh farm')"></button>
         </def>
-        <def name="">
-            <button class="icon-large" tooltip="discord" onclick="()"></button>
+
+        <def name="server-denver">
+            <button  tooltip="Server: cs.denver" onclick="(konsole -e applicationLauncher 'ssh cs.denver')"></button>
         </def>
-        <def name="">
-            <button class="icon-large" tooltip="discord" onclick="()"></button>
-        </def>
-        <def name="">
-            <button class="icon-large" tooltip="discord" onclick="()"></button>
-        </def>
+
+        <def name="server-getafix">
+            <button  tooltip="Server: getafix" onclick="(konsole -e applicationLauncher 'ssh getafix')"></button>
+        </def>        
+        
+        <def name="ipt">
+            <button  tooltip="IPT" onclick="({{browser}} 'https://iptorrents.com/t?free')"></button>
+        </def>    
+
+        <def name="temp-mail">
+            <button  tooltip="10 Min Mail" onclick="({{browser}} 'https://10minutemail.net/')"></button>
+        </def>           
+
+        <def name="sci-hub">
+            <button  tooltip="SciHub" onclick="({{browser}} 'https://sci.hubg.org/')"></button>
+        </def>            
+
+        <def name="kali-mode">
+            <button  tooltip="Hacking Desktop" onclick="(/home/pjackim/coding/personal/scripting/toggleEwwGray)"></button>
+        </def>    
+
+        <def name="spacer">
+            <button class="space" tooltip="" onclick="()"></button>
+        </def> 
+
+        <!--      -->
     </definitions>
 </eww>

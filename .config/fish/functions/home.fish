@@ -1,4 +1,7 @@
-# Defined via `source`
-function home --wraps='cd /home/pjackim' --description 'alias home cd /home/pjackim'
-  cd /home/pjackim $argv; 
+function home
+    if count $argv > /dev/null
+        cd $HOME/$argv
+    else
+        cd $HOME/ $argv
+    end
 end

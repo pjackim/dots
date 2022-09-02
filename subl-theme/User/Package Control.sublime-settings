@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"C11",
+		"Color Highlighter",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Package Control",
+		"PackageResourceViewer",
+		"RichTextFormat",
+	],
+}

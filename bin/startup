@@ -6,14 +6,21 @@
 # ytfzf
 #kitty --name autostart_ytfzf -e ytfzf -St & 
 
+$HOME/bin/autostart/scripts/killStartup
+
 # Eww
-~/bin/autostart/scripts/launchEww &
+$HOME/bin/autostart/scripts/launchEww &
+$HOME/bin/autostart/scripts/launchEwwContainers &
 
 # Ranger
 # kitty --name autostart_ranger --class kitty_desktop -e ranger /home/ &
 
 # Yakuake
-yakuake &
+
+ps -C yakuake >/dev/null && echo "Running" || yakuake &
+# yakuake &
+
+$HOME/bin/autostart/scripts/launchEwwWindows
 
 # Terminal 
 # kitty --name autostart_term --class kitty_desktop --hold neofetch &

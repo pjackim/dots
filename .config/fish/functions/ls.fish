@@ -1,4 +1,8 @@
-# Defined via `source`
-function ls --wraps='exa -1 ' --description 'alias ls exa -1 '
-  exa -1  $argv; 
+function ls
+
+    if test $Fish_ItemCount -lt $Fish_ItemBreak
+        command exa -1 $arguments $argv;
+    else
+        command exa -G $arguments $argv;
+    end
 end
