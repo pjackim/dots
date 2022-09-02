@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: Plain Text (Prisma Scheme)
+scope: source.prisma
+hidden: true
+file_extensions:
+  - prisma
+contexts:
+  main: []
