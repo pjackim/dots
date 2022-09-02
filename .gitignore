@@ -5,6 +5,8 @@
 !.config/eww/*.xml
 !.config/eww/*.scss
 !.config/eww/scripts/
+.config/eww/scripts/author
+.config/eww/scripts/quote
 !.config/fish/
 !.config/kitty/
 !.config/nvim/
