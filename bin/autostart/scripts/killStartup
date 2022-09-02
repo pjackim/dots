@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while read line; do
+    xdo kill -n $line
+done < $HOME/bin/autostart/logs/startup_instances
+
+
+cat /dev/null > $HOME/bin/autostart/logs/startup_instances

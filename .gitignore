@@ -12,7 +12,7 @@
 !.config/wall/*
 !.config/yakuakerc
 !.config/Code/User/*
-!bin/*
-!konsole/*
-!subl-theme/*
-!coding/personal/scripting/
+!./bin/
+!./konsole/
+!./subl-theme/
+!./coding/personal/scripting/

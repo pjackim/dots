@@ -1,7 +1,10 @@
 #! /bin/python3
 import os
 from subprocess import Popen, PIPE
+import sys
 from time import sleep
+from EwwWindows import getWindows
+
 
 def execute_command(command, args):
     # t = subp.Popen([command, args])
@@ -13,17 +16,6 @@ def exe(command, args = []):
     os.system(command + args + " &")
 
 
-
-#kitty --name autostart_term --class kitty_desktop -e applicationLauncher neofetch &
-# kitty --name integrated_terminal_1 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf --hold "/home/pjackim/bin/autostart/scripts/github_issue_list" &
-# kitty --name integrated_terminal_0 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf -e applicationLauncher typioca &
-# kitty --name integrated_terminal_0 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf -e applicationLauncher typioca &
-# konsole -p name=clear --profile Clear -e applicationLauncher typioca &
-
-
-# konsole -p name=clear-m1 --name clear-m1 --geometry 481x410+2515+595 --profile Clear --separate -e applicationLauncher typioca &
-# konsole -p name=clear-m2-1 --name clear-m2-1 --separate --profile Clear  &
-
 def getNodeName(id):
     p = Popen(['xtitle', str(id)], shell=False, stdout=PIPE, stderr=PIPE)
     try:
@@ -33,29 +25,39 @@ def getNodeName(id):
         pass
 
 
-p1 = Popen(['konsole', '-p', 'name=clear-m3-1', '--name', 'clear-m3-1', '--profile', 'Clear', '-e', 'applicationLauncher', 'thokr', '&'], shell=False, stdout=PIPE, stderr=PIPE)
-try:
-    p1.communicate(timeout=.2)
-except:
-    pass
+windows = getWindows()
+for win in windows:
+    p = Popen(win, shell=False, stdout=PIPE, stderr=PIPE)
+    name = str(win[2])[5:]
+    os.system("echo " + name + " >> $HOME/bin/autostart/logs/startup_instances")
+    try:
+        p.communicate(timeout=.2)
+    except:
+        pass
 
-p2 = Popen(['konsole', '-p', 'name=clear-m2-2', '--name', 'clear-m2-2', '--profile', 'Clear', '-e', 'applicationLauncher', 'sssnake -S -s 10 -f -j 5','&'], shell=False, stdout=PIPE, stderr=PIPE)
-try:
-    p2.communicate(timeout=.2)
-except:
-    pass
+# p1 = Popen(['konsole', '-p', 'name=clear-m3-1', '--name', 'clear-m3-1', '--profile', 'Clear', '-e', 'applicationLauncher', 'thokr', '&'], shell=False, stdout=PIPE, stderr=PIPE)
+# try:
+#     p1.communicate(timeout=.2)
+# except:
+#     pass
 
-p3 = Popen(['konsole', '-p', 'name=clear-m1', '-p', 'font=Iosevka,10', '--name', 'clear-m1', '--profile', 'Clear', '-e', 'applicationLauncher', 'neofetch', '&'], shell=False, stdout=PIPE, stderr=PIPE)
-try:
-    p3.communicate(timeout=.2)
-except:
-    pass
+# p2 = Popen(['konsole', '-p', 'name=clear-m2-2', '--name', 'clear-m2-2', '--profile', 'Clear', '-e', 'applicationLauncher', 'sssnake -S -s 10 -f -j 5','&'], shell=False, stdout=PIPE, stderr=PIPE)
+# try:
+#     p2.communicate(timeout=.2)
+# except:
+#     pass
 
-p4 = Popen(['konsole', '-p', 'name=clear-m2-1', '--name', 'clear-m2-1', '--profile', 'Clear','-e', 'applicationLauncher', 'ls','&'], shell=False, stdout=PIPE, stderr=PIPE)
-try:
-    p4.communicate(timeout=.2)
-except:
-    pass
+# p3 = Popen(['konsole', '-p', 'name=clear-m1', '-p', 'font=Iosevka,10', '--name', 'clear-m1', '--profile', 'Clear', '-e', 'applicationLauncher', 'neofetch', '&'], shell=False, stdout=PIPE, stderr=PIPE)
+# try:
+#     p3.communicate(timeout=.2)
+# except:
+#     pass
+
+# p4 = Popen(['konsole', '-p', 'name=clear-m2-1', '--name', 'clear-m2-1', '--profile', 'Clear','-e', 'applicationLauncher', 'ls','&'], shell=False, stdout=PIPE, stderr=PIPE)
+# try:
+#     p4.communicate(timeout=.2)
+# except:
+#     pass
 
 sleep(1)
 pb = Popen(['bspc', 'query', '-N'], shell=False, stdout=PIPE, stderr=PIPE)

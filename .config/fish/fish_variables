@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR EXA_ICON_SPACING:2
 SETUVAR Fish_ItemBreak:20
-SETUVAR Fish_ItemCount:47
+SETUVAR Fish_ItemCount:102
 SETUVAR __fish_initialized:3100
 SETUVAR arguments:\x2d\x2dgroup\x2ddirectories\x2dfirst\x1e\x2d\x2dicons\x1e\x2d\x2dsort\x3daccessed
 SETUVAR fish_color_autosuggestion:af875f
@@ -33,3 +33,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_user_paths:/home/pjackim/bin/autostart/scripts

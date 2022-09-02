@@ -1,9 +1,0 @@
-#! /bin/bash
-konsole -p name=clear-m2-1 --name clear-m2-1 --profile Clear --hold -e neofetch &
-
-# konsole -p name=clear-m2-1 --name clear-m2-1 --profile Clear -e applicationLauncher neofetch &
-# konsole -p font=Iosevka,10 -p name=clear-m2-1 --name clear-m2-1 --geometry 481x410+2515+595 --profile Clear -e applicationLauncher neofetch &
-konsole -p name=clear-m2-1 --name clear-m2-1 --profile Clear --hold -e neofetch &
-sleep .5
-window=`bspc query -N -n newest`
-bspc node $window --flag sticky

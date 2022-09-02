@@ -1,6 +1,0 @@
-#! /bin/bash
-
-konsole -p name=clear-m1 --name clear-m1 --geometry 481x410+2515+595 --profile Clear -e applicationLauncher typioca &
-sleep .5
-window=`bspc query -N -n newest`
-bspc node $window --flag sticky

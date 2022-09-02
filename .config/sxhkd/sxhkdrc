@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# File Explorer
+alt + f
+	Thunar
+
 # terminal emulator tile
 super + Return
     konsole	
@@ -13,7 +17,7 @@ super + Return
 super + alt + Return
 	konsole --name center
 
-Insert
+Print
 	flameshot gui
 
 # program launcher
@@ -41,12 +45,12 @@ super + m
 	bspc desktop -l next
 
 # send the newest marked node to the newest preselected node
-super + y
-	bspc node newest.marked.local -n newest.!automatic.local
+#super + y
+#	bspc node oldest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest window
-super + g
-	bspc node -s biggest.window
+#super + g
+#	bspc node -s biggest.window
 
 #
 # state/flags
@@ -61,8 +65,8 @@ super + f
 	bspc node -t floating
 
 # set focus to fullscreen	
-super + shift + f
-	bspc node -t fullscreen
+# super + shift + f
+# 	bspc node -t fullscreen
 
 # set the node flags
 super + ctrl + {m,x,y,z}
@@ -74,15 +78,15 @@ super + ctrl + {m,x,y,z}
 #-------------------------------------------------------
 
 # Switch desktops
-tab + shift + {Left,Right}
+super + alt + {Left,Right}
 	bspc desktop -f {prev,next}.local	
 
 # Switch the node in the given direction
-super + {Left,Down,Up,Right}
-	bspc node -s {west,south,north,east}
+#super + shift + {Left,Down,Up,Right}
+#	bspc node -s {west,south,north,east}
 
 # Focus the node in the given direction
-alt + {Left,Down,Up,Right}
+super + {Left,Down,Up,Right}
 	bspc node -f {west,south,north,east}
 
 # move focused window to the next workspace and then switch to that workspace
@@ -99,11 +103,12 @@ super + shift + {Left,Right}
 #	bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
+# !!
+#super + bracket{left,right}
+	#bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
+super + Tab
 	bspc {node} -f last
 
 # focus the older or newer node in the focus history
@@ -135,11 +140,12 @@ super + ctrl + {Left,Down,Up,Right}
 #	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
-super + ctrl + space
+super + esc
 	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
-super + ctrl + shift + space
+#super + ctrl + shift + space
+ctrl + Escape
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 #
@@ -155,10 +161,9 @@ super + alt + shift + {Left,Down,Up,Right}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
-alt + {Left,Down,Up,Right}
+#alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # Applications
 
-alt + f
-	Thunar
+

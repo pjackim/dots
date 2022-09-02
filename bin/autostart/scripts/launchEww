@@ -1,9 +1,11 @@
 #! /bin/bash
 
-killall eww
-#sleep .5
+# # killall eww
+killall eww && eww daemon &
+# sleep .5
+# killStartup
 if ! pgrep "eww" > /dev/null; then
-    echo "starting eww"
+    echo "trying to start eww"
     eww daemon
     sleep .75
 fi

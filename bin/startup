@@ -6,7 +6,7 @@
 # ytfzf
 #kitty --name autostart_ytfzf -e ytfzf -St & 
 
-killStartup
+$HOME/bin/autostart/scripts/killStartup
 
 # Eww
 $HOME/bin/autostart/scripts/launchEww &
@@ -16,7 +16,9 @@ $HOME/bin/autostart/scripts/launchEwwContainers &
 # kitty --name autostart_ranger --class kitty_desktop -e ranger /home/ &
 
 # Yakuake
-yakuake &
+
+ps -C yakuake >/dev/null && echo "Running" || yakuake &
+# yakuake &
 
 $HOME/bin/autostart/scripts/launchEwwWindows
 

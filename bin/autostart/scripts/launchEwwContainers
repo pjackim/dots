@@ -1,17 +1,24 @@
 #! /bin/bash
 
+
+exeEww() {
+    prefix="eww-"
+    echo $prefix$1 >> $HOME/bin/autostart/logs/startup_instances
+    eww open $1 &
+}
+
 while ! eww state; do
     sleep 0.1
 done
 
 if pgrep "eww" > /dev/null; then
-    eww open m1-left &
-    eww open m1-right &
-    eww open m1-right-container1 &
-    eww open m2-left &
-    eww open m2-right &
-    eww open m2-right-container1 &
-    eww open m3-top-container &
+    exeEww m1-left
+    exeEww m1-right
+    exeEww m1-right-container1
+    exeEww m2-left
+    exeEww m2-right
+    exeEww m2-right-container1
+    exeEww m3-top-container
 fi
 clear
 exec "$SHELL"
