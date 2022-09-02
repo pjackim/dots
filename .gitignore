@@ -4,9 +4,12 @@
 !.config/bspwm/
 !.config/eww/*.xml
 !.config/eww/*.scss
-!.config/eww/scripts/
-.config/eww/scripts/author
-.config/eww/scripts/quote
+!.config/eww/scripts/*.sh
+!.config/eww/scripts/hour-parse
+!.config/eww/scripts/home-dir
+!.config/eww/scripts/get*
+!.config/eww/scripts/weather-trimmer
+!.config/eww/scripts/parser
 !.config/fish/
 !.config/kitty/
 !.config/nvim/

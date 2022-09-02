@@ -8,6 +8,7 @@
     "editor.minimap.enabled": false,
     "tabnine.experimentalAutoImports": true,
     "workbench.editorAssociations": [
+
         {
             "viewType": "jupyter-notebook",
             "filenamePattern": "*.ipynb"
@@ -28,6 +29,7 @@
     "security.workspace.trust.untrustedFiles": "open",
 
     "workbench.colorCustomizations": {
+        
         
         "activityBar.border": "#67939A00",
         "sideBar.border": "#89C7C700",
