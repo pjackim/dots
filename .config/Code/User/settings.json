@@ -1,5 +1,7 @@
 {
-    "vscode_custom_css.imports": ["file:///home/pjackim/.config/Code/User/customStyle.css"],
+    "vscode_custom_css.imports": [
+        "file:///home/pjackim/.config/Code/User/customStyle.css"
+    ],
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro Flat",
     "[css]": {
@@ -8,7 +10,6 @@
     "editor.minimap.enabled": false,
     "tabnine.experimentalAutoImports": true,
     "workbench.editorAssociations": [
-
         {
             "viewType": "jupyter-notebook",
             "filenamePattern": "*.ipynb"
@@ -16,9 +17,7 @@
     ],
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
     "commands.commands": {
-        
         "tog": {
             "sequence": [
                 "workbench.action.toggleActivityBarVisibility",
@@ -27,10 +26,7 @@
         },
     },
     "security.workspace.trust.untrustedFiles": "open",
-
     "workbench.colorCustomizations": {
-        
-        
         "activityBar.border": "#67939A00",
         "sideBar.border": "#89C7C700",
         "button.border": "#E6C06800",
@@ -49,15 +45,11 @@
         "editor.selectionBackground": "#D9A36244",
         "icon.foreground": "#D9A362",
         "activityBar.foreground": "#E6C068",
-
         "scrollbar.shadow": "#D9A362",
         "widget.shadow": "#D9A362",
         "welcomePage.tileShadow": "#D9A362",
-
         "scrollbarSlider.background": "#2d313d",
         "scrollbarSlider.foreground": "#89C7C7",
-
-
         "editorPane.background": "#2d313d",
         "editorGutter.background": "#2d313d",
         "activityBar.background": "#2d313d",
@@ -71,7 +63,6 @@
         "terminal.background": "#2d313d",
         "editor.background": "#2d313d",
         "sideBar.background": "#2d313d",
-        
         "editor.tokenColorCustomizations": {
             "[Monokai]": {
                 "comments": "#229977"
@@ -83,9 +74,8 @@
                 "keywords": "#f00"
             }
         }
-        
     },
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "compact",
     "explorer.confirmDelete": false,
     "editor.fontFamily": "'Iosevka Term', 'Iosevka', 'Font Awesome 6', 'Font Awesome 6 Pro', 'Font Awesome 6 Brands', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "cSpell.enableFiletypes": [
@@ -97,9 +87,34 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "window.zoomLevel": 1,
     "launch": {
         "configurations": [],
         "compounds": []
     },
+    "workbench.startupEditor": "none",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "redhat.telemetry.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "extensions.supportUntrustedWorkspaces": {},
+    "vscode-autosave.disableProgressNotifications": true,
+    "notebook.output.textLineLimit": 100,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "files.associations": {
+        "*.py": "python"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "mikeburgh.xml-format"
+    },
+    "window.zoomLevel": 1,
 }

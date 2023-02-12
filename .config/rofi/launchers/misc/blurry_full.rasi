@@ -18,20 +18,23 @@ configuration {
 }
 
 * {
-    background:                     #00000000;
-    background-alt:              	#00000000;
-    background-bar:                 #f2f2f215;
-    foreground:                     #f2f2f2EE;
-    accent:			            	#3DAEE966;
+    clear:                          #00000000;
+    background:                     #2D313D7F;
+    background-alt:              	transparent;
+    background-bar:                 #445F6C;
+    foreground:                     #D9A362;
+    accent:			            	#F2DC6D;
+    accentlight:	            	#F2DC6D22;
+    entry:                          #2D313D;
 }
 
 window {
     transparency:                   "real";
-    background-color:               @background;
+    background-color:               @background-alt;
     text-color:                     @foreground;
-	border:							0px;
-	border-color:					@border;
-    border-radius:                  0px;
+	border:							2px;
+	border-color:					transparent;
+    border-radius:                  12px;
 	width:							100%;
 	height:							100%;
 }
@@ -39,13 +42,13 @@ window {
 prompt {
     enabled: 						true;
 	padding: 						0.30% 1% 0% -0.5%;
-	background-color: 				@background-alt;
-	text-color: 					@foreground;
-	font:							"FantasqueSansMono Nerd Font 12";
+	background-color: 				@clear;
+	text-color: 					@accent;
+	font:							"Iosveka Nerd Font 12";
 }
 
 entry {
-    background-color:               @background-alt;
+    background-color:               @clear;
     text-color:                     @foreground;
     placeholder-color:              @foreground;
     expand:                         true;
@@ -57,7 +60,7 @@ entry {
 
 inputbar {
 	children: 						[ prompt, entry ];
-    background-color:               @background-bar;
+    background-color:               @background;
     text-color:                     @foreground;
     expand:                         false;
 	border:							0% 0% 0% 0%;
@@ -68,27 +71,28 @@ inputbar {
 }
 
 listview {
-    background-color:               @background-alt;
+    background-color:               @background;
     columns:                        8;
     lines:                          4;
     spacing:                        0%;
     cycle:                          false;
     dynamic:                        true;
     layout:                         vertical;
+    border-radius:                  12px;
 }
 
 mainbox {
     background-color:               @background-alt;
 	border:							0% 0% 0% 0%;
-    border-radius:                  0% 0% 0% 0%;
+    border-radius:                  12px;
 	border-color:					@accent;
     children:                       [ inputbar, listview ];
-    spacing:                       	8%;
+    spacing:                       	2%;
     padding:                        10% 12.5% 10% 12.5%;
 }
 
 element {
-    background-color:               @background-alt;
+    background-color:               @clear;
     text-color:                     @foreground;
     orientation:                    vertical;
     border-radius:                  0%;
@@ -96,7 +100,7 @@ element {
 }
 
 element-icon {
-    background-color: 				@background;
+    background-color: 				@clear;
     text-color:       				inherit;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
@@ -105,7 +109,7 @@ element-icon {
 }
 
 element-text {
-    background-color: 				@background;
+    background-color: 				@clear;
     text-color:       				inherit;
     expand:                         true;
     horizontal-align:               0.5;
@@ -114,9 +118,9 @@ element-text {
 }
 
 element selected {
-    background-color:               @background-bar;
+    background-color:               @accentlight;
     text-color:                     @foreground;
-	border:							0% 0% 0% 0%;
+	border:							1px;
     border-radius:                  12px;
     border-color:                  	@accent;
 }

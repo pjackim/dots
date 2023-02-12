@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=DarkPastels
-Font=Iosevka,13,-1,5,50,0,0,0,0,0
+Font=Iosevka Nerd Font Mono [CYEL],13,-1,5,50,0,0,0,0,0
 TabColor=207,166,122
 UseFontLineChararacters=false
 

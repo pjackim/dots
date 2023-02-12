@@ -2,7 +2,7 @@
     <definitions>
         <def name="m2-left-package">
             <box class="invis-container" orientation="v" space-evenly="false">
-                <window-container/>
+                <box class="window-container"></box>
                 <server-box/>
                 <site-box/>
                 <switch-box/>
@@ -17,7 +17,7 @@
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
                         <server-main/>
-                        <server-farm/>
+                        <server-dover/>
                         <server-denver/>
                         <server-getafix/>
                     </box>
@@ -42,7 +42,7 @@
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
                         <kali-mode/>
-                        <spacer/>
+                        <vmware/>
                     </box>
                 </box>
             </box>
@@ -92,11 +92,7 @@
                     </box>
                 </box>
             </box>
-        </def>         
-        <def name="window-container">
-            <box class="window-container">
-            </box>
-        </def>               
+        </def>                    
     </definitions>
     <windows>
         <window name="m2-left" exclusive="false" focusable="false" stacking="bg">

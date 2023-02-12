@@ -1,4 +1,4 @@
 # Defined via `source`
-function lsa --wraps=la --description 'alias lsa la'
-  la $argv; 
+function lsa --wraps=ls --description 'sorts by name'
+  command exa -aFG --sort=name; 
 end

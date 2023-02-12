@@ -93,6 +93,17 @@
         border-radius: 1000px;
     }
     
+    .btn-img {
+        color: colors.$c1colored-button-foreground;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 35px;
+        min-height: 200px;
+        min-width: 200px;
+        margin: 20px 20px -60px 25px;
+        border-radius: 1000px;
+    }
+    
     .profile_text {
         margin-top: 100px;
         color: colors.$primary;

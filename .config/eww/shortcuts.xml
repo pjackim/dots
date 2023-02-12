@@ -127,16 +127,28 @@
             <button  tooltip="discord" onclick="(discord)"></button>
         </def>
 
+        <def name="slack">
+            <button  tooltip="slack" onclick="(slack)"></button>
+        </def>
+
+        <def name="telegram">
+            <button  tooltip="telegram" onclick="(telegram-desktop)"></button>
+        </def>
+
+        <def name="vmware">
+            <button  tooltip="vmware" onclick="(vmplayer)"></button>
+        </def>
+
         <def name="school">
             <button  tooltip="school" onclick="(w-school)">拾</button>
         </def>
 
         <def name="server-main">
-            <button  tooltip="Server: Main" onclick="(konsole -e applicationLauncher 'ssh main')"></button>
+            <button  tooltip="Server: Personal" onclick="(konsole -e applicationLauncher 'ssh server')"></button>
         </def>
 
-        <def name="server-farm">
-            <button  tooltip="Server: Farm" onclick="(konsole -e applicationLauncher 'ssh farm')"></button>
+        <def name="server-dover">
+            <button  tooltip="Server: cs.dover" onclick="(konsole -e applicationLauncher 'ssh dover')"></button>
         </def>
 
         <def name="server-denver">
@@ -161,6 +173,11 @@
 
         <def name="kali-mode">
             <button  tooltip="Hacking Desktop" onclick="(/home/pjackim/coding/personal/scripting/toggleEwwGray)"></button>
+        </def>    
+
+        <def name="leetcode">
+            <button  class="btn-img" tooltip="leet code" onclick="({{browser}} 'https://leetcode.com/problemset/all/')" style="background-image: url('/home/pjackim/.config/eww/images/leetcode.svg');"></button>
+            <!-- <img src="/home/pjackim/.config/eww/images/leetcode.svg"/> -->
         </def>    
 
         <def name="spacer">

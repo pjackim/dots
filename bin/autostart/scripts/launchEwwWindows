@@ -35,30 +35,6 @@ for win in windows:
     except:
         pass
 
-# p1 = Popen(['konsole', '-p', 'name=clear-m3-1', '--name', 'clear-m3-1', '--profile', 'Clear', '-e', 'applicationLauncher', 'thokr', '&'], shell=False, stdout=PIPE, stderr=PIPE)
-# try:
-#     p1.communicate(timeout=.2)
-# except:
-#     pass
-
-# p2 = Popen(['konsole', '-p', 'name=clear-m2-2', '--name', 'clear-m2-2', '--profile', 'Clear', '-e', 'applicationLauncher', 'sssnake -S -s 10 -f -j 5','&'], shell=False, stdout=PIPE, stderr=PIPE)
-# try:
-#     p2.communicate(timeout=.2)
-# except:
-#     pass
-
-# p3 = Popen(['konsole', '-p', 'name=clear-m1', '-p', 'font=Iosevka,10', '--name', 'clear-m1', '--profile', 'Clear', '-e', 'applicationLauncher', 'neofetch', '&'], shell=False, stdout=PIPE, stderr=PIPE)
-# try:
-#     p3.communicate(timeout=.2)
-# except:
-#     pass
-
-# p4 = Popen(['konsole', '-p', 'name=clear-m2-1', '--name', 'clear-m2-1', '--profile', 'Clear','-e', 'applicationLauncher', 'ls','&'], shell=False, stdout=PIPE, stderr=PIPE)
-# try:
-#     p4.communicate(timeout=.2)
-# except:
-#     pass
-
 sleep(1)
 pb = Popen(['bspc', 'query', '-N'], shell=False, stdout=PIPE, stderr=PIPE)
 try:
@@ -69,7 +45,7 @@ try:
     for node in nodes:
         
         name = getNodeName(node)
-        if "clear" in name:
+        if "clear" in name or "lichess" in name:
             os.system("bspc node "+node+" --flag sticky=on")
             print(node, name, "---- Sticky:", sep="\t")
         else:
