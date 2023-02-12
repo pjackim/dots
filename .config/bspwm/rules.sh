@@ -1,5 +1,5 @@
 #!/bin/sh
-bspc config normal_border_color \#836A50
+bspc config normal_border_color \#836A5000
 bspc config focused_border_color \#D9A362
 
 bspc config border_width         2
@@ -33,8 +33,16 @@ bspc rule -a *:clear-m2-1 desktop='^20' state=floating layer=below border=off re
 bspc rule -a *:clear-m3-1 desktop='^1' state=floating layer=below border=off rectangle="950"x"410"+"71"+"50"
 bspc rule -a clear:integrated_terminal_0 desktop='^11' state=floating rectangle="481"x"410"+"2515"+"595" layer=below border=off
 bspc rule -a clear:integrated_terminal_1 desktop='^21' state=floating rectangle="950"x"410"+"71"+"50" layer=below border=off
+bspc rule -a clear:integrated_terminal_1 desktop='^21' state=floating rectangle="950"x"410"+"71"+"50" layer=below border=off
 
+bspc rule -a lichess-nativefier-ab72a5 desktop='^11' state=floating layer=below border=off rectangle="461"x"400"+"2525"+"605" 
+
+
+
+bspc rule -a java-util-concurrent-ForkJoinWorkerThread state=floating
 bspc rule -a feh state=floating
+bspc rule -a tk state=floating
+bspc rule -a Tk state=floating
 bspc rule -a rdesktop state=floating
 bspc rule -a thunar state=floating
 bspc rule -a Opera::"Picture in Picture" state=floating

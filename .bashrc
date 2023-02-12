@@ -13,14 +13,15 @@ else
 	PS1='\u@\h \W > '
 fi
 
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+
+
 # Ignore upper and lowercase when TAB completion
 bind "set completion-ignore-case on"
-
-
-# -------------------------------------------
-# 			Fish
-# -------------------------------------------
-exec fish
 
 # -------------------------------------------
 # 			Install Configs
@@ -111,7 +112,7 @@ alias celar='clear'
 # -------------------------------------------
 # 			Fish
 # -------------------------------------------
-#exec fish
+exec fish
 
 xset s off -dpms
 # BEGIN_KITTY_SHELL_INTEGRATION

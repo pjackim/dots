@@ -46,10 +46,10 @@
         <script-var name="l5" interval="20h">./scripts/home-dir/l5</script-var>
         <script-var name="l6" interval="20h">./scripts/home-dir/l6</script-var>
         <!-- Quote vars -->
-        <script-var name="author-quote" interval="5m">cat ./scripts/author</script-var>
-        <script-var name="quote" interval="5m">cat ./scripts/quote</script-var>
-        <script-var name="quote-gen" interval="5m">./scripts/quotes</script-var>
-        <script-var name="quote-tail" interval="5m">cat ./scripts/quote-tail</script-var>
+        <script-var name="author-quote" interval="1m">cat ./scripts/author</script-var>
+        <script-var name="quote" interval="1m">cat ./scripts/quote</script-var>
+        <script-var name="quote-gen" interval="1m">./scripts/getQuote</script-var>
+        <script-var name="quote-tail" interval="1m">cat ./scripts/quote-tail</script-var>
         <!--Vpn stats-->
         <script-var name="getvpnstat" interval="10s">./scripts/getvpnstat</script-var>
         <script-var name="vpn-hex" interval="10s">cat /tmp/xmonad/vpnstat-hex</script-var>

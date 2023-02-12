@@ -1,7 +1,7 @@
 /*
 !.bashrc
 !.README.md
-!.config/bspwm/
+!.config/bspwm/*
 !.config/eww/*.xml
 !.config/eww/*.scss
 !.config/eww/scripts/*.sh
@@ -18,8 +18,9 @@
 !.config/Thunar/
 !.config/wall/
 !.config/yakuakerc
-!.config/Code/User/
+!.config/Code/User/*
 !./bin/
-!./konsole/
+!.config/konsolerc
 !./subl-theme/
 !./coding/personal/scripting/
+# .config/konsole.kmessagebox

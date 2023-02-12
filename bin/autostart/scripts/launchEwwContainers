@@ -14,7 +14,7 @@ done
 if pgrep "eww" > /dev/null; then
     exeEww m1-left
     exeEww m1-right
-    exeEww m1-right-container1
+    exeEww m1-right-container1-chess
     exeEww m2-left
     exeEww m2-right
     exeEww m2-right-container1

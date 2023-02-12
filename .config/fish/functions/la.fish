@@ -1,3 +1,3 @@
 function la
-    command exa -aG $arguments $argv;
+    command exa -aGF $arguments $argv;
 end

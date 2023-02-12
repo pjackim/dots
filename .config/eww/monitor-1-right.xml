@@ -37,11 +37,13 @@
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
                         <!-- <spotify/> -->
+                        <slack/>
+                        <telegram/>
                         <youtube/>
-                        <!-- <instagram/> -->
-                        <!-- <reddit/> -->
+                        <instagram/>
+                        <reddit/>
                         <discord/>
-                        <chess/>
+                        <!-- <chess/> -->
                     </box>
                 </box>
             </box>
@@ -77,6 +79,7 @@
             <box class="invis-container" orientation="v" space-evenly="false">
                 <box class="v-label-container" orientation="v" space-evenly="true">
                     <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <leetcode/>
                         <crypto/>
                         <hack-the-box/>
                         <network/>
@@ -96,10 +99,10 @@
                 <label class="clock-day-n" text="{{number_day}}"/>
             </box>
         </def>
-        <def name="window-container">
+        <!-- <def name="window-container">
             <box class="window-container">
             </box>
-        </def>
+        </def> -->
     </definitions>
     <windows>
         <window name="m1-right" exclusive="false" focusable="false" stacking="bg">
@@ -108,11 +111,17 @@
                 <m1-right-package/>
             </widget>
         </window>
-        <window name="m1-right-container1" exclusive="false" focusable="false" stacking="bg">
+        <!-- <window name="m1-right-container1" exclusive="false" focusable="false" stacking="bg">
             <geometry x="1435px" y="595px" width="25%" height="25%"/>
             <widget>
                 <window-container/>
             </widget>
-        </window>
+        </window> -->
+        <!-- <window name="m1-right-container1-chess" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="1435px" y="595px" width="25%" height="25%"/>
+            <widget>
+                <box class="window-container"></box>
+            </widget>
+        </window> -->
     </windows>
 </eww>
