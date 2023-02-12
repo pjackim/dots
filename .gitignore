@@ -18,7 +18,7 @@
 !.config/Thunar/
 !.config/wall/
 !.config/yakuakerc
-!.config/Code/User/
+!.config/Code/User/*
 !./bin/
 !.config/konsolerc
 !./subl-theme/
