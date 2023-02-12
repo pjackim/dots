@@ -1,0 +1,175 @@
+:root {
+    --primary: #D9A362;
+    --secondary: #F2DC6D;
+    --accent: #89C7C7;
+    --good: #BED29A;
+    --bad: #A06A5F;
+    /* --background: #2D313D; */
+    /* --foreground: #424650; */
+    --foreground: #5a5c63;
+    --background: #484A52;
+}
+
+
+/* filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%); */
+
+cg-board {
+    background-image: url("https://erebus.feralhosting.com/x13/custom.svg") !important;
+    /* filter: invert(34%) sepia(14%) saturate(217%) hue-rotate(189deg) brightness(100%) contrast(91%) !important; */
+    /* white */
+    /* filter: invert(0%) sepia(98%) saturate(6%) hue-rotate(148deg) brightness(99%) contrast(103%); */
+    /* filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%); */
+    /* background-image: url("./brown.svg") !important; */
+}
+
+square.move-dest {
+    background-color: var(--primary) !important;
+    opacity: 30%;
+}
+
+square.last-move {
+    background-color: var(--secondary) !important;
+    opacity: 80%;
+}
+
+.puzzle__session a.result-false {
+    background: var(--bad) !important;
+}
+
+.puzzle__session a.current {
+    background: var(--primary) !important;
+}
+
+.puzzle__session a.result-true {
+    background: var(--good) !important;
+}
+
+a {
+    color: var(--accent) !important;
+}
+
+.cmn-toggle:checked+label,
+.cmn-toggle:checked+label::before {
+    color: var(--good) !important;
+}
+
+.cmn-toggle:not(:checked)+label,
+.cmn-toggle--subtle:not(:checked)+label::before {
+    color: var(--bad) !important;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: inherit;
+    color: var(--secondary) !important;
+    outline-color: var(--primary) !important;
+}
+
+.main-board {
+    position: relative;
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+    width: 100%;
+}
+
+header,
+#top {
+    z-index: -999 !important;
+    --site-header-height: 0px !important;
+    height: 0px !important;
+}
+
+body {
+    background: var(--primary) !important;
+    --site-header-height: 0px;
+    --main-margin: 0 !important;
+    overflow: hidden;
+    background: none !important;
+    background-color: var(--background) !important;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    --bw: 572px;
+    grid-template-columns: var(--bw) calc(100% - var(--bw)) 0px !important;
+    grid-template-rows: fit-content(0) !important;
+    grid-template-areas: "board gauge tools""session . controls""kb-move . controls""side side side" !important;
+    grid-row-gap: 2vmin;
+}
+
+::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+#main-wrap {
+    --main-max-width: 1300px !important;
+}
+
+.puzzle__controls {
+    grid-area: tools !important;
+}
+
+.puzzle__session {
+    grid-area: gauge !important;
+    flex-flow: column-reverse !important;
+    align-self: start;
+    background: #5a5c63 !important;
+    height: max-content !important;
+    margin-top: 0.3em !important;
+    padding-top: 0.6em !important;
+    padding-bottom: 1.5em !important;
+    border-radius: 15px;
+}
+
+.puzzle__session a {
+    flex: 0 0 1.5em;
+    color: var(--background) !important;
+    margin-top: 0.2em !important;
+    margin-left: 0.7em !important;
+    margin-right: 0.7em !important;
+}
+
+.puzzle__tools {
+    grid-area: session !important;
+}
+
+.puzzle__feedback,
+.puzzle__tools,
+.puzzle__side * {
+    background: var(--foreground) !important;
+    background-color: var(--foreground) !important;
+}
+
+.puzzle__side {
+    grid-template-columns: 1fr !important;
+    grid-template-areas: "user" "theme" "metas" "config" !important;
+    grid-gap: 2vmin !important;
+    grid-column-end: session !important;
+}
+
+#main-wrap {
+    display: grid;
+    --main-max-width: 1300px;
+    margin-top: var(--site-header-margin);
+}
+
+@media (min-width: 500px) {
+    .puzzle__side {
+        grid-template-columns: 1fr !important;
+        grid-template-areas: "metas" "user" "metas" "theme" "config" "theme" !important;
+    }
+}
+
+@media (min-width: 800px),
+(orientation: landscape) {
+    .puzzle {
+        grid-template-columns: 10px minmax(calc(70vmin * var(--board-scale)), calc(100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem)) var(--gauge-gap) minmax(240px, 400px);
+        grid-template-rows: fit-content(0);
+        grid-template-areas: "left""board""controls""tools""session""kb-move""side";
+    }
+}
