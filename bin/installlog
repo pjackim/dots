@@ -1,0 +1,34 @@
+#/bin/bash
+RED='\033[0;31m'
+bRED='\433[0;31m'
+YEL='\033[0;33m'
+bYEL='\433[0;33m'
+GRN='\033[1;37m'
+bGRN='\433[1;37m'
+BLD='\033[1;32m'
+REG='\033[0;32m'
+NC='\033[0m' # No Color
+output=$(grep -iE "installed|upgraded|removed" /var/log/pacman.log)
+processed=$(echo "$output" | sed 's/.*ALPM-SCRIPTLET.*//' )
+processed=$(echo "$processed" | sed 's/.*reinstalled/ /' )
+processed=$(echo "$processed" | sed 's/.*installed/ /' )
+processed=$(echo "$processed" | sed 's/.*removed/ /' )
+processed=$(echo "$processed" | sed '/^$/d' )
+
+# loop though each line in $processed
+color=$NC
+while IFS= read -r line; do
+    if [[ $line = * ]]; then
+        color="$RED"
+    elif [[ $line = * ]]; then
+        color="$YEL"
+    elif [[ $line = * ]]; then
+        color="$GRN"
+    else
+        color="$NC"
+    fi
+    printf "  ├─ $color${line:0:1}$NC  ${line:3}\n"
+done <<< "$processed"
+printf "  ╰─────────────────────────────────╮\n"
+printf "        $BLD Installation Log$REG          │\n"
+printf "  ╭─────────────────────────────────╯\n"

@@ -1,0 +1,14 @@
+#! /bin/bash
+clear
+echo
+eval $1
+eval "cd ~"
+exec "$SHELL"
+while [ true ] ; do
+    read 
+    if [ $? = 0 ] ; then
+        break ;
+    fi
+done
+reset
+# exec "$SHELL -e \"cd /home/pjackim\""

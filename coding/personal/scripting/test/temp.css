@@ -1,0 +1,50 @@
+:root {
+    --color-primary: #19c37d;
+    --color-secondary: #D9A362;
+    --color-error: #A06A5F;
+    --gradient-primary: linear-gradient(90deg,#a29bd4,#989fdd);
+    --text-primary: #D9A362;
+    --text-default: #353740;
+    --text-secondary: #6e6e80;
+    --text-disabled: #acacbe;
+    --bg: #2D313D;
+    --bgl: #3a3e4a;
+    --text-error: var(--color-error);
+}
+
+a, a.py-3{
+    color: var(--color-secondary);
+}
+
+div.text-ellipsis {
+    color: var(--color-secondary);
+}
+
+.dark .dark\:bg-gray-700 {
+    background-color: var(--bgl);
+}
+
+.dark .dark\:border-gray-900\/50 {
+    border-color: #F2DC6D;
+}
+
+.dark .dark\:border-white\/20 {
+    border-color: #F2DC6D44;
+}
+
+.dark, li *, ul {
+    border-color: #F2DC6D44;
+    color: var(--color-secondary) !important;
+}
+
+textarea {
+    color: var(--color-secondary);
+}
+
+ul.ring-0, ul.ring-1 {
+    border-color: #F2DC6D44;
+}
+
+.dark .dark\:text-gray-600 {
+    color: var(--color-secondary);
+}

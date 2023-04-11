@@ -1,0 +1,74 @@
+#/bin/bash
+# pinstall="sudo pacman -S --noconfirm "
+pinstall="sudo pacman -S --noconfirm "
+yinstall="yay -S "
+
+
+# ---------
+# Essential
+# ---------
+
+# Pacman
+ppackages=" most"
+ppackages+=" xdo"
+ppackages+=" polybar"
+ppackages+=" rofi"
+ppackages+=" nitrogen"
+ppackages+=" sxhkd"
+ppackages+=" bspwm"
+ppackages+=" xorg"
+ppackages+=" "
+ppackages+=" "
+$pinstall $ppackages
+
+# yay
+ypackages=" xtitle"
+ypackages=" flat-remix"
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+$yinstall $ypackages
+
+# ---------
+# applications
+# ---------
+# Pacman
+ppackages+=" polybar"
+ppackages+=" yakuake"
+ppackages+=" fish"
+ppackages+=" exa"
+ppackages+=" thunar"
+ppackages+=" lxappearance"
+ppackages+=" konsole"
+ppackages+=" rofi-greenclip"
+ppackages+=" visual-studio-code-bin"
+ppackages+=" sublime-text-4"
+ppackages+=" neovim"
+ppackages+=" google-chrome"
+ppackages+=" ipython"
+ppackages+=" "
+ppackages+=" "
+ppackages+=" "
+ppackages+=" "
+ppackages+=" "
+
+$pinstall $ppackages
+
+# yay
+ypackages=" flat-remix"
+ypackages=" lightdm-webkit2-theme-glorious"
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+ypackages=" "
+
+$yinstall $ypackages
