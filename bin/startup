@@ -1,0 +1,10 @@
+#! /bin/bash
+
+# Close Eww and startup windows
+cd $HOME/.config/startup/eww/ && ./launchEwwWindows.py -k
+
+# Eww
+$HOME/.config/startup/eww/launchEww
+
+# Open Eww windows and startup windows
+cd $HOME/.config/startup/eww/ && ./launchEwwWindows.py -s
