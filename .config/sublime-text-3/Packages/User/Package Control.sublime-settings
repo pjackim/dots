@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"C11",
+		"Color Highlighter",
+		"Jedi - Python autocompletion",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Package Control",
+		"PackageResourceViewer",
+		"Python 3",
+		"Python Completions",
+		"RichTextFormat",
+	],
+}

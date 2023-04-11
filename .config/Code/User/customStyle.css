@@ -1,0 +1,618 @@
+:root {
+    --primary: rgb(217, 163, 98);
+    --secondary: #2D313D;
+    --background: var(--secondary);
+    --highlight: rgba(217, 163, 98, 0.25);
+    --shade1: #445F6C;
+    --shade2: #67939A;
+    --shade3: #89C7C7;
+    --shade4: rgb(190, 210, 154);
+    --shade5: #f2dc6d;
+    --shade6: #E6C068;
+    --shade7: #D9A362;
+    --shade8: #A06A5F;
+    --linehighlight: rgba(217, 163, 98, .15);
+    --matchHighlight: rgba(190, 210, 154, .2);
+}
+
+
+/*
+.view-lines *,
+.linux {
+    font-family: iosevka term !important;
+}
+
+.monacro-editor {
+    color: var(--primary);
+}
+
+.monaco-editor-background {
+    background-color: var(--background);
+}
+
+.monaco-workbench {
+    color: var(--shade7);
+    background-color: var(--secondary) !important;
+}
+
+footer {
+    background-color: var(--background) !important;
+}
+
+#status\.host {
+    background-color: var(--background) !important;
+    text-align: center;
+    width: 48px;
+}
+
+.monaco-editor .line-numbers {
+    color: var(--shade7);
+}
+
+.active-line-number {
+    color: var(--shade5) !important;
+    font-size: larger;
+}
+
+.codicon-tree-item-expanded:before {
+    content: '\eab4';
+    font-size: larger;
+    color: var(--shade3);
+}
+
+.codicon-tree-item-expanded.collapsed:before {
+    content: '\eab4';
+    font-size: medium;
+    color: var(--shade2);
+}
+
+.activitybar {
+    background-color: var(--shade1) !important;
+}
+
+.codicon {
+    color: var(--shade3) !important;
+}
+
+.install {
+    background-color: var(--shade4) !important;
+}
+
+.margin-view-overlays {
+    margin-left: -20px !important;
+}
+
+.monaco-scrollable-element .editor-scrollable {
+    left: 30px !important;
+}
+
+.monaco-editor .focused .selected-text {
+    background-color: var(--shade8);
+}
+
+.monaco-editor .selected-text {
+    background-color: var(--highlight);
+}
+
+.monaco-workbench {
+    forced-color-adjust: none;
+}
+
+.monaco-editor .minimap-slider .minimap-slider-horizontal {
+    background: rgba(78, 86, 102, 0.25);
+}
+
+.monaco-editor .minimap-slider:hover .minimap-slider-horizontal {
+    background: rgba(90, 99, 117, 0.25);
+}
+
+.monaco-editor .minimap-slider.active .minimap-slider-horizontal {
+    background: rgba(116, 125, 145, 0.25);
+}
+
+.monaco-editor .minimap-shadow-visible {
+    box-shadow: #000000 -6px 0 6px -6px inset;
+}
+
+.monaco-editor .scroll-decoration {
+    box-shadow: #000000 0 6px 6px -6px inset;
+}
+
+.monaco-editor .focused .selected-text {
+    background-color: var(--linehighlight);
+}
+
+.monaco-editor .selected-text {
+    background-color: var(--linehighlight);
+}
+
+.monaco-editor,
+.monaco-editor-background,
+.monaco-editor .inputarea.ime-input {
+    background-color: #282c34;
+}
+
+.monaco-editor,
+.monaco-editor .inputarea.ime-input {
+    color: #abb2bf;
+}
+
+.monaco-editor .margin {
+    background-color: #282c34;
+}
+
+.monaco-editor .rangeHighlight {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.monaco-editor .symbolHighlight {
+    background-color: rgba(251, 255, 0, 0.24);
+}
+
+.monaco-editor .mtkw {
+    color: rgba(171, 178, 191, 0.15) !important;
+}
+
+.monaco-editor .mtkz {
+    color: rgba(171, 178, 191, 0.15) !important;
+}
+
+.monaco-editor .view-overlays .current-line {
+    background-color: var(--linehighlight);
+}
+
+.monaco-editor .margin-view-overlays .current-line-margin {
+    background-color: rgba(153, 187, 255, 0.04);
+    border: none;
+}
+
+.monaco-editor .lines-content .cigr {
+    box-shadow: 1px 0 0 0 rgba(171, 178, 191, 0.15) inset;
+}
+
+.monaco-editor .lines-content .cigra {
+    box-shadow: 1px 0 0 0 #626772 inset;
+}
+
+.monaco-editor .view-ruler {
+    box-shadow: 1px 0 0 0 rgba(171, 178, 191, 0.15) inset;
+}
+
+.monaco-editor .cursors-layer .cursor {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #ad7400;
+}
+
+.monaco-editor .contentWidgets .codicon.codicon-light-bulb {
+    color: #ffcc00;
+    background-color: rgba(40, 44, 52, 0.7);
+}
+
+.monaco-editor .contentWidgets .codicon.codicon-lightbulb-autofix {
+    color: var(--shade3);
+    background-color: rgba(40, 44, 52, 0.7);
+}
+
+.monaco-editor .codelens-decoration {
+    color: #999999;
+}
+
+.monaco-editor .codelens-decoration .codicon {
+    color: #999999;
+}
+
+.monaco-editor .codelens-decoration>a:hover {
+    color: var(--shade2) !important;
+}
+
+.monaco-editor .codelens-decoration>a:hover .codicon {
+    color: var(--shade2) !important;
+}
+
+.monaco-editor .findOptionsWidget {
+    background-color: #21252b;
+}
+
+.monaco-editor .findOptionsWidget {
+    color: #cccccc;
+}
+
+.monaco-editor .findOptionsWidget {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.36);
+}
+
+.codicon.codicon-symbol-array {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-boolean {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-class {
+    color: var(--shade6);
+}
+
+.codicon.codicon-symbol-method {
+    color: #b180d7;
+}
+
+.codicon.codicon-symbol-color {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-constant {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-constructor {
+    color: #b180d7;
+}
+
+.codicon.codicon-symbol-value,
+.codicon.codicon-symbol-enum {
+    color: var(--shade6);
+}
+
+.codicon.codicon-symbol-enum-member {
+    color: var(--shade3);
+}
+
+.codicon.codicon-symbol-event {
+    color: var(--shade6);
+}
+
+.codicon.codicon-symbol-field {
+    color: var(--shade3);
+}
+
+.codicon.codicon-symbol-file {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-folder {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-function {
+    color: #b180d7;
+}
+
+.codicon.codicon-symbol-interface {
+    color: var(--shade3);
+}
+
+.codicon.codicon-symbol-key {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-keyword {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-module {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-namespace {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-null {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-number {
+    color: var(--shade4);
+}
+
+.codicon.codicon-symbol-object {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-operator {
+    color: var(--shade4);
+}
+
+.codicon.codicon-symbol-package {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-property {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-reference {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-snippet {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-string {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-struct {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-text {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-type-parameter {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-unit {
+    color: #cccccc;
+}
+
+.codicon.codicon-symbol-variable {
+    color: var(--shade3);
+}
+
+.monaco-editor .squiggly-error {
+    background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23f48771'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left;
+}
+
+.monaco-editor .squiggly-warning {
+    background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23cca700'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left;
+}
+
+.monaco-editor .squiggly-info {
+    background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%2375beff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left;
+}
+
+.monaco-editor .squiggly-hint {
+    background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22rgba(238%2C%20238%2C%20238%2C%200.7)%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left;
+}
+
+.monaco-editor.showUnused .squiggly-inline-unnecessary {
+    opacity: 0.667;
+}
+
+.monaco-editor.showDeprecated .squiggly-inline-deprecated {
+    text-decoration: line-through;
+    text-decoration-color: #abb2bf
+}
+
+.monaco-editor .bracket-match {
+    background-color: var(--matchHighlight) !important;
+}
+
+.monaco-editor .bracket-match {
+    border-bottom: none;
+}
+
+.monaco-editor.vs .valueSetReplacement {
+    outline: solid 2px #888888;
+}
+
+.monaco-editor .linked-editing-decoration {
+    background: rgba(255, 0, 0, 0.3);
+    border-left-color: rgba(255, 0, 0, 0.3);
+}
+
+.monaco-editor .detected-link-active {
+    color: var(--shade2) !important;
+}
+
+.monaco-editor .monaco-editor-overlaymessage .anchor.below {
+    border-top-color: var(--shade3);
+}
+
+.monaco-editor .monaco-editor-overlaymessage .anchor.top {
+    border-bottom-color: var(--shade3);
+}
+
+.monaco-editor .monaco-editor-overlaymessage .message {
+    border: 1px solid var(--shade3);
+}
+
+.monaco-editor .monaco-editor-overlaymessage .message {
+    background-color: #063b49;
+}
+
+.monaco-editor .focused .selectionHighlight {
+    background-color: rgba(52, 57, 67, 0.6);
+}
+
+.monaco-editor .selectionHighlight {
+    background-color: rgba(52, 57, 67, 0.3);
+}
+
+.monaco-editor .wordHighlight {
+    color: var(--secondary);
+    background-color: var(--matchHighlight);
+}
+
+.monaco-editor .wordHighlightStrong {
+    background-color: rgba(0, 73, 114, 0.72);
+}
+
+.monaco-editor .zone-widget .codicon.codicon-error,
+.markers-panel .marker-icon.codicon.codicon-error,
+.extensions-viewlet>.extensions .codicon.codicon-error {
+    color: #f48771;
+}
+
+.monaco-editor .zone-widget .codicon.codicon-warning,
+.markers-panel .marker-icon.codicon.codicon-warning,
+.extensions-viewlet>.extensions .codicon.codicon-warning,
+.extension-editor .codicon.codicon-warning {
+    color: #cca700;
+}
+
+.monaco-editor .zone-widget .codicon.codicon-info,
+.markers-panel .marker-icon.codicon.codicon-info,
+.extensions-viewlet>.extensions .codicon.codicon-info,
+.extension-editor .codicon.codicon-info {
+    color: var(--shade3);
+}
+
+.monaco-diff-editor .diff-review-line-number {
+    color: #636d83;
+}
+
+.monaco-diff-editor .diff-review-shadow {
+    box-shadow: #000000 0 -6px 6px -6px inset;
+}
+
+.monaco-editor .line-insert,
+.monaco-editor .char-insert {
+    background-color: rgba(0, 128, 155, 0.2);
+}
+
+.monaco-diff-editor .line-insert,
+.monaco-diff-editor .char-insert {
+    background-color: rgba(0, 128, 155, 0.2);
+}
+
+.monaco-editor .inline-added-margin-view-zone {
+    background-color: rgba(0, 128, 155, 0.2);
+}
+
+.monaco-editor .line-delete,
+.monaco-editor .char-delete {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.monaco-diff-editor .line-delete,
+.monaco-diff-editor .char-delete {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.monaco-editor .inline-deleted-margin-view-zone {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.monaco-diff-editor.side-by-side .editor.modified {
+    box-shadow: -6px 0 5px -5px #000000;
+}
+
+.monaco-diff-editor .diffViewport {
+    background: rgba(78, 86, 102, 0.5);
+}
+
+.monaco-diff-editor .diffViewport:hover {
+    background: rgba(90, 99, 117, 0.5);
+}
+
+.monaco-diff-editor .diffViewport:active {
+    background: rgba(116, 125, 145, 0.5);
+}
+
+.monaco-editor .diagonal-fill {
+    background-image: linear-gradient(-45deg, rgba(204, 204, 204, 0.2) 12.5%, #0000 12.5%, #0000 50%, rgba(204, 204, 204, 0.2) 50%, rgba(204, 204, 204, 0.2) 62.5%, #0000 62.5%, #0000 100%);
+    background-size: 8px 8px;
+}
+
+.monaco-editor .findMatch {
+    background-color: rgba(82, 139, 255, 0.24);
+}
+
+.monaco-editor .currentFindMatch {
+    background-color: #515c6a;
+}
+
+.monaco-editor .findScope {
+    background-color: rgba(58, 61, 65, 0.4);
+}
+
+.monaco-editor .find-widget {
+    background-color: #21252b;
+}
+
+.mtk1 {
+    color: #abb2bf;
+}
+
+.mtk2 {
+    color: #282c34;
+}
+
+.mtk3 {
+    color: #5c6370;
+}
+
+.mtk4 {
+    color: #e5c07b;
+}
+
+.mtk5 {
+    color: #c678dd;
+}
+
+.mtk6 {
+    color: var(--shade2);
+}
+
+.mtk7 {
+    color: var(--shade7);
+}
+
+.mtk8 {
+    color: var(--shade3);
+}
+
+.mtk9 {
+    color: #e06c75;
+}
+
+.mtk10 {
+    color: #be5046;
+}
+
+.mtk11 {
+    color: var(--shade4);
+}
+
+.mtk12 {
+    color: #523d14;
+}
+
+.mtk13 {
+    color: #e0c285;
+}
+
+.mtk14 {
+    color: #e05252;
+}
+
+.mtk15 {
+    color: #828997;
+}
+
+.mtk16 {
+    color: #6796e6;
+}
+
+.mtk17 {
+    color: #cd9731;
+}
+
+.mtk18 {
+    color: #f44747;
+}
+
+.mtk19 {
+    color: #b267e6;
+}
+
+.mtki {
+    font-style: italic;
+}
+
+.mtkb {
+    font-weight: bold;
+}
+
+.mtku {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+*/

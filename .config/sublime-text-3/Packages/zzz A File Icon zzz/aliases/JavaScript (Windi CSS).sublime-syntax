@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+name: JavaScript (Windi CSS)
+scope: source.js.windi
+hidden: true
+file_extensions:
+  - windi.config.js
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true

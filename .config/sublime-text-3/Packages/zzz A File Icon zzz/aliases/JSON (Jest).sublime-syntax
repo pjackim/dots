@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+name: JSON (Jest)
+scope: source.json.jest
+hidden: true
+file_extensions:
+  - jest.config.json
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true

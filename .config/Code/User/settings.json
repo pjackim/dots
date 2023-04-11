@@ -1,0 +1,126 @@
+{
+    "vscode_custom_css.imports": [
+        "file:///home/pjackim/.config/Code/User/customStyle.css"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "[css]": {
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "editor.minimap.enabled": false,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "commands.commands": {
+        "tog": {
+            "sequence": [
+                "workbench.action.toggleActivityBarVisibility",
+                "workbench.action.toggleSidebarVisibility"
+            ],
+        },
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorCustomizations": {
+        "activityBar.border": "#67939A00",
+        "sideBar.border": "#89C7C700",
+        "button.border": "#E6C06800",
+        "panel.border": "#D9A36200",
+        "peekView.border": "#D9A36200",
+        "editorLineNumber.foreground": "#D9A36277",
+        "editorLineNumber.activeForeground": "#D9A362ff",
+        "foreground": "#D9A362",
+        "badge.foreground": "#F2DC6D",
+        "button.background": "#67939A",
+        "button.foreground": "#2d313d",
+        "editor.lineHighlightBackground": "#F2DC6D33",
+        "editor.wordHighlightBackground": "#89C7C766",
+        "editor.hoverHighlightBackground": "#67939A33",
+        "editor.wordHighlightBorder": "#ff000000",
+        "editor.selectionBackground": "#D9A36244",
+        "icon.foreground": "#D9A362",
+        "activityBar.foreground": "#E6C068",
+        "scrollbar.shadow": "#D9A362",
+        "widget.shadow": "#D9A362",
+        "welcomePage.tileShadow": "#D9A362",
+        "scrollbarSlider.background": "#2d313d",
+        "scrollbarSlider.foreground": "#89C7C7",
+        "editorPane.background": "#2d313d",
+        "editorGutter.background": "#2d313d",
+        "activityBar.background": "#2d313d",
+        "statusBar.background": "#2d313d",
+        "tab.activeBackground": "#2d313d",
+        "tab.inactiveBackground": "#2d313d",
+        "titleBar.activeBackground": "#ff0000",
+        "badge.background": "#2d313d",
+        "menu.background": "#2d313d",
+        "panel.background": "#2d313d",
+        "terminal.background": "#2d313d",
+        "editor.background": "#2d313d",
+        "sideBar.background": "#2d313d",
+        "editor.tokenColorCustomizations": {
+            "[Monokai]": {
+                "comments": "#229977"
+            },
+            "[*Dark*]": {
+                "variables": "#229977"
+            },
+            "[Abyss][Red]": {
+                "keywords": "#f00"
+            }
+        }
+    },
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'Iosevka Term', 'Font Awesome 6', 'Font Awesome 6 Pro', 'Font Awesome 6 Brands', 'Font Awesome 6 Duotone', 'Iosevka Nerd Font'",
+    "cSpell.enableFiletypes": [
+        "sql"
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.startupEditor": "none",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "redhat.telemetry.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "extensions.supportUntrustedWorkspaces": {},
+    "vscode-autosave.disableProgressNotifications": true,
+    "notebook.output.textLineLimit": 100,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "files.associations": {
+        "*.py": "python"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "mikeburgh.xml-format"
+    },
+    "window.zoomLevel": 1,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "cSpell.userWords": [
+        "pyperclip"
+    ],
+}

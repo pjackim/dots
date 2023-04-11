@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+name: Plain Text (Scheme)
+scope: source.scheme
+hidden: true
+file_extensions:
+  - ms
+  - rkt
+  - sc
+  - sch
+  - scm
+  - ss
+  - scheme
+contexts:
+  main: []

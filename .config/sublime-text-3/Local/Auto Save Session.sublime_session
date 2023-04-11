@@ -1,0 +1,2202 @@
+{
+	"file_history":
+	[
+		"/home/pjackim/.gitignorepublic",
+		"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/pjackim/coding/personal/scripting/test/temp.css",
+		"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+		"/home/pjackim/clip.py",
+		"/home/pjackim/coding/personal/scripting/clipboard/caps.py",
+		"/home/pjackim/coding/personal/scripting/clipboard/rofiprompt.sh",
+		"/home/pjackim/Downloads/temp.py",
+		"/home/pjackim/Downloads/quiz.py"
+	],
+	"folder_history":
+	[
+		"/home/pjackim/coding/personal/scripting/clipboard",
+		"/home/pjackim/.oh-my-zsh/themes",
+		"/home/pjackim/.oh-my-zsh/plugins"
+	],
+	"last_version": 4143,
+	"last_window_id": 65,
+	"log_indexing": false,
+	"next_update_check": 1681321626,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1034.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			4002.0,
+			67.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fot",
+						"format"
+					],
+					[
+						"ex",
+						"expand-right"
+					],
+					[
+						"FO",
+						"FOREGROUND_ALT"
+					],
+					[
+						"B",
+						"BACKGROUND_ALT"
+					],
+					[
+						"mod",
+						"modules-right"
+					],
+					[
+						"cu",
+						"cursor-scroll"
+					],
+					[
+						"tr",
+						"tray-position"
+					],
+					[
+						"module-m",
+						"module-margin-right"
+					],
+					[
+						"G",
+						"GREEN1"
+					],
+					[
+						"bor",
+						"border-color"
+					],
+					[
+						"bo",
+						"border-size"
+					],
+					[
+						"o",
+						"offset-y"
+					],
+					[
+						"off",
+						"offset-x"
+					],
+					[
+						"for",
+						"foreground"
+					],
+					[
+						"9f",
+						"9febf1"
+					],
+					[
+						"MAGENT",
+						"MAGENTA1"
+					],
+					[
+						"do",
+						"downloads"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Install Package"
+					],
+					[
+						"INSTALL",
+						"Package Control: Install Package"
+					],
+					[
+						"PRV",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control:",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 148.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pjackim/.gitignorepublic",
+				"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+				"/home/pjackim/Downloads/temp.py",
+				"/home/pjackim/Downloads/quiz.py",
+				"/home/pjackim/clip.py",
+				"/home/pjackim/.config/eww/eww.scss",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/pjackim/.config/konsolerc",
+				"/home/pjackim/coding/school/junior/sem2/cs556/Project 2/CVE-2021-4034/Implementation/conversion-mod.py",
+				"/home/pjackim/coding/school/junior/sem2/cs430/Labs/Lab 6/load_book.dump",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/src/Material-Theme-Darker.json",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+				"/home/pjackim/.config/sublime-text-3/Packages/CSS.sublime-package",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/Code/Cache/625bbe30771f2f39_0",
+				"/home/pjackim/VirtualBox VMs/Windows10TestBed/Snapshots/{233dad9d-1390-40b7-901b-b788230bd9d4}.vdi",
+				"/home/pjackim/coding/school/junior/cs356/Unit 6 Guide",
+				"/home/pjackim/bin/autostart/startup",
+				"/tmp/mozilla_pjackim0/my_trip.json",
+				"/home/pjackim/.screenlayout/monitor_layout_3.sh",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/home/pjackim/.config/polybar/shapes/config.ini",
+				"/home/pjackim/.config/polybar/shapes/colors.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/colors-light.sh",
+				"/home/pjackim/.config/polybar/shapes/bars.ini",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Test_Scheme",
+				"/home/pjackim/.config/polybar.bak/config",
+				"/home/pjackim/.config/polybar/shapes/user_modules.ini",
+				"/home/pjackim/.config/polybar/shapes/glyphs.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/color-switch.sh",
+				"/home/pjackim/.config/polybar/shapes/scripts/rofi/styles.rasi",
+				"/home/pjackim/coding/personal/scripting/ps1.sh",
+				"/home/pjackim/.Xdefaults",
+				"/tmp/mozilla_pjackim0/palette (1).scss",
+				"/home/pjackim/.config/polybar/config",
+				"/home/pjackim/downloads/dots/.config/bash/bashrc",
+				"/home/pjackim/.bashrc",
+				"/home/pjackim/.config/sxhkd/sxhkdrc",
+				"/home/pjackim/.vimrc",
+				"/home/pjackim/downloads/dots/.config/nvim/init.vim",
+				"/home/pjackim/coding/personal/scripting/color",
+				"/home/pjackim/.config/bspwm/bspwmrc",
+				"/home/pjackim/.config/polybar/launch.sh",
+				"/home/pjackim/.Xresources"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 50.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 911.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fot",
+						"format"
+					],
+					[
+						"ex",
+						"expand-right"
+					],
+					[
+						"FO",
+						"FOREGROUND_ALT"
+					],
+					[
+						"B",
+						"BACKGROUND_ALT"
+					],
+					[
+						"mod",
+						"modules-right"
+					],
+					[
+						"cu",
+						"cursor-scroll"
+					],
+					[
+						"tr",
+						"tray-position"
+					],
+					[
+						"module-m",
+						"module-margin-right"
+					],
+					[
+						"G",
+						"GREEN1"
+					],
+					[
+						"bor",
+						"border-color"
+					],
+					[
+						"bo",
+						"border-size"
+					],
+					[
+						"o",
+						"offset-y"
+					],
+					[
+						"off",
+						"offset-x"
+					],
+					[
+						"for",
+						"foreground"
+					],
+					[
+						"9f",
+						"9febf1"
+					],
+					[
+						"MAGENT",
+						"MAGENTA1"
+					],
+					[
+						"do",
+						"downloads"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/pjackim/.gitignore_global",
+					"settings":
+					{
+						"buffer_size": 55,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": "Downloads"
+							},
+							"CQAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": "\nPictures"
+							},
+							"CQAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAADAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAADAAAAAAAAAAMQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "Videos"
+							},
+							"BgAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAANQAAAAAAAAA2AAAAAAAAAAAAAAA2AAAAAAAAADcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"contents": "./*\n!.bashrc\n!.README.md\n!.config/bspwm/*\n!.config/eww/*.xml\n!.config/eww/*.scss\n!.config/eww/scripts/*.sh\n!.config/eww/scripts/hour-parse\n!.config/eww/scripts/home-dir\n!.config/eww/scripts/get*\n!.config/eww/scripts/weather-trimmer\n!.config/eww/scripts/parser\n!.config/fish/\n!.config/kitty/\n!.config/nvim/\n!.config/picom/\n!.config/polybar/\n!.config/Thunar/\n!.config/wall/\n!.config/yakuakerc\n!.config/Code/User/*\n!./bin/\n!.config/konsolerc\n!./subl-theme/\n!./coding/personal/scripting/\n# .config/konsole.kmessagebox\n",
+					"settings":
+					{
+						"buffer_size": 514,
+						"line_ending": "Unix",
+						"name": "./*"
+					},
+					"undo_stack":
+					[
+						[
+							1,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAAAgIAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Install Package"
+					],
+					[
+						"INSTALL",
+						"Package Control: Install Package"
+					],
+					[
+						"PRV",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control:",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 148.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pjackim/.gitignorepublic",
+				"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+				"/home/pjackim/Downloads/temp.py",
+				"/home/pjackim/Downloads/quiz.py",
+				"/home/pjackim/clip.py",
+				"/home/pjackim/.config/eww/eww.scss",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/pjackim/.config/konsolerc",
+				"/home/pjackim/coding/school/junior/sem2/cs556/Project 2/CVE-2021-4034/Implementation/conversion-mod.py",
+				"/home/pjackim/coding/school/junior/sem2/cs430/Labs/Lab 6/load_book.dump",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/src/Material-Theme-Darker.json",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+				"/home/pjackim/.config/sublime-text-3/Packages/CSS.sublime-package",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/Code/Cache/625bbe30771f2f39_0",
+				"/home/pjackim/VirtualBox VMs/Windows10TestBed/Snapshots/{233dad9d-1390-40b7-901b-b788230bd9d4}.vdi",
+				"/home/pjackim/coding/school/junior/cs356/Unit 6 Guide",
+				"/home/pjackim/bin/autostart/startup",
+				"/tmp/mozilla_pjackim0/my_trip.json",
+				"/home/pjackim/.screenlayout/monitor_layout_3.sh",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/home/pjackim/.config/polybar/shapes/config.ini",
+				"/home/pjackim/.config/polybar/shapes/colors.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/colors-light.sh",
+				"/home/pjackim/.config/polybar/shapes/bars.ini",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Test_Scheme",
+				"/home/pjackim/.config/polybar.bak/config",
+				"/home/pjackim/.config/polybar/shapes/user_modules.ini",
+				"/home/pjackim/.config/polybar/shapes/glyphs.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/color-switch.sh",
+				"/home/pjackim/.config/polybar/shapes/scripts/rofi/styles.rasi",
+				"/home/pjackim/coding/personal/scripting/ps1.sh",
+				"/home/pjackim/.Xdefaults",
+				"/tmp/mozilla_pjackim0/palette (1).scss",
+				"/home/pjackim/.config/polybar/config",
+				"/home/pjackim/downloads/dots/.config/bash/bashrc",
+				"/home/pjackim/.bashrc",
+				"/home/pjackim/.config/sxhkd/sxhkdrc",
+				"/home/pjackim/.vimrc",
+				"/home/pjackim/downloads/dots/.config/nvim/init.vim",
+				"/home/pjackim/coding/personal/scripting/color",
+				"/home/pjackim/.config/bspwm/bspwmrc",
+				"/home/pjackim/.config/polybar/launch.sh",
+				"/home/pjackim/.Xresources"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+					"\t"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/pjackim/.gitignore_global",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 55,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										46,
+										46
+									]
+								],
+								"settings":
+								{
+									"show_definitions": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 514,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										514,
+										514
+									]
+								],
+								"settings":
+								{
+									"auto_name": "./*",
+									"show_definitions": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,4000,579,4911,1071,4920,1920,26",
+			"project": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 50.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			},
+			"window_id": 59,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fot",
+						"format"
+					],
+					[
+						"ex",
+						"expand-right"
+					],
+					[
+						"FO",
+						"FOREGROUND_ALT"
+					],
+					[
+						"B",
+						"BACKGROUND_ALT"
+					],
+					[
+						"mod",
+						"modules-right"
+					],
+					[
+						"cu",
+						"cursor-scroll"
+					],
+					[
+						"tr",
+						"tray-position"
+					],
+					[
+						"module-m",
+						"module-margin-right"
+					],
+					[
+						"G",
+						"GREEN1"
+					],
+					[
+						"bor",
+						"border-color"
+					],
+					[
+						"bo",
+						"border-size"
+					],
+					[
+						"o",
+						"offset-y"
+					],
+					[
+						"off",
+						"offset-x"
+					],
+					[
+						"for",
+						"foreground"
+					],
+					[
+						"9f",
+						"9febf1"
+					],
+					[
+						"MAGENT",
+						"MAGENTA1"
+					],
+					[
+						"do",
+						"downloads"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "\n# Directory\n.*\n*\n!.config/bspwm/*\n!.config/polybar/*\n!.config/rofi/*\n!.config/picom/*\n!.config/Thunar/*\n!.config/neofetch/*\n!.config/thokr/*\n!.config/startup\n!.config/yakuakerc\n!.config/konsolerc\n!.config/nvim/*\n\n\n# Files\n.packageList ",
+					"file": "/home/pjackim/.gitignore_public",
+					"file_size": 235,
+					"file_write_time": 133257263001407524,
+					"settings":
+					{
+						"buffer_size": 236,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": ".*"
+							},
+							"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAICAAAuLyoKIS5iYXNocmMKIS5SRUFETUUubWQKIS5jb25maWcvYnNwd20vKgohLmNvbmZpZy9ld3cvKi54bWwKIS5jb25maWcvZXd3Lyouc2NzcwohLmNvbmZpZy9ld3cvc2NyaXB0cy8qLnNoCiEuY29uZmlnL2V3dy9zY3JpcHRzL2hvdXItcGFyc2UKIS5jb25maWcvZXd3L3NjcmlwdHMvaG9tZS1kaXIKIS5jb25maWcvZXd3L3NjcmlwdHMvZ2V0KgohLmNvbmZpZy9ld3cvc2NyaXB0cy93ZWF0aGVyLXRyaW1tZXIKIS5jb25maWcvZXd3L3NjcmlwdHMvcGFyc2VyCiEuY29uZmlnL2Zpc2gvCiEuY29uZmlnL2tpdHR5LwohLmNvbmZpZy9udmltLwohLmNvbmZpZy9waWNvbS8KIS5jb25maWcvcG9seWJhci8KIS5jb25maWcvVGh1bmFyLwohLmNvbmZpZy93YWxsLwohLmNvbmZpZy95YWt1YWtlcmMKIS5jb25maWcvQ29kZS9Vc2VyLyoKIS4vYmluLwohLmNvbmZpZy9rb25zb2xlcmMKIS4vc3VibC10aGVtZS8KIS4vY29kaW5nL3BlcnNvbmFsL3NjcmlwdGluZy8KIyAuY29uZmlnL2tvbnNvbGUua21lc3NhZ2Vib3gKAQAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": "~?"
+							},
+							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAEAAAAAAAAAAQAAAAAAAAABAAAAPw",
+							"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": "/"
+							},
+							"AQAAAAEAAAAAAAAAAgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"right_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAfg",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "home/pjackim"
+							},
+							"DAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": "/"
+							},
+							"AQAAAAwAAAAAAAAADQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAwAAAAAAAAADAAAAAAAAAABAAAALw",
+							"AQAAAAAAAAABAAAADQAAAAAAAAANAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"insert",
+							{
+								"characters": "\n"
+							},
+							"AQAAAA8AAAAAAAAAEAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": ".isntall"
+							},
+							"CAAAABAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							5,
+							"left_delete",
+							null,
+							"BQAAABcAAAAAAAAAFwAAAAAAAAABAAAAbBYAAAAAAAAAFgAAAAAAAAABAAAAbBUAAAAAAAAAFQAAAAAAAAABAAAAYRQAAAAAAAAAFAAAAAAAAAABAAAAdBMAAAAAAAAAEwAAAAAAAAABAAAAbg",
+							"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": "n"
+							},
+							"AQAAABMAAAAAAAAAFAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							2,
+							"left_delete",
+							null,
+							"AgAAABMAAAAAAAAAEwAAAAAAAAABAAAAbhIAAAAAAAAAEgAAAAAAAAABAAAAcw",
+							"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": "nstallation"
+							},
+							"CwAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"insert",
+							{
+								"characters": "\n.*"
+							},
+							"AwAAAB0AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAACAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": "/"
+							},
+							"AQAAAB0AAAAAAAAAHgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"paste",
+							null,
+							"AQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"left_delete",
+							null,
+							"AQAAAB0AAAAAAAAAHQAAAAAAAAABAAAALg",
+							"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							49,
+							16,
+							"left_delete",
+							null,
+							"EAAAAC8AAAAAAAAALwAAAAAAAAABAAAAKi4AAAAAAAAALgAAAAAAAAABAAAALi0AAAAAAAAALQAAAAAAAAABAAAACiwAAAAAAAAALAAAAAAAAAABAAAALysAAAAAAAAAKwAAAAAAAAABAAAAbioAAAAAAAAAKgAAAAAAAAABAAAAbykAAAAAAAAAKQAAAAAAAAABAAAAaSgAAAAAAAAAKAAAAAAAAAABAAAAdCcAAAAAAAAAJwAAAAAAAAABAAAAYSYAAAAAAAAAJgAAAAAAAAABAAAAbCUAAAAAAAAAJQAAAAAAAAABAAAAbCQAAAAAAAAAJAAAAAAAAAABAAAAYSMAAAAAAAAAIwAAAAAAAAABAAAAdCIAAAAAAAAAIgAAAAAAAAABAAAAcyEAAAAAAAAAIQAAAAAAAAABAAAAbiAAAAAAAAAAIAAAAAAAAAABAAAAaQ",
+							"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAFpA"
+						],
+						[
+							50,
+							1,
+							"left_delete",
+							null,
+							"AQAAAB8AAAAAAAAAHwAAAAAAAAABAAAALg",
+							"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"insert",
+							{
+								"characters": "/"
+							},
+							"AQAAABAAAAAAAAAAEQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							55,
+							1,
+							"insert",
+							{
+								"characters": "/"
+							},
+							"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							58,
+							1,
+							"left_delete",
+							null,
+							"AQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAL2hvbWUvcGphY2tpbS8uKgovaG9tZS9wamFja2ltLyo",
+							"AQAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"insert",
+							{
+								"characters": ".*"
+							},
+							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							60,
+							1,
+							"insert",
+							{
+								"characters": "\n*"
+							},
+							"AgAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							63,
+							1,
+							"insert",
+							{
+								"characters": "package"
+							},
+							"BwAAAAUAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAADAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							65,
+							1,
+							"insert",
+							{
+								"characters": "\n\n\n\n"
+							},
+							"BAAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAExA"
+						],
+						[
+							66,
+							1,
+							"insert",
+							{
+								"characters": "#"
+							},
+							"AQAAAAgAAAAAAAAACQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							67,
+							1,
+							"insert",
+							{
+								"characters": " Files"
+							},
+							"BgAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							70,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							73,
+							1,
+							"insert",
+							{
+								"characters": "#"
+							},
+							"AQAAAAEAAAAAAAAAAgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							74,
+							1,
+							"insert",
+							{
+								"characters": " Fi"
+							},
+							"AwAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							75,
+							2,
+							"left_delete",
+							null,
+							"AgAAAAQAAAAAAAAABAAAAAAAAAABAAAAaQMAAAAAAAAAAwAAAAAAAAABAAAARg",
+							"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							76,
+							1,
+							"insert",
+							{
+								"characters": "Directory"
+							},
+							"CQAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							78,
+							1,
+							"insert",
+							{
+								"characters": "List"
+							},
+							"BAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAAFZA"
+						],
+						[
+							82,
+							1,
+							"insert",
+							{
+								"characters": "."
+							},
+							"AQAAAB0AAAAAAAAAHgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAAAA"
+						],
+						[
+							89,
+							1,
+							"insert",
+							{
+								"characters": "~"
+							},
+							"AQAAABIAAAAAAAAAEwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							90,
+							1,
+							"left_delete",
+							null,
+							"AQAAABIAAAAAAAAAEgAAAAAAAAABAAAAfg",
+							"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							91,
+							1,
+							"insert",
+							{
+								"characters": "!.config/"
+							},
+							"CQAAABIAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEgAAAAAAAAASAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							93,
+							5,
+							"paste",
+							null,
+							"BQAAABIAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAOgAAAAAAAAAAAAAAOgAAAAAAAABEAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							95,
+							1,
+							"insert",
+							{
+								"characters": "bspwm"
+							},
+							"BQAAABsAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGwAAAAAAAAAbAAAAAAAAAAAAAAAAAFJA"
+						],
+						[
+							97,
+							1,
+							"insert",
+							{
+								"characters": "fish"
+							},
+							"BAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAFxA"
+						],
+						[
+							98,
+							4,
+							"left_delete",
+							null,
+							"BAAAAC0AAAAAAAAALQAAAAAAAAABAAAAaCwAAAAAAAAALAAAAAAAAAABAAAAcysAAAAAAAAAKwAAAAAAAAABAAAAaSoAAAAAAAAAKgAAAAAAAAABAAAAZg",
+							"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							99,
+							1,
+							"insert",
+							{
+								"characters": "polybar"
+							},
+							"BwAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							101,
+							1,
+							"insert",
+							{
+								"characters": "rofi"
+							},
+							"BAAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAAGBA"
+						],
+						[
+							103,
+							1,
+							"insert",
+							{
+								"characters": "picom"
+							},
+							"BQAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABLAAAAAAAAAAAAAABLAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAATQAAAAAAAAAAAAAATQAAAAAAAABOAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAFpA"
+						],
+						[
+							105,
+							1,
+							"insert",
+							{
+								"characters": "Thunar"
+							},
+							"BgAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAABaAAAAAAAAAFsAAAAAAAAAAAAAAFsAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABdAAAAAAAAAAAAAABdAAAAAAAAAF4AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAFxA"
+						],
+						[
+							107,
+							1,
+							"insert",
+							{
+								"characters": "nvm"
+							},
+							"AwAAAGgAAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABqAAAAAAAAAAAAAABqAAAAAAAAAGsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAF5A"
+						],
+						[
+							108,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGoAAAAAAAAAagAAAAAAAAABAAAAbQ",
+							"AQAAAAAAAAABAAAAawAAAAAAAABrAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							109,
+							1,
+							"insert",
+							{
+								"characters": "im"
+							},
+							"AgAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagAAAAAAAABqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							110,
+							5,
+							"paste",
+							null,
+							"BQAAAF8AAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABzAAAAAAAAAAAAAABzAAAAAAAAAH0AAAAAAAAAAAAAAH0AAAAAAAAAhwAAAAAAAAAAAAAAhwAAAAAAAACRAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							112,
+							1,
+							"insert",
+							{
+								"characters": "nero"
+							},
+							"BAAAAGgAAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABqAAAAAAAAAAAAAABqAAAAAAAAAGsAAAAAAAAAAAAAAGsAAAAAAAAAbAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAFpA"
+						],
+						[
+							113,
+							2,
+							"left_delete",
+							null,
+							"AgAAAGsAAAAAAAAAawAAAAAAAAABAAAAb2oAAAAAAAAAagAAAAAAAAABAAAAcg",
+							"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							114,
+							1,
+							"insert",
+							{
+								"characters": "ofetch"
+							},
+							"BgAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAG0AAAAAAAAAAAAAAG0AAAAAAAAAbgAAAAAAAAAAAAAAbgAAAAAAAABvAAAAAAAAAAAAAABvAAAAAAAAAHAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagAAAAAAAABqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							116,
+							1,
+							"insert",
+							{
+								"characters": "thokr"
+							},
+							"BQAAAHoAAAAAAAAAewAAAAAAAAAAAAAAewAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAH0AAAAAAAAAAAAAAH0AAAAAAAAAfgAAAAAAAAAAAAAAfgAAAAAAAAB/AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAegAAAAAAAAB6AAAAAAAAAAAAAAAAAGFA"
+						],
+						[
+							118,
+							1,
+							"insert",
+							{
+								"characters": "start"
+							},
+							"BQAAAIkAAAAAAAAAigAAAAAAAAAAAAAAigAAAAAAAACLAAAAAAAAAAAAAACLAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACOAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAFxA"
+						],
+						[
+							119,
+							1,
+							"insert",
+							{
+								"characters": "up"
+							},
+							"AgAAAI4AAAAAAAAAjwAAAAAAAAAAAAAAjwAAAAAAAACQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjgAAAAAAAACOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							124,
+							1,
+							"",
+							null,
+							"AQAAAJoAAAAAAAAAowAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmgAAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							128,
+							1,
+							"",
+							null,
+							"AQAAAK0AAAAAAAAAtgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArQAAAAAAAACtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							133,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAACAAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							135,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAGBA"
+						],
+						[
+							137,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAGJA"
+						],
+						[
+							139,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAAFQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAF5A"
+						],
+						[
+							141,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAAGYAAAAAAAAAZwAAAAAAAAAAAAAAZwAAAAAAAABoAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZgAAAAAAAABmAAAAAAAAAAAAAAAAAGBA"
+						],
+						[
+							143,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAAHoAAAAAAAAAewAAAAAAAAAAAAAAewAAAAAAAAB8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAegAAAAAAAAB6AAAAAAAAAAAAAAAAAGFA"
+						],
+						[
+							145,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAAIsAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACNAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiwAAAAAAAACLAAAAAAAAAAAAAAAAAGNA"
+						],
+						[
+							147,
+							1,
+							"insert",
+							{
+								"characters": "/*"
+							},
+							"AgAAANIAAAAAAAAA0wAAAAAAAAAAAAAA0wAAAAAAAADUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA0gAAAAAAAADSAAAAAAAAAAAAAAAAAGBA"
+						],
+						[
+							185,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAOsAAAAAAAAA7AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Install Package"
+					],
+					[
+						"INSTALL",
+						"Package Control: Install Package"
+					],
+					[
+						"PRV",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control:",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 148.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pjackim/.gitignorepublic",
+				"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+				"/home/pjackim/Downloads/temp.py",
+				"/home/pjackim/Downloads/quiz.py",
+				"/home/pjackim/clip.py",
+				"/home/pjackim/.config/eww/eww.scss",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/pjackim/.config/konsolerc",
+				"/home/pjackim/coding/school/junior/sem2/cs556/Project 2/CVE-2021-4034/Implementation/conversion-mod.py",
+				"/home/pjackim/coding/school/junior/sem2/cs430/Labs/Lab 6/load_book.dump",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/src/Material-Theme-Darker.json",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+				"/home/pjackim/.config/sublime-text-3/Packages/CSS.sublime-package",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/Code/Cache/625bbe30771f2f39_0",
+				"/home/pjackim/VirtualBox VMs/Windows10TestBed/Snapshots/{233dad9d-1390-40b7-901b-b788230bd9d4}.vdi",
+				"/home/pjackim/coding/school/junior/cs356/Unit 6 Guide",
+				"/home/pjackim/bin/autostart/startup",
+				"/tmp/mozilla_pjackim0/my_trip.json",
+				"/home/pjackim/.screenlayout/monitor_layout_3.sh",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/home/pjackim/.config/polybar/shapes/config.ini",
+				"/home/pjackim/.config/polybar/shapes/colors.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/colors-light.sh",
+				"/home/pjackim/.config/polybar/shapes/bars.ini",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Test_Scheme",
+				"/home/pjackim/.config/polybar.bak/config",
+				"/home/pjackim/.config/polybar/shapes/user_modules.ini",
+				"/home/pjackim/.config/polybar/shapes/glyphs.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/color-switch.sh",
+				"/home/pjackim/.config/polybar/shapes/scripts/rofi/styles.rasi",
+				"/home/pjackim/coding/personal/scripting/ps1.sh",
+				"/home/pjackim/.Xdefaults",
+				"/tmp/mozilla_pjackim0/palette (1).scss",
+				"/home/pjackim/.config/polybar/config",
+				"/home/pjackim/downloads/dots/.config/bash/bashrc",
+				"/home/pjackim/.bashrc",
+				"/home/pjackim/.config/sxhkd/sxhkdrc",
+				"/home/pjackim/.vimrc",
+				"/home/pjackim/downloads/dots/.config/nvim/init.vim",
+				"/home/pjackim/coding/personal/scripting/color",
+				"/home/pjackim/.config/bspwm/bspwmrc",
+				"/home/pjackim/.config/polybar/launch.sh",
+				"/home/pjackim/.Xresources"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/pjackim/.gitignore_public",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 236,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										236,
+										236
+									]
+								],
+								"settings":
+								{
+									"show_definitions": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,4000,37,4911,570,4920,1920,26",
+			"project": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 50.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			},
+			"window_id": 64,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fot",
+						"format"
+					],
+					[
+						"ex",
+						"expand-right"
+					],
+					[
+						"FO",
+						"FOREGROUND_ALT"
+					],
+					[
+						"B",
+						"BACKGROUND_ALT"
+					],
+					[
+						"mod",
+						"modules-right"
+					],
+					[
+						"cu",
+						"cursor-scroll"
+					],
+					[
+						"tr",
+						"tray-position"
+					],
+					[
+						"module-m",
+						"module-margin-right"
+					],
+					[
+						"G",
+						"GREEN1"
+					],
+					[
+						"bor",
+						"border-color"
+					],
+					[
+						"bo",
+						"border-size"
+					],
+					[
+						"o",
+						"offset-y"
+					],
+					[
+						"off",
+						"offset-x"
+					],
+					[
+						"for",
+						"foreground"
+					],
+					[
+						"9f",
+						"9febf1"
+					],
+					[
+						"MAGENT",
+						"MAGENTA1"
+					],
+					[
+						"do",
+						"downloads"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "// Place your settings in the file \"Packages/User/Preferences.sublime-settings\",\n// which overrides the settings in here.\n//\n// Settings may also be placed in syntax-specific setting files, for\n// example, in Packages/User/Python.sublime-settings for python files.\n{\n\t// Sets the colors used within the text area.\n\t// The value \"auto\" will switch between the \"light_color_scheme\" and\n\t// \"dark_color_scheme\" based on the operating system appearance.\n\t\"color_scheme\": \"Mariana.sublime-color-scheme\",\n\n\t// Controls the \"color_scheme\" when set to \"auto\"\n\t\"light_color_scheme\": \"Breakers.sublime-color-scheme\",\n\t\"dark_color_scheme\": \"Mariana.sublime-color-scheme\",\n\n\t// Note that the font_face and font_size are overridden in the platform\n\t// specific settings file, for example, \"Preferences (Linux).sublime-settings\".\n\t// Because of this, setting them here will have no effect: you must set them\n\t// in your User File Preferences.\n\t\"font_face\": \"\",\n\t\"font_size\": 10,\n\n\t// Valid options on all platforms are:\n\t//  - \"no_bold\": Disables bold text\n\t//  - \"no_italic\": Disables italic text\n\t// Antialiasing options:\n\t//  - \"no_antialias\": Disables antialiasing\n\t//  - \"gray_antialias\": Uses grayscale antialiasing instead of subpixel\n\t// Ligature options:\n\t//  - \"no_liga\": Disables standard ligatures (OpenType liga feature)\n\t//  - \"no_clig\": Disables contextual ligatures (OpenType clig feature)\n\t//  - \"no_calt\": Disables contextual alternatives (OpenType calt feature)\n\t//  - \"dlig\": Enables discretionary ligatures (OpenType dlig feature)\n\t//  - \"ss01\": Enables OpenType stylistic set 1. Can enable sets 1 to 10\n\t//        by changing the last two digits.\n\t// Windows-only options:\n\t//  - \"directwrite\": (default) Use DirectWrite for font rendering\n\t//  - \"gdi\": Use GDI for font rendering\n\t//  - \"dwrite_cleartype_classic\": Only applicable to \"directwrite\" mode,\n\t//        should render fonts similar to traditional GDI\n\t//  - \"dwrite_cleartype_natural\": Only applicable to \"directwrite\" mode,\n\t//        should render fonts similar to ClearType \"natural quality\" GDI\n\t//  - \"subpixel_antialias\": Force ClearType antialiasing when disabled\n\t//        at system level\n\t// Mac-only options:\n\t//  - \"no_round\": Don't round glyph widths for monospace fonts when\n\t//        \"font_size\" is small.\n\t\"font_options\": [],\n\t// Font options for theme text. Valid options are the same as\n\t// \"font_options\", except \"no_bold\" and \"no_italic\" are not supported\n\t\"theme_font_options\": [],\n\n\t// Characters that are considered to separate words\n\t\"word_separators\": \"./\\\\()\\\"'-:,.;<>~!@#$%^&*|+=[]{}`~?\",\n\n\t// Characters that are considered to separate sub-words\n\t\"sub_word_separators\": \"_\",\n\n\t// Set to false to prevent line numbers being drawn in the gutter\n\t\"line_numbers\": true,\n\n\t// Set to false to hide the gutter altogether\n\t\"gutter\": true,\n\n\t// Spacing between the gutter and the text\n\t\"margin\": 4,\n\n\t// Fold buttons are the triangles shown in the gutter to fold regions of text\n\t\"fold_buttons\": true,\n\n\t// Hides the fold buttons unless the mouse is over the gutter\n\t\"fade_fold_buttons\": true,\n\n\t// Indicate modified lines in the gutter\n\t// - true: Enables modified line indicators on all files\n\t// - \"auto\": Enables modified line indicators on tracked files within Git\n\t// - false: Disables modified line indicators\n\t\"mini_diff\": true,\n\n\t// Columns in which to display vertical rulers. You can also pair the column\n\t// with a ruler style (See \"ruler_style\"), eg: [[80, \"solid\"]]\n\t\"rulers\": [],\n\n\t// Controls how ruler lines are drawn\n\t// - \"dotted\": Drawn as a dotted line\n\t// - \"stippled\": Drawn as a stippled line\n\t// - \"solid\": Drawn as a solid line\n\t\"ruler_style\": \"dotted\",\n\n\t// Set to true to turn spell checking on by default\n\t\"spell_check\": false,\n\n\t// The number of spaces a tab is considered equal to\n\t\"tab_size\": 4,\n\n\t// Set to true to insert spaces when tab is pressed\n\t\"translate_tabs_to_spaces\": false,\n\n\t// If translate_tabs_to_spaces is true, use_tab_stops will make tab and\n\t// backspace and delete insert/delete up to the next tabstop\n\t\"use_tab_stops\": true,\n\n\t// Set to false to disable detection of tabs vs. spaces on load\n\t\"detect_indentation\": true,\n\n\t// Calculates indentation automatically when pressing enter\n\t\"auto_indent\": true,\n\n\t// Makes auto indent a little smarter, e.g., by indenting the next line\n\t// after an if statement in C. Requires auto_indent to be enabled.\n\t\"smart_indent\": true,\n\n\t// Adds whitespace up to the first open bracket when indenting. Requires\n\t// auto_indent to be enabled.\n\t\"indent_to_bracket\": false,\n\n\t// Trims white space added by auto_indent when moving the caret off the\n\t// line.\n\t\"trim_automatic_white_space\": true,\n\n\t// Disables horizontal scrolling if enabled.\n\t// May be set to true, false, or \"auto\", where it will be disabled for\n\t// source code, and otherwise enabled.\n\t\"word_wrap\": \"auto\",\n\n\t// Set to a value other than 0 to force wrapping at that column rather than\n\t// the window width. See \"wrap_width_style\" for extra options.\n\t\"wrap_width\": 0,\n\n\t// Controls how the \"wrap_width\" setting is applied. The following options\n\t// are available:\n\t// - \"constant\": Always wrap at exactly the wrap width.\n\t// - \"min\": Wrap at the wrap width or less if there is less space available.\n\t\"wrap_width_style\": \"constant\",\n\n\t// Set to false to prevent word wrapped lines from being indented to the same\n\t// level\n\t\"indent_subsequent_lines\": true,\n\n\t// Draws text centered in the window rather than left aligned\n\t\"draw_centered\": false,\n\n\t// Controls auto pairing of quotes, brackets etc\n\t\"auto_match_enabled\": true,\n\n\t// Automatically close HTML and XML tags when </ is entered.\n\t\"auto_close_tags\": true,\n\n\t// Word list to use for spell checking. May also be a list of dictionaries.\n\t\"dictionary\": \"Packages/Language - English/en_US.dic\",\n\n\t// Sets which scopes are checked for spelling errors\n\t\"spelling_selector\": \"markup.raw, source string.quoted - punctuation - meta.preprocessor.include, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)\",\n\n\t// Set to true to draw a border around the visible rectangle on the minimap.\n\t// The color of the border will be determined by the \"minimap_border\" key\n\t// in the color scheme\n\t\"draw_minimap_border\": false,\n\n\t// Always visualise the viewport on the minimap, as opposed to only\n\t// showing it on mouse over\n\t\"always_show_minimap_viewport\": false,\n\n\t// Whether the minimap should scroll horizontally to match the viewport.\n\t\"minimap_horizontal_scrolling\": false,\n\n\t// If enabled, will highlight any line with a caret\n\t\"highlight_line\": false,\n\n\t// If enabled, will highlight the gutter for any line with a caret\n\t\"highlight_gutter\": true,\n\n\t// If enabled, will highlight the line number in the gutter for any line\n\t// with a caret depending on the color scheme\n\t\"highlight_line_number\": true,\n\n\t// Valid values are \"smooth\", \"phase\", \"blink\" and \"solid\". Previous\n\t// versions of Sublime Text used \"smooth\" by default.\n\t\"caret_style\": \"solid\",\n\n\t// These settings control the size of the caret\n\t\"caret_extra_top\": 4,\n\t\"caret_extra_bottom\": 4,\n\t\"caret_extra_width\": 1,\n\n\t// When enabled, the caret will be drawn as a rectangle, using the width\n\t// of the current character\n\t\"block_caret\": false,\n\n\t// Set to false to disable underlining the brackets surrounding the caret\n\t\"match_brackets\": true,\n\n\t// Set to false if you'd rather only highlight the brackets when the caret is\n\t// next to one\n\t\"match_brackets_content\": true,\n\n\t// Set to false to not highlight square brackets. This only takes effect if\n\t// match_brackets is true\n\t\"match_brackets_square\": true,\n\n\t// Set to false to not highlight curly brackets. This only takes effect if\n\t// match_brackets is true\n\t\"match_brackets_braces\": true,\n\n\t// Set to false to not highlight angle brackets. This only takes effect if\n\t// match_brackets is true\n\t\"match_brackets_angle\": false,\n\n\t// Enable visualization of the matching tag in HTML and XML\n\t\"match_tags\": true,\n\n\t// Highlights other occurrences of the currently selected text\n\t\"match_selection\": true,\n\n\t// Additional spacing at the top of each line, in pixels\n\t\"line_padding_top\": 0,\n\n\t// Additional spacing at the bottom of each line, in pixels\n\t\"line_padding_bottom\": 0,\n\n\t// Set to false to disable scrolling past the end of the buffer.\n\t// On Mac, this value is overridden in the platform specific settings, so\n\t// you'll need to place this line in your user settings to override it.\n\t//\n\t// This setting may also be set to a number between 0.0 and 1.0 to specify\n\t// how much scrolling past the end of the buffer should be allowed. 0.5\n\t// scrolls halfway and 0.0 is the same as false.\n\t\"scroll_past_end\": true,\n\n\t// Set the number of context lines to show when scrolling to reveal. This\n\t// affects all selection changes, like selection dragging, page-up/page-down\n\t// and moving the caret.\n\t\"scroll_context_lines\": 0,\n\n\t// This controls what happens when pressing up or down when on the first\n\t// or last line.\n\t// On Mac, this value is overridden in the platform specific settings, so\n\t// you'll need to place this line in your user settings to override it.\n\t\"move_to_limit_on_up_down\": false,\n\n\t// Controls when white space is drawn. Any of the following options may be\n\t// combined:\n\t// - \"selection\": Draw white space under the current selection.\n\t// - \"leading\": Draw any white space between the beginning of a line and the\n\t//              first character.\n\t// - \"enclosed\": Draw white space enclosed by other characters.\n\t// - \"trailing\": Draw white space following the last character on a line.\n\t// - \"isolated\": Draw white space on lines containing no other characters.\n\t// - \"all\": All of the above, ie. always draw white space.\n\t//\n\t// These options may be further refined by appending any of the following\n\t// separated by an underscore:\n\t// - \"none\": Don't draw this kind of white space.\n\t// - \"tabs\": Only draw tabs here.\n\t// - \"spaces\": Only draw spaces here.\n\t// - \"mixed\": Only draw white space that does not match the indentation\n\t//            style. For example if \"translate_tabs_to_spaces\" is true only\n\t//            draw tabs.\n\t// - \"mixed_tabs\": Like \"mixed\" but only draw tabs.\n\t// - \"mixed_spaces\": Like \"mixed\" but only draw spaces.\n\t// - \"all\": Draw both tabs and spaces. This is the default.\n\t//\n\t// Note that options are applied in sequence. So a later option may override\n\t// an earlier one.\n\t//\n\t// Examples:\n\t// - [\"selection\", \"trailing\", \"isolated\"]:\n\t//     Draw white space at the end of any lines and under the selection.\n\t//\n\t// - [\"all_tabs\", \"selection\"]:\n\t//     Draw tabs anywhere and any white space under the selection.\n\t//\n\t// - [\"all_mixed\"]:\n\t//     Draw any white space that does not match the indentation style.\n\t//\n\t// - [\"leading_mixed\", \"isolated_mixed\"]:\n\t//     Draw any indentation that does not match the indentation style.\n\t//\n\t// - [\"selection_mixed_tabs\"]:\n\t//     Draw only tabs under the selection and only if the indentation style\n\t//     is spaces.\n\t//\n\t// - [\"all_tabs\", \"selection\"]:\n\t//     Draw all tabs and any white space under the selection.\n\t//\n\t// - [\"all\", \"selection_none\"]:\n\t//     Inverse of the default. Draw white space everywhere except under the\n\t//     selection.\n\t\"draw_white_space\": [\"selection\"],\n\n\t// Controls how non-ascii white space is drawn.\n\t// - \"none\": Draw unicode white space verbatim, eg. hiding zero-width\n\t//           spaces.\n\t// - \"punctuation\": Draw codepoints of unicode white space defined as\n\t//                  punctuation. This includes NBSP, but excludes the CJK\n\t//                  Ideographic Space.\n\t// - \"all\": Draw codepoints of all non-ascii space characters.\n\t\"draw_unicode_white_space\": \"punctuation\",\n\n\t// Controls whether unicode bidi characters are drawn as codepoints.\n\t\"draw_unicode_bidi\": true,\n\n\t// Control characters (or white space if enabled) can be drawn as either hex\n\t// or using their abbreviation:\n\t// - \"hex\": Draw characters using their hex encoding, ie. <0xA0>\n\t// - \"names\": Draw characters using their abbreviation, ie. <NBSP>\n\t\"control_character_style\": \"hex\",\n\n\t// Controls what type of columns selection description (\"Line X, Column Y\"\n\t// in the status bar) uses:\n\t// - \"virtual\": Count virtual columns. Tabs count as their width in spaces.\n\t// - \"real\": Count real columns. Tabs count as one column.\n\t\"selection_description_column_type\": \"virtual\",\n\n\t// Set to false to turn off the indentation guides.\n\t// The color and width of the indent guides may be customized by editing\n\t// the corresponding .tmTheme file, and specifying the colors \"guide\",\n\t// \"activeGuide\" and \"stackGuide\"\n\t\"draw_indent_guides\": true,\n\n\t// Controls how the indent guides are drawn. Options may be combined, with\n\t// valid options being:\n\t//  - \"draw_normal\" - will draw plain indent guides for every indentation\n\t//    group\n\t//  - \"draw_active\" - will draw indent guides for the group\n\t//    containing the caret in a different color\n\t//  - \"draw_active_single\" - will draw the right-most indent guide in the\n\t//    group containing the caret in a different color\n\t//  - \"solid\" - can be combined with any of the draw_* options to draw\n\t//    solid instead of stippled lines\n\t\"indent_guide_options\": [\"draw_normal\"],\n\n\t// Controls where trailing white space is removed on save.\n\t// - \"none\": Do not remove any trailing white space on save.\n\t// - \"all\": Remove all trailing white space on save.\n\t// - \"not_on_caret\": Only remove white space that won't affect the caret.\n\t//                   When used in conjunction with \"save_on_focus_lost\" and\n\t//                   certain desktop environments that frequently make the\n\t//                   application lose focus this avoids the caret jumping\n\t//                   around a lot.\n\t\"trim_trailing_white_space_on_save\": \"none\",\n\n\t// Only trim white space on save for the parts of a file that have been\n\t// modified by you. If there is trailing white space in other parts of the\n\t// file they are left alone.\n\t\"trim_only_modified_white_space\": true,\n\n\t// Set to true to ensure the last line of the file ends in a newline\n\t// character when saving\n\t\"ensure_newline_at_eof_on_save\": false,\n\n\t// Set to true to automatically save files when switching to a different file\n\t// or application\n\t\"save_on_focus_lost\": false,\n\n\t// The encoding to use when the encoding can't be determined automatically.\n\t// ASCII, UTF-8 and UTF-16 encodings will be automatically detected.\n\t\"fallback_encoding\": \"Western (Windows 1252)\",\n\n\t// Encoding used when saving new files, and files opened with an undefined\n\t// encoding (e.g., plain ascii files). If a file is opened with a specific\n\t// encoding (either detected or given explicitly), this setting will be\n\t// ignored, and the file will be saved with the encoding it was opened\n\t// with.\n\t\"default_encoding\": \"UTF-8\",\n\n\t// Files containing null bytes are opened as hexadecimal by default\n\t\"enable_hexadecimal_encoding\": true,\n\n\t// Determines what character(s) are used to terminate each line in new files.\n\t// Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and\n\t// 'unix' (LF only).\n\t\"default_line_ending\": \"system\",\n\n\t// When enabled, hovering over a word will show a popup listing all\n\t// possible locations for the definition symbol. Requires index_files.\n\t\"show_definitions\": true,\n\n\t// When enabled, pressing tab will insert the best matching completion.\n\t// When disabled, tab will only trigger snippets or insert a tab.\n\t// Shift+tab can be used to insert an explicit tab when tab_completion is\n\t// enabled.\n\t\"tab_completion\": true,\n\n\t// Enable auto complete to be triggered automatically when typing.\n\t\"auto_complete\": true,\n\n\t// The maximum file size where auto complete will be automatically triggered.\n\t\"auto_complete_size_limit\": 4194304,\n\n\t// The delay, in ms, before the auto complete window is shown after typing\n\t\"auto_complete_delay\": 50,\n\n\t// Controls what scopes auto complete will be triggered in\n\t\"auto_complete_selector\": \"meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc\",\n\n\t// Additional situations to trigger auto complete\n\t\"auto_complete_triggers\":\n\t[\n\t\t{\"selector\": \"text.html, text.xml\", \"characters\": \"<\"},\n\t\t{\"selector\": \"punctuation.accessor\", \"rhs_empty\": true},\n\t],\n\n\t// By default, auto complete will commit the current completion on enter.\n\t// This setting can be used to make it complete on tab instead.\n\t// Completing on tab is generally a superior option, as it removes\n\t// ambiguity between committing the completion and inserting a newline.\n\t\"auto_complete_commit_on_tab\": false,\n\n\t// Controls if auto complete is shown when snippet fields are active.\n\t// Only relevant if auto_complete_commit_on_tab is true.\n\t\"auto_complete_with_fields\": false,\n\n\t// Controls what happens when pressing the up key while the first item in\n\t// the auto complete window is selected: if false, the window is hidden,\n\t// otherwise the last item in the window is selected. Likewise for the\n\t// down key when the last item is selected.\n\t\"auto_complete_cycle\": false,\n\n\t// Auto complete will used indexed data to provide completions from other\n\t// files when this is enabled\n\t\"auto_complete_use_index\": true,\n\n\t// If previously-selected completions should be automatically selected\n\t\"auto_complete_use_history\": false,\n\n\t// Controls how the auto complete results are reordered when typing:\n\t// - \"none\" will fully reorder the results according to how well the\n\t//   completion matches the typed text.\n\t// - \"some\" will partially reorder the results, taking into account how\n\t//   well the completion matches whats typed, and likelihood of the\n\t//   completion.\n\t// - \"strict\" will never reorder the results.\n\t\"auto_complete_preserve_order\": \"some\",\n\n\t// Add trailing symbols (e.g., '.', '()') if the auto complete engine\n\t// thinks they're likely enough\n\t\"auto_complete_trailing_symbols\": false,\n\n\t// Add a space after completions if the auto complete engine thinks\n\t// they're likely enough\n\t\"auto_complete_trailing_spaces\": true,\n\n\t// Snippets will not be included in the auto complete when this is\n\t// false. They can still be triggered by typing their tab trigger in, and\n\t// pressing tab when auto complete is not showing.\n\t\"auto_complete_include_snippets\": true,\n\n\t// When this is set to false, snippets won't be present in the auto\n\t// complete dialog when typing, instead they'll only be shown in the auto\n\t// complete dialog when it's explicitly triggered\n\t\"auto_complete_include_snippets_when_typing\": true,\n\n\t// Syntax will not be detected for files larger than this size. This makes\n\t// loading large files significantly faster. Set to 0 to always perform\n\t// syntax detection. The default is 16MiB.\n\t\"syntax_detection_size_limit\": 16777216,\n\n\t// A list of wildcard patterns specifying which snippet files to ignore.\n\t// For example, to ignore all the default C++ snippets, set this to\n\t// [\"C++/*\"]\n\t\"ignored_snippets\": [],\n\n\t// These settings hide various parts of the UI automatically when typing.\n\t// Moving the mouse will show them again.\n\t\"auto_hide_menu\": false,\n\t\"auto_hide_tabs\": false,\n\t\"auto_hide_status_bar\": false,\n\n\t// Related to auto_hide_tabs, if this is enabled, tabs will be momentarily\n\t// displayed when switching files. Tabs will automatically hidden upon\n\t// resuming typing or after a fixed amount of time.\n\t\"reveal_tabs_with_timeout\": false,\n\n\t// When false, disables alt-tapping revealing the menu when hidden on Linux\n\t// and Windows. Does not affect auto hiding or toggling the menu through\n\t// the command palette.\n\t\"reveal_menu\": true,\n\n\t// If true, when typing the mouse pointer/cursor will be hidden. Moving the\n\t// pointer will unhide it. This setting has no effect on macOS.\n\t\"hide_pointer_while_typing\": true,\n\n\t// By default, shift+tab will only unindent if the selection spans\n\t// multiple lines. When pressing shift+tab at other times, it'll insert a\n\t// tab character - this allows tabs to be inserted when tab_completion is\n\t// enabled. Set this to true to make shift+tab always unindent, instead of\n\t// inserting tabs.\n\t\"shift_tab_unindent\": false,\n\n\t// If true, the copy and cut commands will operate on the current line\n\t// when the selection is empty, rather than doing nothing.\n\t\"copy_with_empty_selection\": true,\n\n\t// If true, the selected text will be copied into the find panel when it's\n\t// shown.\n\t// On Mac, this value is overridden in the platform specific settings.\n\t\"find_selected_text\": true,\n\n\t// When auto_find_in_selection is enabled, the \"Find in Selection\" flag will\n\t// be enabled automatically when multiple lines of text are selected.\n\t// \"find_only\" or \"replace_only\" may also be used to only enable this\n\t// behavior for the find or replace panel respectively.\n\t\"auto_find_in_selection\": false,\n\n\t// This determines whether the find panel is closed when the \"Find All\"\n\t// or \"Replace All\" buttons are pressed. Note this does not change the\n\t// keybinding behavior.\n\t\"close_find_after_find_all\": true,\n\t\"close_find_after_replace_all\": true,\n\n\t// Whether to highlight find results in the scrollbar\n\t\"highlight_find_results_in_scrollbar\": true,\n\n\t// The maximum number of find results to show in the scroll bar. If this\n\t// number is exceeded no results will be shown. Use 0 to remove this limit.\n\t\"find_scroll_highlights_limit\": 8192,\n\n\t// The maximum file size that the \"Highlight matches\" option is used for.\n\t// Highlighting all matches requires searching the whole file while typing\n\t// the search query which can quickly get slow. Use 0 to remove this limit.\n\t\"find_highlight_matches_max_size\": 16777216, // 16MiB\n\n\t// Same as \"find_highlight_matches_max_size\" but used when regex is enabled.\n\t\"find_regex_highlight_matches_max_size\": 1048576, // 1MiB\n\n\t// The maximum output size for find-in-files. Prevents searches with a large\n\t// number of results from using too much memory. Use 0 to remove this limit.\n\t\"find_in_files_max_result_size\": 16777216, // 16MiB\n\n\t// Files over this size will be skipped. This prevents searches from using\n\t// up all available memory when large files are present. Note that on\n\t// computers with many cores more than one file will be loaded at once. Use\n\t// 0 to remove this limit.\n\t\"find_in_files_max_file_size\": 104857600, // 100MiB\n\n\t// When drag_text is enabled, clicking on selected text will begin a\n\t// drag-drop operation.\n\t\"drag_text\": true,\n\n\t// Take focus when a file is dragged and dropped onto Sublime Text. On\n\t// Windows this value is overidden to true in the platform specific\n\t// settings.\n\t\"focus_on_file_drop\": false,\n\n\t//\n\t// User Interface Settings\n\t//\n\n\t// The theme controls the look of Sublime Text's UI (buttons, tabs, scroll\n\t// bars, etc)\n\t// The value \"auto\" will switch between the \"light_theme\" and \"dark_theme\"\n\t// based on the operating system appearance.\n\t\"theme\": \"auto\",\n\n\t// Controls the \"theme\" when to \"auto\"\n\t\"light_theme\": \"Default.sublime-theme\",\n\t\"dark_theme\": \"Default Dark.sublime-theme\",\n\n\t// Adaptive theme only: controls if a custom or default title bar is used.\n\t// Note that on Windows, the hamburger menu is used whenever this is\n\t// enabled and the adaptive theme is in use.\n\t\"themed_title_bar\": true,\n\n\t// Controls the style of file tabs for the Default, Default Dark, and\n\t// Adaptive themes.\n\t// Options: \"rounded\", \"square\"\n\t//   The value \"angled\" provides the tab style from Sublime Text 3, but is\n\t//   only compatible with the Default and Adaptive themes, and will not\n\t//   support new features like inactive pane dimming.\n\t\"file_tab_style\": \"rounded\",\n\n\t// If inactive sheets should have their background slightly modified to\n\t// make input focus more obvious.\n\t\"inactive_sheet_dimming\": true,\n\n\t// Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to\n\t// scroll slower, or set to larger than 1 to scroll faster\n\t\"scroll_speed\": 1.0,\n\n\t// Controls sidebar animation when expanding or collapsing folders\n\t\"tree_animation_enabled\": true,\n\n\t// Controls animation throughout the application\n\t\"animation_enabled\": true,\n\n\t// Makes tabs with modified files more visible\n\t\"highlight_modified_tabs\": false,\n\n\t// Hides the tab close button when false\n\t\"show_tab_close_buttons\": true,\n\n\t// Determines which side the close button is on\n\t\"show_tab_close_buttons_on_left\": false,\n\n\t// Show folders in the sidebar in bold\n\t\"bold_folder_labels\": false,\n\n\t// Draw divider lines between sections of the UI when using the Adaptive theme\n\t\"adaptive_dividers\": false,\n\n\t// Draw shadows under popup windows\n\t\"popup_shadows\": true,\n\n\t// Mac only. Controls use of macOS tabs in 10.12 and newer. Each native tab\n\t// contains an entire project, thus allowing multiple projects in a single\n\t// window. Valid values are \"system\", \"preferred\" and \"disabled\".\n\t\"native_tabs\": \"system\",\n\n\t// Whether new tabs should favor opening after the current tab or at the end\n\t// of the list of tabs.\n\t\"open_tabs_after_current\": true,\n\n\t// Valid values are \"system\", \"enabled\" and \"disabled\"\n\t\"overlay_scroll_bars\": \"system\",\n\n\t// Allows tabs to scroll left and right, instead of simply shrinking\n\t\"enable_tab_scrolling\": true,\n\n\t// Hides the buttons for scrolling tabs left/right, requiring use of a\n\t// trackpad or mouse scroll wheel\n\t\"hide_tab_scrolling_buttons\": false,\n\n\t// Hides the new tab button\n\t\"hide_new_tab_button\": false,\n\n\t// Display the toggle sidebar button in the status bar\n\t\"show_sidebar_button\": true,\n\n\t// Display the git status in the status bar, requires the show_git_status\n\t// setting to be enabled\n\t\"show_git_status_in_status_bar\": true,\n\n\t// Display file encoding in the status bar\n\t\"show_encoding\": false,\n\n\t// Display line endings in the status bar\n\t\"show_line_endings\": false,\n\n\t// Display indentation in the status bar\n\t\"show_indentation\": true,\n\n\t// Display syntax in the status bar\n\t\"show_syntax\": true,\n\n\t// Show Line, Column in the status bar in full length, compact or completely\n\t// hidden. Valid values are \"enabled\", \"compact\" and \"disabled\"\n\t\"show_line_column\": \"enabled\",\n\n\t// Display misspelled words in the status bar\n\t\"show_spelling_errors\": true,\n\n\t// Magnifies the entire user interface. Sublime Text must be restarted for\n\t// this to take effect. 1.0 is normal scale, 0.0 allows for auto-detection\n\t// based on text scale with older Linux configurations that don't fully\n\t// support GTK display scaling.\n\t\"ui_scale\": 0.0,\n\n\t// Enables hardware accelerated rendering. This moves rendering to your GPU,\n\t// allowing for faster rendering at higher resolutions. Changing this\n\t// setting requires an application restart to take effect.\n\t// - \"none\": Performs CPU rendering.\n\t// - \"opengl\": Uses OpenGL for rendering. Minimum required version is 4.1\n\t//\n\t// On Mac, this value is overridden in the platform specific settings.\n\t\"hardware_acceleration\": \"none\",\n\n\t//\n\t// Application Behavior Settings\n\t//\n\n\t// Exiting the application with hot_exit enabled will cause it to close\n\t// immediately without prompting. Unsaved modifications and open files will\n\t// be preserved and restored when next starting.\n\t//\n\t// Hot exit has different modes to choose from:\n\t// - \"always\": Always perform a hot exit when the application exits. This\n\t//             includes when the last window is closed on relevant\n\t//             platforms.\n\t// - \"only_on_quit\": Only perform a hot exit when the application is asked\n\t//                   to exit, not when the last window is closed. This\n\t//                   setting is only used on Windows and Linux.\n\t// - \"disabled\": Disable hot exit.\n\t\"hot_exit\": \"always\",\n\n\t// Closing projects with hot_exit_projects enabled will cause it to close\n\t// immediately without prompting. Unsaved modifications and open files will\n\t// be preserved in the workspace file and restored when reopened.\n\t\"hot_exit_projects\": true,\n\n\t// remember_full_screen will allow Sublime Text to start in full screen\n\t// mode if it was exited in full screen mode. When set to false, Sublime\n\t// Text will never start in full screen mode.\n\t\"remember_full_screen\": false,\n\n\t// remember_workspace makes Sublime Text remember what workspace each window\n\t// was in last. When set to false the OS left to determine which workspace\n\t// a window is opened in. This doesn't work with Wayland.\n\t\"remember_workspace\": true,\n\n\t// remember_layout makes Sublime Text start with the same layout it closed\n\t// with. Only applies when hot_exit is disabled.\n\t\"remember_layout\": false,\n\n\t// Whether the system's native recent files/folders list should be updated\n\t// by Sublime Text.\n\t\"update_system_recent_files\": true,\n\n\t// Mac only. If the user's default shell should be invoked to obtain the\n\t// user's customized environment variables. May be a boolean, or a string\n\t// of the path the shell to invoke. Sublime Text must be restarted for this\n\t// to take effect.\n\t\"shell_environment\": true,\n\n\t// Whether to reload a file if it has changed on disk.\n\t\"reload_file_on_change\": true,\n\n\t// Always prompt before reloading a file, even if the file hasn't been\n\t// modified. If a file has unsaved changes, a prompt will always be shown.\n\t// Will only show if \"reload_file_on_change\" is true.\n\t\"always_prompt_for_file_reload\": false,\n\n\t// When reopening Sublime Text close saved files that have been deleted from\n\t// the filesystem (Unsaved files will not be closed). If this setting is\n\t// false no files will be closed, instead they will be restored as empty\n\t// files.\n\t//\n\t// This is useful when working from an unstable networked file system where\n\t// tabs would be lost if the connection wasn't active.\n\t\"close_deleted_files\": true,\n\n\t// When files are opened from a file explorer or from the command line, this\n\t// controls whether a new window is created or not.\n\t// - \"never\": Never open a new window unless no window is open.\n\t// - \"always\": Always open files in a new window.\n\t// - \"finder_only\": (macOS only) Only open files in a new window when\n\t//                  opening them from finder or dragging onto the dock icon.\n\t//\n\t// On Mac, this value is overridden in the platform specific settings.\n\t\"open_files_in_new_window\": \"never\",\n\n\t// Mac only: This controls if an empty window is created at startup or not.\n\t\"create_window_at_startup\": true,\n\n\t// Mac only: Show recent files on the Touch Bar.\n\t\"show_navigation_bar\": true,\n\n\t// Mac only: Use global find clipboard.\n\t\"use_find_clipboard\": true,\n\n\t// Set to true to close windows as soon as the last file is closed, unless\n\t// there's a folder open within the window.\n\t// On Mac, this value is overridden in the platform specific settings, so\n\t// you'll need to place this line in your user settings to override it.\n\t\"close_windows_when_empty\": false,\n\n\t// Show the full path to files in the title bar. On Mac, this value is\n\t// overridden in the platform specific settings, with a default value of\n\t// false.\n\t\"show_full_path\": true,\n\n\t// Show the relative path to files in the title bar. This overrides\n\t// show_full_path for files that are listed in the sidebar, however\n\t// show_full_path is still used for other files.\n\t\"show_rel_path\": false,\n\n\t// Show \"project - file\" or \"file - project\" in the title bar.\n\t\"show_project_first\": false,\n\n\t// Shows the Build Results panel when building. If set to false, the Build\n\t// Results can be shown via the Tools/Build Results menu.\n\t\"show_panel_on_build\": true,\n\n\t// Shows build errors just under the line on which they occur.\n\t\"show_errors_inline\": true,\n\n\t// Shows git repository information next to files in sidebar and in\n\t// the status bar. Sublime Text has to be restarted for this to take\n\t// effect.\n\t\"show_git_status\": true,\n\n\t// Enables showing git status for a git repository in the user's home\n\t// directory. This is disabled by default since it is typically accidental\n\t// and can cause heavy CPU usage related to file system watches.\n\t\"allow_git_home_dir\": false,\n\n\t// This setting determines whether tracked Git files should be diffed\n\t// against the index or HEAD.\n\t// Valid values are \"index\" or \"head\"\n\t\"git_diff_target\": \"index\",\n\n\t// The path to the Sublime Merge executable. This should only be set if\n\t// Sublime Merge is not installed in a standard location, such as when\n\t// using a portable install. Set to 'null' to hide Sublime Merge\n\t// integrations.\n\t\"sublime_merge_path\": \"\",\n\n\t// Preview file contents when clicking on a file in the sidebar. Double\n\t// clicking or editing the preview will open the file and assign it a tab.\n\t// - true: Always preview on click, including right click\n\t// - false: Never preview\n\t// - \"only_left\": Only preview on left click, right click will change the\n\t//                selection but not preview the file.\n\t\"preview_on_click\": true,\n\n\t// Controls the behavior when clicking on a single file in the sidebar\n\t// that's already open.\n\t// - true: If the file is already open in any group it will be selected.\n\t// - false: Only if the file is open in the focused group will it be\n\t//          selected, otherwise a new view into the file is opened.\n\t\"select_across_groups\": false,\n\n\t// Controls the maximum number of lines kept in the console's history. Note\n\t// a large limit will increase memory usage. Use 0 to remove any limit.\n\t\"console_max_history_lines\": 3000,\n\n\t// folder_exclude_patterns and file_exclude_patterns control which files are\n\t// listed in folders on the sidebar. These can also be set on a per-\n\t// project basis.\n\t\"folder_exclude_patterns\": [\".svn\", \".git\", \".hg\", \"CVS\", \".Trash\", \".Trash-*\"],\n\t\"file_exclude_patterns\": [\"*.pyc\", \"*.pyo\", \"*.exe\", \"*.dll\", \"*.obj\",\"*.o\", \"*.a\", \"*.lib\", \"*.so\", \"*.dylib\", \"*.ncb\", \"*.sdf\", \"*.suo\", \"*.pdb\", \"*.idb\", \".DS_Store\", \".directory\", \"desktop.ini\", \"*.class\", \"*.psd\", \"*.db\", \"*.sublime-workspace\"],\n\t// These files will still show up in the sidebar, but won't be included in\n\t// Goto Anything or Find in Files\n\t\"binary_file_patterns\": [\"*.jpg\", \"*.jpeg\", \"*.png\", \"*.gif\", \"*.ttf\", \"*.tga\", \"*.dds\", \"*.ico\", \"*.eot\", \"*.pdf\", \"*.swf\", \"*.jar\", \"*.zip\"],\n\n\t// File indexing parses all files in the sidebar, and builds an index of\n\t// their symbols. This is required for Goto Definition to work.\n\t\"index_files\": true,\n\n\t// Set the number threads to use for indexing. A value of 0 will make\n\t// Sublime Text guess based on the number of cores. Use the index_files\n\t// setting to disable all workers. This requires a restart to take effect.\n\t\"index_workers\": 0,\n\n\t// Sets whether the indexer should exclude files ignored by git.\n\t\"index_exclude_gitignore\": true,\n\n\t// Whether unknown file extensions should be checked for indexing or skipped\n\t// entirely. If a file extension is not being recognised we suggest\n\t// setting/changing the default syntax for that extension instead of turning\n\t// this setting off.\n\t\"index_skip_unknown_extensions\": true,\n\n\t// index_exclude_patterns indicate which files won't be indexed.\n\t\"index_exclude_patterns\": [\"*.log\"],\n\n\t// Determines whether Goto Anything should exclude files ignored by git.\n\t\"goto_anything_exclude_gitignore\": false,\n\n\t// When Vintage, the vi emulation package, is enabled\n\t// (see ignored_packages, below), this setting controls if files are opened\n\t// in command mode or insert mode by default\n\t\"vintage_start_in_command_mode\": false,\n\n\t// Yank commands can place the text in either an internal register, or in\n\t// the system clipboard.\n\t\"vintage_use_clipboard\": false,\n\n\t// By default Vintage will interpret all ctrl+<key> key bindings as\n\t// regular Sublime Text key bindings. Set this to true to make ctrl keys\n\t// act as they do in vim, instead (e.g., ctrl+f to move forward a page).\n\t\"vintage_ctrl_keys\": false,\n\n\t// relative_line_numbers will draw each line number as the distance from\n\t// the current line. Useful in conjunction with Vintage.\n\t\"relative_line_numbers\": false,\n\n\t// List any packages to ignore here. When removing entries from this list,\n\t// a restart may be required if the package contains plugins.\n\t\"ignored_packages\": [\"Vintage\"]\n}\n",
+					"file": "/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+					"file_size": -1,
+					"file_write_time": -1,
+					"settings":
+					{
+						"buffer_size": 35844,
+						"line_ending": "Unix",
+						"read_only": true,
+						"scratch": true,
+						"unsaved": true
+					},
+					"undo_stack":
+					[
+					]
+				},
+				{
+					"file": "/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 928,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Install Package"
+					],
+					[
+						"INSTALL",
+						"Package Control: Install Package"
+					],
+					[
+						"PRV",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control:",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 148.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pjackim/.gitignorepublic",
+				"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+				"/home/pjackim/Downloads/temp.py",
+				"/home/pjackim/Downloads/quiz.py",
+				"/home/pjackim/clip.py",
+				"/home/pjackim/.config/eww/eww.scss",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/pjackim/.config/konsolerc",
+				"/home/pjackim/coding/school/junior/sem2/cs556/Project 2/CVE-2021-4034/Implementation/conversion-mod.py",
+				"/home/pjackim/coding/school/junior/sem2/cs430/Labs/Lab 6/load_book.dump",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/src/Material-Theme-Darker.json",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+				"/home/pjackim/.config/sublime-text-3/Packages/CSS.sublime-package",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/Code/Cache/625bbe30771f2f39_0",
+				"/home/pjackim/VirtualBox VMs/Windows10TestBed/Snapshots/{233dad9d-1390-40b7-901b-b788230bd9d4}.vdi",
+				"/home/pjackim/coding/school/junior/cs356/Unit 6 Guide",
+				"/home/pjackim/bin/autostart/startup",
+				"/tmp/mozilla_pjackim0/my_trip.json",
+				"/home/pjackim/.screenlayout/monitor_layout_3.sh",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/home/pjackim/.config/polybar/shapes/config.ini",
+				"/home/pjackim/.config/polybar/shapes/colors.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/colors-light.sh",
+				"/home/pjackim/.config/polybar/shapes/bars.ini",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Test_Scheme",
+				"/home/pjackim/.config/polybar.bak/config",
+				"/home/pjackim/.config/polybar/shapes/user_modules.ini",
+				"/home/pjackim/.config/polybar/shapes/glyphs.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/color-switch.sh",
+				"/home/pjackim/.config/polybar/shapes/scripts/rofi/styles.rasi",
+				"/home/pjackim/coding/personal/scripting/ps1.sh",
+				"/home/pjackim/.Xdefaults",
+				"/tmp/mozilla_pjackim0/palette (1).scss",
+				"/home/pjackim/.config/polybar/config",
+				"/home/pjackim/downloads/dots/.config/bash/bashrc",
+				"/home/pjackim/.bashrc",
+				"/home/pjackim/.config/sxhkd/sxhkdrc",
+				"/home/pjackim/.vimrc",
+				"/home/pjackim/downloads/dots/.config/nvim/init.vim",
+				"/home/pjackim/coding/personal/scripting/color",
+				"/home/pjackim/.config/bspwm/bspwmrc",
+				"/home/pjackim/.config/polybar/launch.sh",
+				"/home/pjackim/.Xresources"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 35844,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										226,
+										226
+									]
+								],
+								"settings":
+								{
+									"edit_settings_other_view_id": 41,
+									"edit_settings_view": "base",
+									"mini_diff": false,
+									"show_definitions": true,
+									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 928,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1,
+										1
+									]
+								],
+								"settings":
+								{
+									"edit_settings_other_view_id": 40,
+									"edit_settings_view": "user",
+									"show_definitions": true,
+									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,3005,37,3991,1071,4920,1920,26",
+			"project": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 50.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			},
+			"window_id": 65,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/pjackim/.atom/.apm/.apmrc.sublime-workspace"
+		]
+	}
+}

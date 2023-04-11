@@ -1,0 +1,603 @@
+{
+	"file_history":
+	[
+		"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/pjackim/coding/personal/scripting/test/temp.css",
+		"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+		"/home/pjackim/clip.py",
+		"/home/pjackim/coding/personal/scripting/clipboard/caps.py",
+		"/home/pjackim/coding/personal/scripting/clipboard/rofiprompt.sh",
+		"/home/pjackim/Downloads/temp.py",
+		"/home/pjackim/Downloads/quiz.py"
+	],
+	"folder_history":
+	[
+		"/home/pjackim/coding/personal/scripting/clipboard",
+		"/home/pjackim/.oh-my-zsh/themes",
+		"/home/pjackim/.oh-my-zsh/plugins"
+	],
+	"last_version": 4143,
+	"last_window_id": 63,
+	"log_indexing": false,
+	"next_update_check": 1681321626,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1048.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			3000.0,
+			32.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fot",
+						"format"
+					],
+					[
+						"ex",
+						"expand-right"
+					],
+					[
+						"FO",
+						"FOREGROUND_ALT"
+					],
+					[
+						"B",
+						"BACKGROUND_ALT"
+					],
+					[
+						"mod",
+						"modules-right"
+					],
+					[
+						"cu",
+						"cursor-scroll"
+					],
+					[
+						"tr",
+						"tray-position"
+					],
+					[
+						"module-m",
+						"module-margin-right"
+					],
+					[
+						"G",
+						"GREEN1"
+					],
+					[
+						"bor",
+						"border-color"
+					],
+					[
+						"bo",
+						"border-size"
+					],
+					[
+						"o",
+						"offset-y"
+					],
+					[
+						"off",
+						"offset-x"
+					],
+					[
+						"for",
+						"foreground"
+					],
+					[
+						"9f",
+						"9febf1"
+					],
+					[
+						"MAGENT",
+						"MAGENTA1"
+					],
+					[
+						"do",
+						"downloads"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Install Package"
+					],
+					[
+						"INSTALL",
+						"Package Control: Install Package"
+					],
+					[
+						"PRV",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control:",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 148.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+				"/home/pjackim/Downloads/temp.py",
+				"/home/pjackim/Downloads/quiz.py",
+				"/home/pjackim/clip.py",
+				"/home/pjackim/.config/eww/eww.scss",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/pjackim/.config/konsolerc",
+				"/home/pjackim/coding/school/junior/sem2/cs556/Project 2/CVE-2021-4034/Implementation/conversion-mod.py",
+				"/home/pjackim/coding/school/junior/sem2/cs430/Labs/Lab 6/load_book.dump",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/src/Material-Theme-Darker.json",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+				"/home/pjackim/.config/sublime-text-3/Packages/CSS.sublime-package",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/Code/Cache/625bbe30771f2f39_0",
+				"/home/pjackim/VirtualBox VMs/Windows10TestBed/Snapshots/{233dad9d-1390-40b7-901b-b788230bd9d4}.vdi",
+				"/home/pjackim/coding/school/junior/cs356/Unit 6 Guide",
+				"/home/pjackim/bin/autostart/startup",
+				"/tmp/mozilla_pjackim0/my_trip.json",
+				"/home/pjackim/.screenlayout/monitor_layout_3.sh",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/home/pjackim/.config/polybar/shapes/config.ini",
+				"/home/pjackim/.config/polybar/shapes/colors.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/colors-light.sh",
+				"/home/pjackim/.config/polybar/shapes/bars.ini",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Test_Scheme",
+				"/home/pjackim/.config/polybar.bak/config",
+				"/home/pjackim/.config/polybar/shapes/user_modules.ini",
+				"/home/pjackim/.config/polybar/shapes/glyphs.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/color-switch.sh",
+				"/home/pjackim/.config/polybar/shapes/scripts/rofi/styles.rasi",
+				"/home/pjackim/coding/personal/scripting/ps1.sh",
+				"/home/pjackim/.Xdefaults",
+				"/tmp/mozilla_pjackim0/palette (1).scss",
+				"/home/pjackim/.config/polybar/config",
+				"/home/pjackim/downloads/dots/.config/bash/bashrc",
+				"/home/pjackim/.bashrc",
+				"/home/pjackim/.config/sxhkd/sxhkdrc",
+				"/home/pjackim/.vimrc",
+				"/home/pjackim/downloads/dots/.config/nvim/init.vim",
+				"/home/pjackim/coding/personal/scripting/color",
+				"/home/pjackim/.config/bspwm/bspwmrc",
+				"/home/pjackim/.config/polybar/launch.sh",
+				"/home/pjackim/.Xresources"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+					"\t"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 50.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1920.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fot",
+						"format"
+					],
+					[
+						"ex",
+						"expand-right"
+					],
+					[
+						"FO",
+						"FOREGROUND_ALT"
+					],
+					[
+						"B",
+						"BACKGROUND_ALT"
+					],
+					[
+						"mod",
+						"modules-right"
+					],
+					[
+						"cu",
+						"cursor-scroll"
+					],
+					[
+						"tr",
+						"tray-position"
+					],
+					[
+						"module-m",
+						"module-margin-right"
+					],
+					[
+						"G",
+						"GREEN1"
+					],
+					[
+						"bor",
+						"border-color"
+					],
+					[
+						"bo",
+						"border-size"
+					],
+					[
+						"o",
+						"offset-y"
+					],
+					[
+						"off",
+						"offset-x"
+					],
+					[
+						"for",
+						"foreground"
+					],
+					[
+						"9f",
+						"9febf1"
+					],
+					[
+						"MAGENT",
+						"MAGENTA1"
+					],
+					[
+						"do",
+						"downloads"
+					]
+				]
+			},
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Install Package"
+					],
+					[
+						"INSTALL",
+						"Package Control: Install Package"
+					],
+					[
+						"PRV",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control:",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 148.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pjackim/coding/personal/scripting/test/distance_500_spring_length_200.html",
+				"/home/pjackim/Downloads/temp.py",
+				"/home/pjackim/Downloads/quiz.py",
+				"/home/pjackim/clip.py",
+				"/home/pjackim/.config/eww/eww.scss",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/pjackim/.config/konsolerc",
+				"/home/pjackim/coding/school/junior/sem2/cs556/Project 2/CVE-2021-4034/Implementation/conversion-mod.py",
+				"/home/pjackim/coding/school/junior/sem2/cs430/Labs/Lab 6/load_book.dump",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/Material-Theme-Darker.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme - Appbar/src/Material-Theme-Darker.json",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/sublime-text-3/Packages/Theme - Default/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Default.sublime-theme",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+				"/home/pjackim/.config/sublime-text-3/Packages/CSS.sublime-package",
+				"/home/pjackim/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/pjackim/.config/Code/Cache/625bbe30771f2f39_0",
+				"/home/pjackim/VirtualBox VMs/Windows10TestBed/Snapshots/{233dad9d-1390-40b7-901b-b788230bd9d4}.vdi",
+				"/home/pjackim/coding/school/junior/cs356/Unit 6 Guide",
+				"/home/pjackim/bin/autostart/startup",
+				"/tmp/mozilla_pjackim0/my_trip.json",
+				"/home/pjackim/.screenlayout/monitor_layout_3.sh",
+				"/home/pjackim/.config/sublime-text-3/Packages/Material Theme/Preferences.sublime-settings",
+				"/home/pjackim/.config/polybar/shapes/config.ini",
+				"/home/pjackim/.config/polybar/shapes/colors.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/colors-light.sh",
+				"/home/pjackim/.config/polybar/shapes/bars.ini",
+				"/home/pjackim/.config/sublime-text-3/Packages/User/Test_Scheme",
+				"/home/pjackim/.config/polybar.bak/config",
+				"/home/pjackim/.config/polybar/shapes/user_modules.ini",
+				"/home/pjackim/.config/polybar/shapes/glyphs.ini",
+				"/home/pjackim/.config/polybar/shapes/scripts/color-switch.sh",
+				"/home/pjackim/.config/polybar/shapes/scripts/rofi/styles.rasi",
+				"/home/pjackim/coding/personal/scripting/ps1.sh",
+				"/home/pjackim/.Xdefaults",
+				"/tmp/mozilla_pjackim0/palette (1).scss",
+				"/home/pjackim/.config/polybar/config",
+				"/home/pjackim/downloads/dots/.config/bash/bashrc",
+				"/home/pjackim/.bashrc",
+				"/home/pjackim/.config/sxhkd/sxhkdrc",
+				"/home/pjackim/.vimrc",
+				"/home/pjackim/downloads/dots/.config/nvim/init.vim",
+				"/home/pjackim/coding/personal/scripting/color",
+				"/home/pjackim/.config/bspwm/bspwmrc",
+				"/home/pjackim/.config/polybar/launch.sh",
+				"/home/pjackim/.Xresources"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────",
+					"\t"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,3000,32,4920,1080,4920,1920,26",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 50.0,
+			"status_bar_visible": false,
+			"template_settings":
+			{
+			},
+			"window_id": 59
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/pjackim/.atom/.apm/.apmrc.sublime-workspace"
+		]
+	}
+}

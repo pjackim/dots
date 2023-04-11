@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: Plain Text (Parquet)
+scope: source.parquet
+hidden: true
+file_extensions:
+  - parquet
+contexts:
+  main: []

@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: WGSL
+scope: source.wgsl
+hidden: true
+file_extensions:
+  - wgsl
+contexts:
+  main: []

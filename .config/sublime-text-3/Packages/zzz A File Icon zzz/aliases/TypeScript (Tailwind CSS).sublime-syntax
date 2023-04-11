@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+name: TypeScript (Tailwind CSS)
+scope: source.ts.tailwind
+hidden: true
+file_extensions:
+  - tailwind.config.ts
+contexts:
+  main:
+    - include: scope:source.ts
+      apply_prototype: true
