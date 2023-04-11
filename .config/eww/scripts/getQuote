@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+import random
+import json
+
+file = '/home/pjackim/.config/eww/scripts/quotes.json'
+quote = '/home/pjackim/.config/eww/scripts/quote'
+author = '/home/pjackim/.config/eww/scripts/author'
+
+def getQuote(filename=file):
+    with open(filename,'r') as file:
+        file_data = json.load(file)
+        num = random.randint(0, len(file_data) - 1)
+        with open(quote,'w') as q:
+            q.write(file_data[num]["text"])
+        with open(author,'w') as a:
+            a.write(file_data[num]["author"])
+
+getQuote()

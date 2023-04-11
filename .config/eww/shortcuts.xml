@@ -1,0 +1,198 @@
+<eww>
+    <variables>
+        <script-var name="browser"> echo "google-chrome-stable --new-window"</script-var>
+    </variables>
+    <definitions>
+        <def name="screenshot">
+            <button  tooltip="screenshot" onclick="(flameshot gui)"></button>
+        </def>
+
+        <def name="vscode">
+            <button class="nerdfont" tooltip="vs code" onclick="code">﬏</button>
+        </def>
+
+        <def name="getafix">
+            <button class="nerdfont" tooltip="CyberSim" onclick="OpenGetafix&">ﮢ</button>
+        </def>
+
+        <def name="google-chrome">
+            <button  tooltip="google-chrome-stable" onclick="(google-chrome-stable)"></button>
+        </def>
+
+        <def name="opera">
+            <button  tooltip="opera" onclick="(opera)"></button>
+        </def>
+
+        <def name="firefox">
+            <button  tooltip="firefox" onclick="(firefox)"></button>
+        </def>
+
+        <def name="gimp">
+            <button class="nerdfont" tooltip="gimp" onclick="(gimp)"></button>
+        </def>
+
+        <def name="spotify">
+            <button  tooltip="spotify" onclick="(spotify)"></button>
+        </def>
+
+        <def name="atom">
+            <button  tooltip="atom" onclick="(atom)"></button>
+        </def>
+
+        <def name="unity">
+            <button  tooltip="unity hub" onclick="(unityhub)"></button>
+        </def>
+
+        <def name="chess">
+            <button  tooltip="lichess" onclick="({{browser}} 'https://www.lichess.org')"></button>
+        </def>
+
+        <def name="github">
+            <button  tooltip="github" onclick="({{browser}} 'https://www.github.com/pjackim')"></button>
+        </def>
+
+        <def name="konsole">
+            <button tooltip="konsole" onclick="(konsole --name center)"></button>
+        </def>
+
+        <def name="instagram">
+            <button  tooltip="instagram" onclick="({{browser}} 'https://www.instagram.com')"></button>
+        </def>
+
+        <def name="youtube">
+            <button  tooltip="youtube" onclick="({{browser}} 'https://www.youtube.com')"></button>
+        </def>
+
+        <def name="reddit">
+            <button  tooltip="reddit" onclick="({{browser}} 'https://www.reddit.com')"></button>
+        </def>
+
+        <def name="configs">
+            <button  tooltip="configs" onclick="(code ~/.config)"></button>
+        </def>
+
+        <def name="bspwm-config">
+            <button  class="awesome" tooltip="bspwm" onclick="(code ~/.config/bspwm/)"></button>
+        </def>
+
+        <def name="bin">
+            <button  tooltip="bin" onclick="(code ~/bin/)"></button>
+        </def>
+
+        <def name="fish-config">
+            <button  tooltip="fish" onclick="(code ~/.config/fish/functions/)"></button>
+        </def>
+
+        <def name="sxhkd-config">
+            <button  tooltip="sxhkd" onclick="(code ~/.config/sxhkd/)"></button>
+        </def>
+
+        <def name="foliate">
+            <button  tooltip="foliate" onclick="(foliate)"></button>
+        </def>
+
+        <def name="eww-config">
+            <button  tooltip="eww" onclick="(code ~/.config/eww/)"></button>
+        </def>
+
+        <def name="zoom">
+            <button  tooltip="zoom" onclick="(zoom)"></button>
+        </def>
+
+        <def name="hack-the-box">
+            <button  tooltip="hack-the-box" onclick="({{browser}} 'https://app.hackthebox.eu/home')"></button>
+        </def>
+
+        <def name="iptorrent">
+            <button  tooltip="iptorrent" onclick="({{browser}} 'https://iptorrents.com/login.php')"></button>
+        </def>
+
+        <def name="google-drive">
+            <button  tooltip="google-drive" onclick="({{browser}} 'https://drive.google.com/drive/u/0/')"></button>
+        </def>
+
+        <def name="anom">
+            <button  tooltip="anom" onclick="()"></button>
+        </def>
+
+        <def name="network">
+            <button  tooltip="network" onclick="()"></button>
+        </def>
+
+        <def name="crypto">
+            <button class="nerdfont" tooltip="crypto" onclick="()">ﴑ</button>
+        </def>
+
+        <def name="py-dev">
+            <button tooltip="python development" onclick="(code /home/pjackim/coding/personal/scripting/)"></button>
+        </def>
+
+        <def name="archive">
+            <button  tooltip="archive" onclick="()"></button>
+        </def>
+
+        <def name="discord">
+            <button  tooltip="discord" onclick="(discord)"></button>
+        </def>
+
+        <def name="slack">
+            <button  tooltip="slack" onclick="(slack)"></button>
+        </def>
+
+        <def name="telegram">
+            <button  tooltip="telegram" onclick="(telegram-desktop)"></button>
+        </def>
+
+        <def name="vmware">
+            <button  tooltip="vmware" onclick="(vmplayer)"></button>
+        </def>
+
+        <def name="school">
+            <button class="nerdfont" tooltip="school" onclick="(w-school)">拾</button> 
+            <!-- 拾 -->
+        </def>
+
+        <def name="server-main">
+            <button  tooltip="Server: Personal" onclick="(konsole -e applicationLauncher 'ssh server')"></button>
+        </def>
+
+        <def name="server-dover">
+            <button  tooltip="Server: cs.dover" onclick="(konsole -e applicationLauncher 'ssh dover')"></button>
+        </def>
+
+        <def name="server-denver">
+            <button  tooltip="Server: cs.denver" onclick="(konsole -e applicationLauncher 'ssh cs.denver')"></button>
+        </def>
+
+        <def name="server-getafix">
+            <button  tooltip="Server: getafix" onclick="(konsole -e applicationLauncher 'ssh getafix')"></button>
+        </def>        
+        
+        <def name="ipt">
+            <button  tooltip="IPT" onclick="({{browser}} 'https://iptorrents.com/t?free')"></button>
+        </def>    
+
+        <def name="temp-mail">
+            <button  tooltip="10 Min Mail" onclick="({{browser}} 'https://10minutemail.net/')"></button>
+        </def>           
+
+        <def name="sci-hub">
+            <button  tooltip="SciHub" onclick="({{browser}} 'https://sci.hubg.org/')"></button>
+        </def>            
+
+        <def name="kali-mode">
+            <button  tooltip="Hacking Desktop" onclick="(/home/pjackim/coding/personal/scripting/toggleEwwGray)"></button>
+        </def>    
+
+        <def name="leetcode">
+            <button  class="btn-img" tooltip="leet code" onclick="({{browser}} 'https://leetcode.com/problemset/all/')" style="background-image: url('/home/pjackim/.config/eww/images/leetcode.svg');"></button>
+            <!-- <img src="/home/pjackim/.config/eww/images/leetcode.svg"/> -->
+        </def>    
+
+        <def name="spacer">
+            <button class="space" tooltip="" onclick="()"></button>
+        </def> 
+
+        <!--      -->
+    </definitions>
+</eww>
