@@ -1,0 +1,2 @@
+#! /usr/bin/bash
+google-chrome-stable --new-window https://www.youtube.com
