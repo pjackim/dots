@@ -16,6 +16,8 @@ fi
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="/home/pjackim/.pyenv/customlibs:$PATH"
+export PYTHONPATH=$PYTHONPATH:/home/pjackim/.pyenv/customlibs
 eval "$(pyenv init -)"
 
 
@@ -106,13 +108,19 @@ alias dwnld='downloads'
 alias hoem='home'
 alias clera='clear'
 alias celar='clear'
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
 
 
 # -------------------------------------------
 # 			Fish
 # -------------------------------------------
-exec fish
+if [ "$NO_FISH" = "true" ]; then
+    echo "No fish"
+else 
+    exec fish
+fi
+
+#exec fish
 
 xset s off -dpms
 # BEGIN_KITTY_SHELL_INTEGRATION
