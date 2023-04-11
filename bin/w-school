@@ -1,5 +1,0 @@
-#kitty --name integrated_terminal_0 --class clear --config ~/.config/kitty/kitty-themes/configs/Clear.conf -e applicationLauncher neofetch &
-
-konsole --workdir ~/coding/school/junior/sem2/cs556 &
-konsole --workdir ~/coding/school/junior/sem2/cs556 &
-konsole --workdir ~/coding/school/junior/sem2/cs556 &
