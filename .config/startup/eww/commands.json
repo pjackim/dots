@@ -1,0 +1,6 @@
+[
+    ["konsole", "-p", "name=Desktop-m3-1", "--name", "Desktop-m3-1", "--profile", "Desktop", "-e", "applicationLauncher", "thokr", "&"],
+    ["konsole", "-p", "name=Desktop-m2-1", "--name", "Desktop-m2-1", "--profile", "Desktop", "-e", "applicationLauncher", "installlog", "&"],
+    ["konsole", "-p", "name=Desktop-m1", "-p", "font=Iosevka,10", "--name", "Desktop-m1", "--profile", "Desktop", "-e", "applicationLauncher", "neofetch", "&"],
+    ["/home/pjackim/webapps/LichessApp/app/lichess", "", "name=lichess-nativefier-ab72a5", "&"]
+]

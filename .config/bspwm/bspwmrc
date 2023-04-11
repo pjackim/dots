@@ -1,0 +1,50 @@
+#! /bin/bash
+export PYTHONPATH="/home/pjackim/.pyenv/customlibs/"
+
+killall greenclip
+killall nitrogen
+killall sxhkd
+killall polybar
+killall eww
+killall picom
+
+
+# Clipboard daemon
+greenclip daemon &
+
+# Disable Sleep
+xset s off -dpms
+
+# Enable Bluetooth
+bluetoothctl power on &
+
+# Monitor Layout
+$HOME/.screenlayout/monitor_layout_3.sh
+
+# Yakuake
+ps -C yakuake >/dev/null && echo "Running" || yakuake &
+
+# Picom
+# $HOME/.config/picom/picom_launcher &
+
+# Nitrogen
+nitrogen --restore &
+
+# SXHKD
+sxhkd &
+
+# Polybar
+$HOME/.config/polybar/shapes/launch.sh &
+
+# Workspace Initialization
+$HOME/.config/bspwm/workspace.sh
+
+#Rules
+$HOME/.config/bspwm/rules.sh
+
+startup &
+picom -f --config /home/pjackim/.config/picom/picom.conf --no-fading-openclose &
+
+
+# sudo mount.ntfs /dev/nvme0n1p5 /Z
+# sudo mount.ntfs /dev/nvme0n1p6 /X

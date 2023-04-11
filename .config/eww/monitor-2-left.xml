@@ -1,0 +1,106 @@
+<eww>
+    <definitions>
+        <def name="m2-left-package">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="window-container"></box>
+                <server-box/>
+                <site-box/>
+                <switch-box/>
+                <temp1-box/>
+                <temp2-box/>
+                <temp3-box/>
+            </box>
+        </def>
+
+        <def name="server-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <server-main/>
+                        <server-dover/>
+                        <server-denver/>
+                        <server-getafix/>
+                    </box>
+                </box>
+            </box>
+        </def>
+
+        <def name="site-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <ipt/>
+                        <temp-mail/>
+                        <sci-hub/>
+                    </box>
+                </box>
+            </box>
+        </def>
+
+        <def name="switch-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <kali-mode/>
+                        <vmware/>
+                    </box>
+                </box>
+            </box>
+        </def>
+
+        <def name="temp1-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <spacer/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="temp2-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <spacer/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="temp3-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <spacer/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="temp4-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <spacer/>
+                    </box>
+                </box>
+            </box>
+        </def>
+        <def name="temp5-box">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container LtR" orientation="h" space-evenly="false" halign="start">
+                        <spacer/>
+                    </box>
+                </box>
+            </box>
+        </def>                    
+    </definitions>
+    <windows>
+        <window name="m2-left" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="1925px" y="67px" width="25%" height="937px"/>
+            <widget>
+                <m2-left-package/>
+            </widget>
+        </window>
+
+    </windows>
+</eww>

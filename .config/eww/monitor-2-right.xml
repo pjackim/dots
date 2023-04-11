@@ -1,0 +1,31 @@
+<eww>
+    <definitions>
+        <def name="m2-right-package">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <window-container-f/>
+            </box>
+        </def>
+
+        <def name="tempb">
+            <box class="invis-container" orientation="v" space-evenly="false">
+                <box class="v-label-container" orientation="v" space-evenly="true">
+                    <box class="h-label-container RtL" orientation="h" space-evenly="false" halign="end">
+                        <spacer/>
+                    </box>
+                </box>
+            </box>
+        </def>                       
+        <def name="window-container-f">
+            <box class="window-container-full">
+            </box>
+        </def>    
+    </definitions>
+    <windows>
+        <window name="m2-right" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="3355px" y="67px" width="25%" height="100%"/>
+            <widget>
+                <m2-right-package/>
+            </widget>
+        </window>
+    </windows>
+</eww>

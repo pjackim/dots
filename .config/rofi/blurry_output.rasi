@@ -1,0 +1,135 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ *
+ */
+
+configuration {
+	/*font:							"Noto Sans Bold 10";*/
+	font:							"Iosveka 12";
+    show-icons:                     true;
+	icon-theme: 					"Papirus";
+    display-drun: 					"";
+    drun-display-format:            "{name}";
+    disable-history:                false;
+	sidebar-mode: 					false;
+}
+
+
+* {
+    clear:                          #00000000;
+    background:                     #2D313D7F;
+    background-alt:              	transparent;
+    background-bar:                 #445F6C;
+    foreground:                     #D9A362;
+    accent:			            	#F2DC6D;
+    accentlight:	            	#F2DC6D22;
+    entry:                          #2D313D;
+    text-color:                     @foreground;
+    background-color:               @background;
+}
+
+window {
+    /*transparency:                   "background";*/
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+	border:							2px;
+	border-color:					@foreground;
+    border-radius:                  12px;
+	width:							49%;
+    location:                       center;
+    x-offset:                       0;
+    y-offset:                       0;
+}
+
+prompt {
+    enabled: 						true;
+	padding: 						0.30% 0% 0% -0.0%;
+	background-color: 				@clear;
+	text-color: 					@foreground;
+
+}
+
+entry {
+    background-color:               @clear;
+    text-color:                     @accent;
+    placeholder-color:              @accentlight;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "";
+    blink:                          true;
+	padding: 						0.5%;
+}
+
+inputbar {
+	children: 						[ prompt, entry ];
+    background-color:               @background;
+    text-color:                     @foreground;
+    expand:                         false;
+	border:							0% 0% 0% 0%;
+    border-radius:                  12px;
+	border-color:					@accent;
+    margin:                         0% 0% -2% 0%;
+    padding:                        1.5%;
+    
+}
+
+listview {
+    background-color:               @background;
+    columns:                        0;
+    lines:                          0;
+    spacing:                        1%;
+    cycle:                          false;
+	border:							0% 0% 0% 0%;
+    border-radius:                  12px;
+	border-color:					@accent;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @background-alt;
+	border:							0% 0% 0% 0%;
+    border-radius:                  12px;
+	border-color:					@accent;
+    children:                       [ inputbar, listview ];
+    spacing:                       	2%;
+    padding:                        0% 0% 0% 0%;
+}
+
+element {
+    background-color:               @clear;
+    text-color:                     @foreground;
+    orientation:                    vertical;
+    border-radius:                  0%;
+    padding:                        2% 0% 2% 0%;
+}
+
+element-icon {
+    background-color: 				@clear;
+    text-color:       				inherit;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    size:                           64px;
+    border:                         0px;
+}
+
+element-text {
+    background-color: 				@clear;
+    text-color:       				inherit;
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         0.5% 0.5% -0.5% 0.5%;
+}
+
+element selected {
+    background-color:               @accentlight;
+    text-color:                     @foreground;
+	border:							1px;
+    border-radius:                  12px;
+    border-color:                  	@accent;
+}

@@ -2,7 +2,17 @@
 # Directory
 .*
 *
-
+!.config/bspwm/*
+!.config/polybar/*
+!.config/rofi/*
+!.config/picom/*
+!.config/Thunar/*
+!.config/neofetch/*
+!.config/thokr/*
+!.config/startup
+!.config/yakuakerc
+!.config/konsolerc
+!.config/nvim/*
 
 
 # Files
