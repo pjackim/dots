@@ -1,4 +1,0 @@
-
-cwd=$(pwd);
-touch README.MD
-code ./README.MD

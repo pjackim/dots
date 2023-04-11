@@ -1,7 +1,0 @@
-#! /bin/bash
-
-( konsole --workdir $(pwd) & )
-( konsole --workdir $(pwd) & )
-( konsole --workdir $(pwd) & )
-clear
-clear

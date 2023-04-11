@@ -1,9 +1,0 @@
-%YAML 1.2
----
-name: Plain Text (Hack)
-scope: source.hack
-hidden: true
-file_extensions:
-  - hack
-contexts:
-  main: []
