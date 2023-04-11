@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+	{ "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+`"], "command": ""},
+]

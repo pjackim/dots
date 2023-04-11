@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: Plain Text (ksp)
+scope: source.ksp
+hidden: true
+file_extensions:
+  - ksp
+contexts:
+  main: []

@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+name: Plain Text (RBS)
+scope: text.plain.rbs
+hidden: true
+file_extensions:
+  - rbs
+contexts:
+  main:
+    - include: scope:source.rbs
+      apply_prototype: true

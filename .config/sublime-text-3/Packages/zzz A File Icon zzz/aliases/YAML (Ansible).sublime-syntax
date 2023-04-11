@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: YAML (Ansible)
+scope: source.ansible
+hidden: true
+file_extensions:
+  - ansible
+  - ansible.yml
+  - ansible.yaml
+contexts:
+  main:
+    - include: scope:source.yaml
+      apply_prototype: true

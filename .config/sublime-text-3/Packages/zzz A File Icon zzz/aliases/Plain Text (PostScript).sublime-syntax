@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Plain Text (PostScript)
+scope: source.ps
+hidden: true
+file_extensions:
+  - ps
+  - eps
+contexts:
+  main: []

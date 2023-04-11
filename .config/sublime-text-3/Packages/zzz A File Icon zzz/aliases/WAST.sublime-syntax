@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: WAST
+scope: source.wast
+hidden: true
+file_extensions:
+  - wast
+  - wat
+contexts:
+  main: []
