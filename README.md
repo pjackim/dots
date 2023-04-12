@@ -1,5 +1,7 @@
 <h1 align="center">Parker's BSPWM Configuration *WIP</h1>
-<img src='/.config/wall/screenshot1.png'>
+<img src='/Pictures/monitor1.png'>
+<img src='/Pictures/monitor2.png'>
+<img src='/Pictures/monitor3.png'>
 
 ## Details
 + **Wallpaper**: ["Axis"](https://github.com/pjackim/dots/blob/master/.config/wall/city4.png)
