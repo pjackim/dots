@@ -13,5 +13,12 @@
                 <window-container2/>
             </widget>
         </window>
+
+        <window name="m3-bottom-container" exclusive="false" focusable="false" stacking="bg">
+            <geometry x="-1009px" y="1455px" width="49%" height="30%"/>
+            <widget>
+                <window-container2/>
+            </widget>
+        </window>
     </windows>
 </eww>

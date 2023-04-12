@@ -2,10 +2,10 @@
 while true; do
   eww daemon &
   if eww ping | grep -q "pong"; then
-    echo "eww daemon is already running." >> /home/pjackim/ewwLog
+    # echo "eww daemon is already running." >> /home/pjackim/ewwLog
     break
   else
-    echo "Failed to start eww daemon. Retrying in 1 second..."  >> /home/pjackim/ewwLog
+    # echo "Failed to start eww daemon. Retrying in 1 second..."  >> /home/pjackim/ewwLog
     sleep 1
   fi
 done
