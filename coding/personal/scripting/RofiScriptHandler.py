@@ -22,7 +22,7 @@ def execute(file):
     
 
 
-logging.basicConfig(filename='./error_log.txt', level=logging.ERROR, format='%(asctime)s %(message)s')
+#logging.basicConfig(filename='./error_log.txt', level=logging.ERROR, format='%(asctime)s %(message)s')
 try:
     f = "/home/pjackim/coding/personal/scripting"
     if len(sys.argv) == 2:
