@@ -2,6 +2,7 @@
 # Directory
 .*
 *
+!.config/
 !.config/bspwm/*
 !.config/polybar/*
 !.config/rofi/*
@@ -16,4 +17,3 @@
 
 
 # Files
-.packageList
