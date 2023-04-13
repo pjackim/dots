@@ -30,11 +30,18 @@ width=477 center_width=938
     bspc rule -a konsole:center state=floating rectangle="938"x"938"+"$y_top"+"$center_x"
     bspc rule -a *:center state=floating rectangle="938"x"938"+"$y_top"+"$center_x"
 
-
+# Primary monitor
 bspc rule -a *:Desktop-m1 desktop='^14' state=floating layer=below border=off rectangle="481"x"410"+"2515"+"595" 
+
+# Secondary monitor
 bspc rule -a *:Desktop-m2-2 desktop='^24' state=floating layer=below border=off rectangle="481"x"410"+"3005"+"70" 
 bspc rule -a *:Desktop-m2-1 desktop='^24' state=floating layer=below border=off rectangle="481"x"930"+"4435"+"70" 
+
+# Verticle
 bspc rule -a *:Desktop-m3-1 desktop='^1' state=floating layer=below border=off rectangle="950"x"410"+"71"+"50"
+bspc rule -a *:Desktop-m3-2 desktop='^1' state=floating layer=below border=off rectangle="950"x"410"+"80"+"1455"
+
+# Misc
 bspc rule -a Desktop:integrated_terminal_0 desktop='^14' state=floating rectangle="481"x"410"+"2515"+"595" layer=below border=off
 bspc rule -a Desktop:integrated_terminal_1 desktop='^24' state=floating rectangle="950"x"410"+"71"+"50" layer=below border=off
 bspc rule -a Desktop:integrated_terminal_1 desktop='^24' state=floating rectangle="950"x"410"+"71"+"50" layer=below border=off

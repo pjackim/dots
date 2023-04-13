@@ -1,6 +1,7 @@
 [
-    ["konsole", "-p", "name=Desktop-m3-1", "--name", "Desktop-m3-1", "--profile", "Desktop", "-e", "applicationLauncher", "thokr", "&"],
-    ["konsole", "-p", "name=Desktop-m2-1", "--name", "Desktop-m2-1", "--profile", "Desktop", "-e", "applicationLauncher", "installlog", "&"],
     ["konsole", "-p", "name=Desktop-m1", "-p", "font=Iosevka,10", "--name", "Desktop-m1", "--profile", "Desktop", "-e", "applicationLauncher", "neofetch", "&"],
+    ["konsole", "-p", "name=Desktop-m2-1", "--name", "Desktop-m2-1", "--profile", "Desktop", "-e", "applicationLauncher", "installlog", "&"],
+    ["konsole", "-p", "name=Desktop-m3-1", "-p", "font=Iosevka,15", "--name", "Desktop-m3-1", "--profile", "Desktop", "-e", "applicationLauncher", "thokr -w 13", "&"],
+    ["konsole", "-p", "name=Desktop-m3-2", "--name", "Desktop-m3-2", "--profile", "Desktop", "-e", "applicationLauncher", "echo -e \"\\e[4m\\e[1mGitHub Contributions\\e[0m\" && gh contribs -s vibrant -l", "&"],
     ["/home/pjackim/webapps/LichessApp/app/lichess", "", "name=lichess-nativefier-ab72a5", "&"]
 ]
