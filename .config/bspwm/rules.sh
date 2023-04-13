@@ -56,32 +56,5 @@ bspc rule -a thunar state=floating
 bspc rule -a Opera::"Picture in Picture" state=floating
 
 bspc rule -a yakuake state=floating rectangle="1920"x"864"+"0"+"160" border=off
-# bspc rule -a yakuake state=floating border=off
-
 
 bspc config external_rules_command "$(which external_rules)"
-# Monitor 2
-#   Workspace 1
-#       Terminal 1
-bspc rule -a konsole:autostart_term1 desktop='^11' state=floating rectangle="$width"x"$height_full"+"$left_x"+"$y_top"
-bspc rule -a kitty:autostart_term1 desktop='^11' state=floating rectangle="$width"x"$height_full"+"$left_x"+"$y_top"
-#       Terminal 2
-bspc rule -a konsole:autostart_term2 desktop='^11' state=floating rectangle="$center_width"x"$height_full"+"$center_x"+"$y_top"
-bspc rule -a kitty:autostart_term2 desktop='^11' state=floating rectangle="$center_width"x"$height_full"+"$center_x"+"$y_top"
-#       Terminal 3
-bspc rule -a konsole:autostart_term3 desktop='^11' state=floating rectansgle="$width"x"$height_half"+"$right_x"+"$y_top"
-bspc rule -a kitty:autostart_term3 desktop='^11' state=floating rectansgle="$width"x"$height_half"+"$right_x"+"$y_top"
-#       Terminal 4
-bspc rule -a konsole:autostart_term4 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid"
-bspc rule -a kitty:autostart_term4 desktop='^11' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid"
-
-
-
-# Monitor 1
-#   Workspace 1
-#       Htop
-bspc rule -a konsole_desktop:autostart_htop desktop='^1' state=floating rectangle="$width"x"$height_full"+"$left_x"+"$y_top" layer=below border=off
-#       Ranger
-bspc rule -a konsole_desktop:autostart_ranger desktop='^1' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_top" layer=below border=off
-#       Terminal 
-bspc rule -a konsole_desktop:autostart_term desktop='^1' state=floating rectangle="$width"x"$height_half"+"$right_x"+"$y_mid" layer=below border=off
