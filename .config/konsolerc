@@ -17,10 +17,10 @@ RemoveWindowTitleBarAndFrame=true
 ShowMenuBarByDefault=false
 
 [MainWindow]
-3 screens: Height=1048
-3 screens: Width=1920
-3 screens: XPosition=3000
-3 screens: YPosition=32
+3 screens: Height=1034
+3 screens: Width=181
+3 screens: XPosition=2812
+3 screens: YPosition=39
 DP-0 DP-3 HDMI-0 Height 1080x1920=410
 DP-0 DP-3 HDMI-0 Height 1920x1080=930
 DP-0 DP-3 HDMI-0 Width 1080x1920=481
@@ -29,7 +29,7 @@ DP-0 DP-3 HDMI-0 XPosition 1080x1920=599
 DP-0 DP-3 HDMI-0 XPosition 1920x1080=4437
 DP-0 DP-3 HDMI-0 YPosition 1080x1920=1342
 DP-0 DP-3 HDMI-0 YPosition 1920x1080=72
-DP-1 DP-2 HDMI-0=DP-2
+DP-1 DP-2 HDMI-0=DP-1
 DP-1 DP-3 HDMI-0 Height 1080x1920=410
 DP-1 DP-3 HDMI-0 Height 1920x1080=930
 DP-1 DP-3 HDMI-0 Width 1080x1920=950

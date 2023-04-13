@@ -8,7 +8,7 @@
 		"Iosevka",
 		"Iosevka Term"
 	],
-	"font_size": 12,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -34,5 +34,5 @@
 	"overlay_scroll_bars": "enabled",
 	"theme": "Material-Theme-Darker.sublime-theme",
 
-	"remember_layout": false
+	"remember_layout": false,
 }
