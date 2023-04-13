@@ -24,8 +24,6 @@ $HOME/.screenlayout/monitor_layout_3.sh
 # Yakuake
 ps -C yakuake >/dev/null && echo "Running" || yakuake &
 
-# Picom
-# $HOME/.config/picom/picom_launcher &
 
 # Nitrogen
 nitrogen --restore &
@@ -42,9 +40,13 @@ $HOME/.config/bspwm/workspace.sh
 #Rules
 $HOME/.config/bspwm/rules.sh
 
+# Startup script for Eww and associated desktop windows
 startup &
+
+# Picom
 picom -f --config /home/pjackim/.config/picom/picom.conf --no-fading-openclose &
 
 
+# Drive Mounting
 # sudo mount.ntfs /dev/nvme0n1p5 /Z
 # sudo mount.ntfs /dev/nvme0n1p6 /X
