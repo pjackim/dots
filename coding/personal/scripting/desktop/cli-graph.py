@@ -35,8 +35,8 @@ def main():
     x = date_indices
     mark = "─"
     mark = "braille"
-    plt.plot(x, accuracy, color="cyan", marker=mark, label="Accuracy %",  yside = "right", fillx = False)
-    plt.plot(x, wpm, color="orange", marker=mark, label="WPM", yside = "left", fillx = False)
+    plt.plot(x, accuracy, color="cyan", marker=mark, label="Accuracy %",  yside = "left", fillx = False)
+    plt.plot(x, wpm, color="orange", marker=mark, label="WPM", yside = "right", fillx = False)
 
     plt.title("Typing Statistics")
     stylize()
@@ -47,15 +47,15 @@ def main():
     ymax = max(wpm)
     increment = 20
     lbound = (min(wpm) - 10) - (min(wpm) % increment)
-    plt.yticks(ticks = range(lbound, ymax-(ymax % 20)+21, increment), yside="left")
-    plt.ylabel("WPM", yside="left")
-    plt.ylim(lbound, max(wpm)+20, yside="left")
+    plt.yticks(ticks = range(lbound, ymax-(ymax % 20)+21, increment), yside="right")
+    plt.ylabel("WPM", yside="right")
+    plt.ylim(lbound, max(wpm)+20, yside="right")
 
     increment = 5
     lbound = (min(accuracy) - 10) - (min(accuracy) % increment)
-    plt.yticks(ticks = range(lbound, 101, increment), yside="right")
-    plt.ylabel("Accuracy %", yside="right")
-    plt.ylim(lbound, max(accuracy), yside="right")
+    plt.yticks(ticks = range(lbound, 101, increment), yside="left")
+    plt.ylabel("Accuracy %", yside="left")
+    plt.ylim(lbound, max(accuracy), yside="left")
     plt.show()
 
 
