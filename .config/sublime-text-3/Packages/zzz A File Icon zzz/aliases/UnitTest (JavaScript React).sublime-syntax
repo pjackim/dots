@@ -8,5 +8,5 @@ file_extensions:
   - test.jsx
 contexts:
   main:
-    - include: scope:source.jsx#prototype
     - include: scope:source.jsx
+      apply_prototype: true

@@ -8,5 +8,5 @@ file_extensions:
   - test.ts
 contexts:
   main:
-    - include: scope:source.ts#prototype
     - include: scope:source.ts
+      apply_prototype: true

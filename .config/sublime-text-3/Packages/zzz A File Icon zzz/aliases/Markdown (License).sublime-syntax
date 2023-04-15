@@ -9,5 +9,5 @@ file_extensions:
   - license.md
 contexts:
   main:
-    - include: scope:text.html.markdown#prototype
     - include: scope:text.html.markdown
+      apply_prototype: true

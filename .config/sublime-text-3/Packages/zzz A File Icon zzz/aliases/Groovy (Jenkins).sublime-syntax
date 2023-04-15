@@ -8,5 +8,5 @@ file_extensions:
   - jenkins
 contexts:
   main:
-    - include: scope:source.groovy#prototype
     - include: scope:source.groovy
+      apply_prototype: true

@@ -10,5 +10,5 @@ file_extensions:
   - webpack.mix.js
 contexts:
   main:
-    - include: scope:source.js#prototype
     - include: scope:source.js
+      apply_prototype: true

@@ -8,5 +8,5 @@ file_extensions:
   - test.tsx
 contexts:
   main:
-    - include: scope:source.tsx#prototype
     - include: scope:source.tsx
+      apply_prototype: true

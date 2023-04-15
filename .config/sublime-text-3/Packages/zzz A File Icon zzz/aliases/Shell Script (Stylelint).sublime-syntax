@@ -7,5 +7,5 @@ file_extensions:
   - .stylelintignore
 contexts:
   main:
-    - include: scope:source.shell#prototype
     - include: scope:source.shell
+      apply_prototype: true
