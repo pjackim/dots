@@ -5,6 +5,7 @@
 <img src='/.screenshots/monitor2.png'>
 <img src='/.screenshots/vscode-vim-thunar.png'>
 <img src='/.screenshots/monitor3.png' height="800">
+<img src='/.screenshots/monitor3-1.png' height="800">
 
 ## Details
 + **Wallpaper**: ["Axis"](https://github.com/pjackim/dots/blob/master/.config/wall/city4.png)
