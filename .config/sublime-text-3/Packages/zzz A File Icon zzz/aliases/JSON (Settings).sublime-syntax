@@ -4,9 +4,12 @@ name: JSON (Settings)
 scope: source.json.settings
 hidden: true
 file_extensions:
+  - .htmlhintrc
   - .jshintrc
   - .jsbeautifyrc
+  - .prettierrc
+  - .releaserc
 contexts:
   main:
-    - include: scope:source.json#prototype
     - include: scope:source.json
+      apply_prototype: true

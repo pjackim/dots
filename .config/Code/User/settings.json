@@ -116,7 +116,6 @@
     "[xml]": {
         "editor.defaultFormatter": "mikeburgh.xml-format"
     },
-    "window.zoomLevel": 1,
     "[python]": {
         "editor.formatOnType": true
     },
@@ -124,4 +123,9 @@
         "pyperclip"
     ],
     "settingsSync.ignoredExtensions": [],
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "window.zoomLevel": 1,
 }

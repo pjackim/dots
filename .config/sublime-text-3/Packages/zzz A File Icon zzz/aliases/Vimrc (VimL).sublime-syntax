@@ -10,5 +10,5 @@ file_extensions:
   - _gvimrc
 contexts:
   main:
-    - include: scope:source.viml#prototype
     - include: scope:source.viml
+      apply_prototype: true

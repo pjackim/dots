@@ -8,5 +8,5 @@ file_extensions:
   - .eslintrc.json
 contexts:
   main:
-    - include: scope:source.json#prototype
     - include: scope:source.json
+      apply_prototype: true

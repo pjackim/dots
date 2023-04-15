@@ -39,7 +39,7 @@ bspc rule -a *:Desktop-m2-1 desktop='^24' state=floating layer=below border=off 
 
 # Verticle
 bspc rule -a *:Desktop-m3-1 desktop='^1' state=floating layer=below border=off rectangle="950"x"410"+"71"+"50"
-bspc rule -a *:Desktop-m3-2 desktop='^1' state=floating layer=below border=off rectangle="950"x"410"+"80"+"1455"
+bspc rule -a *:Desktop-m3-2 desktop='^1' state=floating layer=below border=off rectangle="930"x"410"+"80"+"1455"
 
 # Misc
 bspc rule -a Desktop:integrated_terminal_0 desktop='^14' state=floating rectangle="481"x"410"+"2515"+"595" layer=below border=off

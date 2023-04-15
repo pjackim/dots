@@ -7,5 +7,5 @@ file_extensions:
   - sublime-snippet
 contexts:
   main:
-    - include: scope:text.xml#prototype
     - include: scope:text.xml
+      apply_prototype: true
