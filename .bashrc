@@ -99,7 +99,7 @@ fi
 # -------------------------------------------
 # export PATH="$HOME/.local/bin:$PATH"
 export PAGER="/bin/most"
-
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # -------------------------------------------
 # 			Typos
@@ -108,7 +108,6 @@ alias dwnld='downloads'
 alias hoem='home'
 alias clera='clear'
 alias celar='clear'
-#. "$HOME/.cargo/env"
 
 
 # -------------------------------------------
